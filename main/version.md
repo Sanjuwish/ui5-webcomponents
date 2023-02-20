@@ -1,14 +1,7 @@
-commit d8ab195f59e9208dc9cb1dfd5ffc6518304da055
-Author: kskondov <konstantin.kondov@sap.com>
-Date:   Mon Feb 20 14:38:29 2023 +0200
+commit a130eaa9237777cd003f0b3f5fa7e8a948a4fc07
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Mon Feb 20 18:57:31 2023 +0200
 
-    feat(ui5-side-navigation): migrate to TypeScript (#6429)
+    docs(ui5-tabcontainer): clarify example for allItems (#6541)
     
-    Related to: #4337
-    Fixes: #6436
-    
-    Fixed a bug where clicking on the fixedItems on a collapsed SideNavigation would not open the item's popover.
-    
-    ---------
-    
-    Co-authored-by: Georgi Minkov <georgi.minkov@sap.com>
+    Fixes #6525
