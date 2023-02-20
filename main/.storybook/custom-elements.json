@@ -1903,20 +1903,6 @@
                     "name": "ComboBoxGroupItem",
                     "tagName": "ui5-cb-group-item",
                     "description": "The <code>ui5-cb-group-item</code> is type of suggestion item, that can be used to split the <code>ui5-combobox</code> suggestions into groups.",
-                    "members": [
-                        {
-                            "deprecated": false,
-                            "kind": "field",
-                            "name": "text",
-                            "privacy": "public",
-                            "static": false,
-                            "type": {
-                                "text": "string"
-                            },
-                            "default": "\"\"",
-                            "description": "Defines the text of the component."
-                        }
-                    ],
                     "superclass": {
                         "module": "UI5Element.js",
                         "name": "UI5Element",

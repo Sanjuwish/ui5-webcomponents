@@ -1,4 +1,5 @@
 import type { Meta, StoryFn } from "@storybook/web-components";
+import type ComboBox from "@ui5/webcomponents/dist/ComboBox.js";
 declare const _default: Meta<ComboBox>;
 export default _default;
 export declare const Template0: StoryFn;
