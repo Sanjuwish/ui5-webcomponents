@@ -870,7 +870,7 @@
   "125": {
     "id": "125",
     "title": "Icon_and_theming",
-    "content": "&lt;!DOCTYPE html&gt; Icon and Theming Horizon SAPIcons auto (&quot;home&quot;) SAPIcons V4 (SAP-icons-v4/home, SAP-icons/home) SAPIcons V5 (&quot;SAP-icons-v5/home&quot; and &quot;horizon/home&quot;) TNTIcons auto (&quot;tnt/actor&quot; and &quot;SAP-icons-TNT/actor&quot;) TNTIcons V2 (&quot;tnt-v2/actor&quot;) TNTIcons V3 (&quot;tnt-v3/actor&quot;) BS Icons - single version (&quot;business-suite/add-polygone&quot;)",
+    "content": "&lt;!DOCTYPE html&gt; Icon and Theming Horizon SAPIcons auto (&quot;home&quot;) SAPIcons V4 (SAP-icons-v4/home, SAP-icons/home) SAPIcons V5 (&quot;SAP-icons-v5/home&quot; and &quot;horizon/home&quot;) TNTIcons auto (&quot;tnt/actor&quot; and &quot;SAP-icons-TNT/actor&quot;) TNTIcons V2 (&quot;tnt-v2/actor&quot;) TNTIcons V3 (&quot;tnt-v3/actor&quot;) BS Icons auto - single version (&quot;business-suite/add-polygone&quot;) BS Icons auto - multiple different icon examples BS Icons - V1 (&quot;business-suite-v1/add-polygone&quot;) BS Icons - V2 (&quot;business-suite-v2/add-polygone&quot;) BS Icons - V1 and V2 (&quot;business-suite-v1/answered&quot; and (&quot;business-suite-v2/answered&quot;))",
     "url": "https://sap.github.io/ui5-webcomponents/main/playground/main/pages/Icon_and_theming/",
     "relUrl": "/playground/main/pages/Icon_and_theming/"
   },
