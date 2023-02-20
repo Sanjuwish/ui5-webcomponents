@@ -1,7 +1,5 @@
-commit 38233b94543a94c9915cf1d8c8937a834cd6c87d
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Mon Feb 20 13:23:31 2023 +0200
+commit 795ec1fd033227ffb8a7414aa1fa67a0173737bb
+Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
+Date:   Mon Feb 20 14:12:23 2023 +0200
 
-    feat: support SAPBusinessSuite icons v1 and v2 font ( Horizon ) (#6535)
-    
-    * feat: support business icons v1 and v2 font ( Horizon )
+    fix(playground): use relative path for storybook assets (#6537)
