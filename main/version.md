@@ -1,7 +1,7 @@
-commit 83b4b264a5b8c73a26520e48f9f061f0ab1b9167
-Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Fri Feb 17 17:12:54 2023 +0200
+commit aa7c32722e708fc3b9619777c848796336b1448a
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Mon Feb 20 09:31:37 2023 +0200
 
-    chore: prefer import type when importing types (#6533)
+    fix(ui5-label): use logical property in CSS to handle RTL usage (#6542)
     
-    There are some imports left that don't follow the conventions to use import type when something is needed, used as a type or it's exported as a type. The PR addresses this.
+    Fixes #6524
