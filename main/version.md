@@ -1,7 +1,14 @@
-commit c5e21de8a91d6f9d800889c651cf1ff1a2bf0f17
-Author: Martin <martin.r.hristov@gmail.com>
-Date:   Mon Feb 20 14:37:59 2023 +0200
+commit d8ab195f59e9208dc9cb1dfd5ffc6518304da055
+Author: kskondov <konstantin.kondov@sap.com>
+Date:   Mon Feb 20 14:38:29 2023 +0200
 
-    feat(ui5-combobox): migrate to Typescript (#6520)
+    feat(ui5-side-navigation): migrate to TypeScript (#6429)
     
     Related to: #4337
+    Fixes: #6436
+    
+    Fixed a bug where clicking on the fixedItems on a collapsed SideNavigation would not open the item's popover.
+    
+    ---------
+    
+    Co-authored-by: Georgi Minkov <georgi.minkov@sap.com>
