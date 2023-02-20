@@ -1479,7 +1479,7 @@
   "212": {
     "id": "212",
     "title": "Step Input",
-    "content": "&lt;!DOCTYPE html&gt; StepInput test page StepInput Event [change] :: N/A StepInput in Cozy StepInput in Compact StepInput in with min=0, max=10 and step=1 Wrong Value StepInput in with min=0, max=10, step=0.05 and valuePrecision=2 Wrong Value Disabled StepInput Readonly StepInput StepInput with valueState=None StepInput with valueState=Success StepInput with valueState=Information StepInput with valueState=Warning StepInput with valueState=Error &#39;change&#39; event result",
+    "content": "&lt;!DOCTYPE html&gt; StepInput test page StepInput Event [change] :: N/A StepInput in Cozy StepInput in Compact StepInput in with min=0, max=10 and step=1 Wrong Value StepInput in with min=0, max=10, step=0.05 and valuePrecision=2 Wrong Value Disabled StepInput Readonly StepInput StepInput with valueState=None StepInput with valueState=Success StepInput with valueState=Information StepInput with valueState=Warning StepInput with valueState=Error StepInput change event test &#39;change&#39; event result",
     "url": "https://sap.github.io/ui5-webcomponents/main/playground/main/pages/StepInput/",
     "relUrl": "/playground/main/pages/StepInput/"
   },
