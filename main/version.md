@@ -1,7 +1,7 @@
-commit a130eaa9237777cd003f0b3f5fa7e8a948a4fc07
+commit a13ae407f1decb17648c4ab5dac382b11ec0bd9c
 Author: gmkv <georgi.minkov@sap.com>
-Date:   Mon Feb 20 18:57:31 2023 +0200
+Date:   Tue Feb 21 11:42:40 2023 +0200
 
-    docs(ui5-tabcontainer): clarify example for allItems (#6541)
+    fix(ui5-dialog): overstyle bar when slotted in footer (#6543)
     
-    Fixes #6525
+    Fixes #5561
