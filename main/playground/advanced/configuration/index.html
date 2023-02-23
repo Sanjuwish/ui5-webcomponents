@@ -6500,11 +6500,18 @@ free for use by other UI components and libraries without name collision.</p>
       <td><em>Depends on locale</em></td>
       <td>When set, overrides the locale’s default value</td>
     </tr>
+    <tr>
+      <td>legacyDateCalendarCustomizing</td>
+      <td><code class="language-plaintext highlighter-rouge">{dateFormat: string, islamicMonthStart: string, gregDate: string }</code></td>
+      <td>[]</td>
+      <td>When set, adds customizing data for Islamic calendar support</td>
+    </tr>
   </tbody>
 </table>
 
-<p><strong>Note:</strong> Currently, only <code class="language-plaintext highlighter-rouge">firstDayOfWeek</code> is supported. More settings may be added in the future.</p>
-
+<p><strong>Note:</strong> legacyDateCalendarCustomizing takes affect only if following features are imported:</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">@</span><span class="nd">ui5</span><span class="sr">/webcomponents-base/</span><span class="nx">dist</span><span class="o">/</span><span class="nx">features</span><span class="o">/</span><span class="nx">LegacyDateFormats</span><span class="p">.</span><span class="nx">js</span>
+</code></pre></div></div>
 <h3 id="fetchdefaultlanguage">fetchDefaultLanguage</h3>
 <p><a name="fetchDefaultLanguage"></a></p>
 
