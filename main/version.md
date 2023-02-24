@@ -1,7 +1,7 @@
-commit 15dfc6e0716802fa00251629b80d5dc56ebb3472
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Fri Feb 24 10:02:35 2023 +0200
+commit 2f15053424b752dfd00349414809197390e72e22
+Author: yanaminkova <32466553+yanaminkova@users.noreply.github.com>
+Date:   Fri Feb 24 11:31:25 2023 +0200
 
-    feat(ui5-li-notification, ui5-li-notification-group): migrate to TypeScript (#6568)
+    fix(ui5-tree): fixed header-text apperance (#6573)
     
-    * feat(ui5-li-notification, ui5-li-notification-group): migrate to TypeScript
+    Fixes: #6534
