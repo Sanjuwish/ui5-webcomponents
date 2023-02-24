@@ -1,7 +1,5 @@
-commit 2f15053424b752dfd00349414809197390e72e22
-Author: yanaminkova <32466553+yanaminkova@users.noreply.github.com>
-Date:   Fri Feb 24 11:31:25 2023 +0200
+commit 3e62b113c7eb7a53fd03696506f753ae1691ffda
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Fri Feb 24 14:41:42 2023 +0200
 
-    fix(ui5-tree): fixed header-text apperance (#6573)
-    
-    Fixes: #6534
+    fix(ui5-table): adjust sample snippet (#6580)
