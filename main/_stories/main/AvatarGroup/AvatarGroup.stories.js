@@ -26,7 +26,6 @@ const Template = (args) => html `<ui5-avatar-group
     ${unsafeHTML(args.overflowButton)}
   </ui5-avatar-group> `;
 export const TypeGroup = Template.bind({});
-TypeGroup.storyName = "Type Group";
 TypeGroup.args = {
     default: `
   <ui5-avatar size="M" icon="employee"></ui5-avatar>
@@ -39,7 +38,6 @@ TypeGroup.args = {
   </ui5-avatar>`,
 };
 export const TypeIndividual = Template.bind({});
-TypeIndividual.storyName = "Type Individual";
 TypeIndividual.args = {
     type: AvatarGroupType.Individual,
     default: `
@@ -53,11 +51,6 @@ TypeIndividual.args = {
   </ui5-avatar>`,
 };
 export const TypeIndividualWithPopover = TemplateIndividualWithPopover.bind({});
-TypeIndividualWithPopover.storyName = "Type Individual with Popover";
-// Type Group with Popover
 export const TypeGroupWithPopover = TemplateGroupWithPopover.bind({});
-TypeGroupWithPopover.storyName = "Type Group with Popover";
-// Sizes
 export const Sizes = TemplateAvatarGroupSizes.bind({});
-Sizes.storyName = "Sizes";
 //# sourceMappingURL=AvatarGroup.stories.js.map

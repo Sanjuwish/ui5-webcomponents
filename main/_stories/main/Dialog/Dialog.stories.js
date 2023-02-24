@@ -14,11 +14,13 @@ export default {
         },
     },
 };
+let index = 0;
 const Template = (args) => {
+    const id = index++;
     return html `
-<ui5-button id="dialogOpener">Open Dialog</ui5-button>
+<ui5-button id="dialogOpener-${id}">Open Dialog</ui5-button>
 <ui5-dialog
-  id="dialog"
+  id="dialog-${id}"
   header-text="${ifDefined(args.headerText)}"
   ?stretch="${ifDefined(args.stretch)}"
   ?draggable="${ifDefined(args.draggable)}"
@@ -32,15 +34,15 @@ const Template = (args) => {
   accessible-name="${ifDefined(args.accessibleName)}"
   accessible-name-ref="${ifDefined(args.accessibleNameRef)}"
 >
-  ${unsafeHTML(args.header)} 
+  ${unsafeHTML(args.header)}
   ${unsafeHTML(args.default)}
   ${unsafeHTML(args.footer)}
 </ui5-dialog>
 
 <script>
-  var dialogOpener = document.getElementById("dialogOpener");
-  var dialog = document.getElementById("dialog"); 
-  var dialogCloser = document.getElementById("dialogCloser");
+  const dialogOpener = document.getElementById("dialogOpener-${id}");
+  const dialog = document.getElementById("dialog-${id}"); 
+  const dialogCloser = document.querySelector("#dialog-${id} .dialogCloser");
   dialogOpener.accessibilityAttributes = {
     hasPopup: "dialog",
     controls: dialog.id,
@@ -54,14 +56,6 @@ const Template = (args) => {
 </script>`;
 };
 export const Basic = Template.bind({});
-Basic.parameters = {
-    docs: {
-        story: {
-            // Opt-out of inline rendering
-            inline: false,
-        },
-    },
-};
 Basic.args = {
     headerText: "Register Form",
     default: `
@@ -101,16 +95,8 @@ DraggableAndResizable.args = {
     <p>This feature available only on Desktop.</p>`,
     footer: `
     <div slot="footer" style="display: flex; justify-content: flex-end; width: 100%; padding: .25rem 1rem;">
-      <ui5-button id="dialogCloser" design="Emphasized">OK</ui5-button>
+      <ui5-button class="dialogCloser" design="Emphasized">OK</ui5-button>
     </div>`,
-};
-DraggableAndResizable.parameters = {
-    docs: {
-        story: {
-            // Opt-out of inline rendering
-            inline: false,
-        },
-    },
 };
 export const FioriDialog = Template.bind({});
 FioriDialog.storyName = "SAP Fiori Styled Footer";
@@ -120,16 +106,8 @@ FioriDialog.args = {
     footer: `
     <div slot="footer" style="display: flex; align-items: center; justify-content: end; width: 100%; box-sizing: border-box;">
       <ui5-button design="Emphasized" style="min-width: 4rem;">OK</ui5-button>
-      <ui5-button id="dialogCloser" style="margin: 0 0 0 0.5rem; min-width: 4rem;">Cancel</ui5-button>
+      <ui5-button class="dialogCloser" style="margin: 0 0 0 0.5rem; min-width: 4rem;">Cancel</ui5-button>
     </div>`,
-};
-FioriDialog.parameters = {
-    docs: {
-        story: {
-            // Opt-out of inline rendering
-            inline: false,
-        },
-    },
 };
 export const StateProperties = () => html `
   <h3>Dialogs with various state properties</h3>
@@ -178,36 +156,36 @@ export const StateProperties = () => html `
     </div>
   </ui5-dialog>
   <script>
-    var dialogOpenerError = document.getElementById("error-state");
-    var dialogError = document.getElementById("error-state-dialog");
-    var dialogCloserError = document.getElementById("error-close");
+    const dialogOpenerError = document.getElementById("error-state");
+    const dialogError = document.getElementById("error-state-dialog");
+    const dialogCloserError = document.getElementById("error-close");
     dialogOpenerError.addEventListener("click", function () {
       dialogError.show();
     });
     dialogCloserError.addEventListener("click", function () {
       dialogError.close();
     });
-    var dialogOpenerInfo = document.getElementById("information-state");
-    var dialogInfo = document.getElementById("information-state-dialog");
-    var dialogCloserInfo = document.getElementById("information-close");
+    const dialogOpenerInfo = document.getElementById("information-state");
+    const dialogInfo = document.getElementById("information-state-dialog");
+    const dialogCloserInfo = document.getElementById("information-close");
     dialogOpenerInfo.addEventListener("click", function () {
       dialogInfo.show();
     });
     dialogCloserInfo.addEventListener("click", function () {
       dialogInfo.close();
     });
-    var dialogOpenerSuccess = document.getElementById("success-state");
-    var dialogSuccess = document.getElementById("success-state-dialog");
-    var dialogCloserSuccess = document.getElementById("success-close");
+    const dialogOpenerSuccess = document.getElementById("success-state");
+    const dialogSuccess = document.getElementById("success-state-dialog");
+    const dialogCloserSuccess = document.getElementById("success-close");
     dialogOpenerSuccess.addEventListener("click", function () {
       dialogSuccess.show();
     });
     dialogCloserSuccess.addEventListener("click", function () {
       dialogSuccess.close();
     });
-    var dialogOpenerWarning = document.getElementById("warning-state");
-    var dialogWarning = document.getElementById("warning-state-dialog");
-    var dialogCloserWarning = document.getElementById("warning-close");
+    const dialogOpenerWarning = document.getElementById("warning-state");
+    const dialogWarning = document.getElementById("warning-state-dialog");
+    const dialogCloserWarning = document.getElementById("warning-close");
     dialogOpenerWarning.addEventListener("click", function () {
       dialogWarning.show();
     });
@@ -216,12 +194,4 @@ export const StateProperties = () => html `
     });
   </script>
 `;
-StateProperties.parameters = {
-    docs: {
-        story: {
-            // Opt-out of inline rendering
-            inline: false,
-        },
-    },
-};
 //# sourceMappingURL=Dialog.stories.js.map
