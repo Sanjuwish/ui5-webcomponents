@@ -9807,6 +9807,14 @@
                     "kind": "NotificationAction",
                     "name": "NotificationAction",
                     "tagName": "ui5-notification-action",
+                    "events": [
+                        {
+                            "deprecated": false,
+                            "name": "click",
+                            "type": "CustomEvent",
+                            "description": "Fired, when the action is pressed."
+                        }
+                    ],
                     "description": "The <code>ui5-notification-action</code> represents an abstract action, used in the <code>ui5-li-notification</code> and the <code>ui5-li-notification-group</code> items.",
                     "members": [
                         {

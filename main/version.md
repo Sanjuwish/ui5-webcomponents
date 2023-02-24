@@ -1,7 +1,7 @@
-commit d1362a58512b498f86d9edfcf06d87e27919936c
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Thu Feb 23 18:21:24 2023 +0200
+commit 15dfc6e0716802fa00251629b80d5dc56ebb3472
+Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
+Date:   Fri Feb 24 10:02:35 2023 +0200
 
-    fix(chore): temporary remove new lines in md tables (#6575)
+    feat(ui5-li-notification, ui5-li-notification-group): migrate to TypeScript (#6568)
     
-    fix: temporary remove new lines in md tables
+    * feat(ui5-li-notification, ui5-li-notification-group): migrate to TypeScript
