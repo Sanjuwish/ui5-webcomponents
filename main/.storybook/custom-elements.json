@@ -10557,28 +10557,6 @@
                         {
                             "deprecated": false,
                             "kind": "field",
-                            "name": "copilotDomRef",
-                            "privacy": "public",
-                            "static": false,
-                            "type": {
-                                "text": "HTMLElement"
-                            },
-                            "description": "Returns the <code>copilot</code> DOM ref."
-                        },
-                        {
-                            "deprecated": false,
-                            "kind": "field",
-                            "name": "logoDomRef",
-                            "privacy": "public",
-                            "static": false,
-                            "type": {
-                                "text": "HTMLElement"
-                            },
-                            "description": "Returns the <code>logo</code> DOM ref."
-                        },
-                        {
-                            "deprecated": false,
-                            "kind": "field",
                             "name": "notificationsCount",
                             "privacy": "public",
                             "static": false,
@@ -10591,28 +10569,6 @@
                         {
                             "deprecated": false,
                             "kind": "field",
-                            "name": "notificationsDomRef",
-                            "privacy": "public",
-                            "static": false,
-                            "type": {
-                                "text": "HTMLElement"
-                            },
-                            "description": "Returns the <code>notifications</code> icon DOM ref."
-                        },
-                        {
-                            "deprecated": false,
-                            "kind": "field",
-                            "name": "overflowDomRef",
-                            "privacy": "public",
-                            "static": false,
-                            "type": {
-                                "text": "HTMLElement"
-                            },
-                            "description": "Returns the <code>overflow</code> icon DOM ref."
-                        },
-                        {
-                            "deprecated": false,
-                            "kind": "field",
                             "name": "primaryTitle",
                             "privacy": "public",
                             "static": false,
@@ -10621,28 +10577,6 @@
                             },
                             "default": "\"\"",
                             "description": "Defines the <code>primaryTitle</code>. <br><br> <b>Note:</b> The <code>primaryTitle</code> would be hidden on S screen size (less than approx. 700px)."
-                        },
-                        {
-                            "deprecated": false,
-                            "kind": "field",
-                            "name": "productSwitchDomRef",
-                            "privacy": "public",
-                            "static": false,
-                            "type": {
-                                "text": "HTMLElement"
-                            },
-                            "description": "Returns the <code>product-switch</code> icon DOM ref."
-                        },
-                        {
-                            "deprecated": false,
-                            "kind": "field",
-                            "name": "profileDomRef",
-                            "privacy": "public",
-                            "static": false,
-                            "type": {
-                                "text": "HTMLElement"
-                            },
-                            "description": "Returns the <code>profile</code> icon DOM ref."
                         },
                         {
                             "deprecated": false,
@@ -10703,13 +10637,6 @@
                             },
                             "default": "false",
                             "description": "Defines, if the Search Field would be displayed when there is a valid <code>searchField</code> slot. <br><b>Note:</b> By default the Search Field is not displayed."
-                        },
-                        {
-                            "deprecated": false,
-                            "kind": "field",
-                            "name": "closeOverflow",
-                            "privacy": "public",
-                            "description": "Closes the overflow area. Useful to manually close the overflow after having suppressed automatic closing with preventDefault() of ShellbarItem's press event"
                         }
                     ],
                     "superclass": {
@@ -10760,44 +10687,6 @@
                         }
                     ],
                     "description": "The <code>ui5-shellbar-item</code> represents a custom item, that might be added to the <code>ui5-shellbar</code>. <br><br> <h3>ES6 Module Import</h3> <code>import \"@ui5/webcomponents-fiori/dist/ShellBarItem\";</code>",
-                    "members": [
-                        {
-                            "deprecated": false,
-                            "kind": "field",
-                            "name": "count",
-                            "privacy": "public",
-                            "static": false,
-                            "type": {
-                                "text": "string"
-                            },
-                            "default": "\"\"",
-                            "description": "Defines the count displayed in the top-right corner."
-                        },
-                        {
-                            "deprecated": false,
-                            "kind": "field",
-                            "name": "icon",
-                            "privacy": "public",
-                            "static": false,
-                            "type": {
-                                "text": "string"
-                            },
-                            "default": "\"\"",
-                            "description": "Defines the name of the item's icon."
-                        },
-                        {
-                            "deprecated": false,
-                            "kind": "field",
-                            "name": "text",
-                            "privacy": "public",
-                            "static": false,
-                            "type": {
-                                "text": "string"
-                            },
-                            "default": "\"\"",
-                            "description": "Defines the item text."
-                        }
-                    ],
                     "superclass": {
                         "module": "UI5Element.js",
                         "name": "UI5Element",

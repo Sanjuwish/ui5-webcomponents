@@ -1,34 +1,4 @@
 declare const _default: {
-    copilotDomRef: {
-        control: {
-            type: boolean;
-        };
-    };
-    logoDomRef: {
-        control: {
-            type: boolean;
-        };
-    };
-    notificationsDomRef: {
-        control: {
-            type: boolean;
-        };
-    };
-    overflowDomRef: {
-        control: {
-            type: boolean;
-        };
-    };
-    productSwitchDomRef: {
-        control: {
-            type: boolean;
-        };
-    };
-    profileDomRef: {
-        control: {
-            type: boolean;
-        };
-    };
     default: {
         control: {
             type: string;
@@ -57,11 +27,6 @@ declare const _default: {
     startButton: {
         control: {
             type: string;
-        };
-    };
-    closeOverflow: {
-        table: {
-            category: string;
         };
     };
 };

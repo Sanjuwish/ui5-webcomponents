@@ -1,34 +1,4 @@
 export default {
-    "copilotDomRef": {
-        "control": {
-            "type": false
-        }
-    },
-    "logoDomRef": {
-        "control": {
-            "type": false
-        }
-    },
-    "notificationsDomRef": {
-        "control": {
-            "type": false
-        }
-    },
-    "overflowDomRef": {
-        "control": {
-            "type": false
-        }
-    },
-    "productSwitchDomRef": {
-        "control": {
-            "type": false
-        }
-    },
-    "profileDomRef": {
-        "control": {
-            "type": false
-        }
-    },
     "default": {
         "control": {
             "type": "text"
@@ -57,11 +27,6 @@ export default {
     "startButton": {
         "control": {
             "type": "text"
-        }
-    },
-    "closeOverflow": {
-        "table": {
-            "category": "Methods"
         }
     }
 };
