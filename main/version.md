@@ -1,5 +1,8 @@
-commit fd7aa309568058663f7ef2c60095870641427b37
-Author: niyap <38278268+niyap@users.noreply.github.com>
-Date:   Mon Feb 27 15:45:02 2023 +0200
+commit c4c3de64ff862681b7491220a1be8f374c5f5000
+Author: ilhan orhan <ilhan.myumyun@sap.com>
+Date:   Mon Feb 27 16:19:13 2023 +0200
 
-    fix(ui5-multi-input/ui5-multi-combobox): enhance tokenizer visualization (#6597)
+    chore(ui5-notification-action): return result from `fireEvent` call (#6598)
+    
+    In previous change, part of the TS migration, fireClickEvent has been introduced, to wrap a call to fireEvent.
+    Since fireEvent returns boolean (event has been prevented or not), we need to also return that result from fireClickEvent, so that consumers of fireClickEvent can use it (if needed). The result of the call was not used, so there is no bug introduced, but it's good to return it for robustness and completeness.
