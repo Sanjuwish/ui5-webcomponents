@@ -1788,7 +1788,7 @@
                                 "text": "string"
                             },
                             "default": "\"StartsWithPerTerm\"",
-                            "description": "Defines the filter type of the component. Available options are: <code>StartsWithPerTerm</code>, <code>StartsWith</code> and <code>Contains</code>."
+                            "description": "Defines the filter type of the component. Available options are: <code>StartsWithPerTerm</code>, <code>StartsWith</code>, <code>Contains</code> and <code>None</code>."
                         },
                         {
                             "deprecated": false,
