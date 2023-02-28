@@ -1,5 +1,5 @@
-commit ff34e6b1fb66db6c0d12251e0f4fdc66dc3fc402
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Mon Feb 27 20:48:09 2023 +0200
+commit 64d9df279dcef946d8ced5dbc5fa118235977ec6
+Author: Martin <martin.r.hristov@gmail.com>
+Date:   Tue Feb 28 11:15:11 2023 +0200
 
-    chore(ui5-shellbar): correct properties jsdocs names (#6600)
+    feat(ui5-multi-combobox): migrate to Typescript (#6559)

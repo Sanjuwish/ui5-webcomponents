@@ -1,4 +1,5 @@
 import type { Meta, StoryFn } from "@storybook/web-components";
+import type MultiComboBox from "@ui5/webcomponents/dist/MultiComboBox.js";
 declare const _default: Meta<MultiComboBox>;
 export default _default;
 export declare const Template0: StoryFn;
