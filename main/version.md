@@ -1,11 +1,5 @@
-commit 7032e5ec0bf4452ae47bc39b462baee051a7a57d
-Author: Ivaylo Plashkov <ivaylo.plashkov@sap.com>
-Date:   Tue Feb 28 15:10:53 2023 +0200
+commit 71284bad05d10e9b73205f2a6f59f3757b853771
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Wed Mar 1 10:45:01 2023 +0200
 
-    fix(ui5-combobox): filter items when lazy-loading after initial rendering (#6512)
-    
-    * fix(ui5-combobox): filter items when lazy-loading after initial rendering
-    
-    * fix(ui5-combobox): filter items when lazy-loading after initial rendering
-    
-    * fix(ui5-combobox): apply comments
+    fix(ui5-range-slider): add aria-valuenow to the progress bar (#6612)
