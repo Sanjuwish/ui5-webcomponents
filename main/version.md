@@ -1,7 +1,5 @@
-commit 69a80bbc7b29002656d71b2355f9bfe30ed92e58
-Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Thu Mar 2 14:20:50 2023 +0200
+commit 57379e31baf0d48bd1b750d0217870f9da6ad15a
+Author: Marcus Notheis <marcus.notheis@sap.com>
+Date:   Thu Mar 2 13:43:37 2023 +0100
 
-    docs: fix namespaces in Wizard,SideNavigation (#6631)
-    
-    Closes: #6629
+    docs(SideNavigation): fix interfaces (#6632)
