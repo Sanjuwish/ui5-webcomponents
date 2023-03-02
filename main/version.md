@@ -1,7 +1,5 @@
-commit 0d8e06d357ef89abf127662f4aa36be7c6d82674
-Author: gmkv <georgi.minkov@sap.com>
-Date:   Thu Mar 2 09:14:14 2023 +0200
+commit c595c8c367d7cb1914d9f832f7acc5976d354016
+Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
+Date:   Thu Mar 2 11:04:58 2023 +0200
 
-    docs: update README.md (#6625)
-    
-    Update README.md
+    refactor: deprecate decoratorMetadata in favor of metadata (#6615)
