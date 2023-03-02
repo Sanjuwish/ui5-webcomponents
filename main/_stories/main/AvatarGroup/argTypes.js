@@ -1,4 +1,14 @@
 export default {
+    "colorScheme": {
+        "control": {
+            "type": false
+        }
+    },
+    "hiddenItems": {
+        "control": {
+            "type": false
+        }
+    },
     "type": {
         "control": "select",
         "options": [

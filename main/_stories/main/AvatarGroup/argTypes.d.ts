@@ -1,4 +1,14 @@
 declare const _default: {
+    colorScheme: {
+        control: {
+            type: boolean;
+        };
+    };
+    hiddenItems: {
+        control: {
+            type: boolean;
+        };
+    };
     type: {
         control: string;
         options: string[];

@@ -181,6 +181,30 @@
                         {
                             "deprecated": false,
                             "kind": "field",
+                            "name": "colorScheme",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "sap.ui.webc.main.types.AvatarColorScheme[]"
+                            },
+                            "default": "[]",
+                            "description": "Returns an array containing the <code>AvatarColorScheme</code> values that correspond to the avatars in the component."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
+                            "name": "hiddenItems",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "HTMLElement[]"
+                            },
+                            "default": "[]",
+                            "description": "Returns an array containing the <code>ui5-avatar</code> instances that are currently not displayed due to lack of space."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
                             "name": "type",
                             "privacy": "public",
                             "static": false,
