@@ -1,5 +1,7 @@
-commit c595c8c367d7cb1914d9f832f7acc5976d354016
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Thu Mar 2 11:04:58 2023 +0200
+commit 310e7870bcbdf64615d1ba17c33490738c179bdf
+Author: ilhan orhan <ilhan.myumyun@sap.com>
+Date:   Thu Mar 2 14:08:25 2023 +0200
 
-    refactor: deprecate decoratorMetadata in favor of metadata (#6615)
+    refactor: use `UploadCollectionItem` as `UploadCollection` items slot type (#6630)
+    
+    UploadCollection has been migrated separately, UploadCollectionItem was not present
