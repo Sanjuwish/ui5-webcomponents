@@ -1,7 +1,9 @@
-commit 310e7870bcbdf64615d1ba17c33490738c179bdf
-Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Thu Mar 2 14:08:25 2023 +0200
+commit cc4a7aa4f8d6dff11ec45e9ef55182beeed7c107
+Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
+Date:   Thu Mar 2 04:09:51 2023 -0800
 
-    refactor: use `UploadCollectionItem` as `UploadCollection` items slot type (#6630)
+    Translation Delivery (#6627)
     
-    UploadCollection has been migrated separately, UploadCollectionItem was not present
+    chore: translation delivery
+    
+    Change-Id: I2622682c601f269ea13276f18cf05ca0aece2a18
