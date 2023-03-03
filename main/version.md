@@ -1,9 +1,8 @@
-commit 4738ea0dc38d3b56a25bb428a6eadeeb675318ff
+commit 2fa84a451bdfbed97203e18d76c8cb3648ddb899
 Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Thu Mar 2 17:27:09 2023 +0200
+Date:   Fri Mar 3 16:02:23 2023 +0200
 
-    chore: address feedback (#6643)
+    ci: deploy "latest" playground on release
     
-    * chore: update issue form
-    
-    * chore: address feedback
+    Currently, someone needs to manually merge commit into the "latest-release-website" branch to trigger update of the  Documentation/Playground.
+    With this change, we add a new workflow that automatically will run when creating a "latest" release and update the Documentation/Playground.
