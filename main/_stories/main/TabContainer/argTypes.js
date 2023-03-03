@@ -1,4 +1,9 @@
 export default {
+    "allItems": {
+        "control": {
+            "type": false
+        }
+    },
     "contentBackgroundDesign": {
         "control": "select",
         "options": [

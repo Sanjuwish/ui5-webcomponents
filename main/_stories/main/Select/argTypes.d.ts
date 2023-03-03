@@ -1,4 +1,9 @@
 declare const _default: {
+    selectedOption: {
+        control: {
+            type: boolean;
+        };
+    };
     valueState: {
         control: string;
         options: string[];

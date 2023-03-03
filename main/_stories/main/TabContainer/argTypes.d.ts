@@ -1,4 +1,9 @@
 declare const _default: {
+    allItems: {
+        control: {
+            type: boolean;
+        };
+    };
     contentBackgroundDesign: {
         control: string;
         options: string[];

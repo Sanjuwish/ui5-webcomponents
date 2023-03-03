@@ -1,4 +1,9 @@
 declare const _default: {
+    selectedItem: {
+        control: {
+            type: boolean;
+        };
+    };
     default: {
         control: {
             type: string;

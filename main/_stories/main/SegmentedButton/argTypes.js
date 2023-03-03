@@ -1,4 +1,9 @@
 export default {
+    "selectedItem": {
+        "control": {
+            "type": false
+        }
+    },
     "default": {
         "control": {
             "type": "text"
