@@ -1,7 +1,7 @@
-commit 0fd5fc2847f9becca502a0e7e7e38d08487952fe
+commit b102b2a5470fc5397c0bb811bacb2a22d5f336ce
 Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Sat Mar 4 11:52:25 2023 +0200
+Date:   Sat Mar 4 11:54:04 2023 +0200
 
-    chore: add feature_request.yml
+    chore: update feature_request.yml
     
-    make use of GitHub issue forms
+    provide unique IDs to inputs
