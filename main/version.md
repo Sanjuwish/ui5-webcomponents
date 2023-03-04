@@ -1,5 +1,7 @@
-commit a8f46e749a35b43d83e8e5011b3f3bca1e2cfc45
+commit 0fd5fc2847f9becca502a0e7e7e38d08487952fe
 Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Sat Mar 4 11:51:39 2023 +0200
+Date:   Sat Mar 4 11:52:25 2023 +0200
 
-    chore: delete feature_request.md
+    chore: add feature_request.yml
+    
+    make use of GitHub issue forms
