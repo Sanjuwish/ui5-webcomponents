@@ -1,27 +1,9 @@
-commit 89f4e682a002af19ddeccebe85746b31e7cc1338
+commit 7bd2dc0aaa9132c3418becc9a3fa8af9bef9ef4b
 Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Mon Mar 6 08:57:57 2023 +0200
+Date:   Mon Mar 6 12:18:57 2023 +0200
 
-    docs: how to write storybook stories (#6578)
+    fix(playgrouond): process docs path os agnostic (#6618)
     
-    * feat(docs): add storybook docs
+    * fix(playgrouond): process docs path os agnostic
     
-    * Update docs/6-contributing/04-writing-stories.md
-    
-    Co-authored-by: Simona Rangelova <32678370+simonarangelova@users.noreply.github.com>
-    
-    * Update docs/6-contributing/04-writing-stories.md
-    
-    Co-authored-by: Simona Rangelova <32678370+simonarangelova@users.noreply.github.com>
-    
-    * Update docs/6-contributing/04-writing-stories.md
-    
-    Co-authored-by: Simona Rangelova <32678370+simonarangelova@users.noreply.github.com>
-    
-    * Update docs/6-contributing/04-writing-stories.md
-    
-    Co-authored-by: Simona Rangelova <32678370+simonarangelova@users.noreply.github.com>
-    
-    ---------
-    
-    Co-authored-by: Simona Rangelova <32678370+simonarangelova@users.noreply.github.com>
+    * fix(playgrouond): process docs path os agnostic
