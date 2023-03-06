@@ -1,5 +1,5 @@
-commit d7a5d4145cdd3d0ac8678698ab540ba728f86454
-Author: ilhan007 <ilhan.myumyun@sap.com>
-Date:   Fri Jan 20 18:53:50 2023 +0200
+commit 816b5b6293ca3b56e461126eb77a3a1f238efdc0
+Author: ui5-webcomponents-bot <ui5-webcomponents-bot@sap.com>
+Date:   Mon Mar 6 15:17:50 2023 +0000
 
-    Merge branch 'release-1.10.0' into latest-release-website
+    chore(release): publish v1.11.0 [ci skip]
