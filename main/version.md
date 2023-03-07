@@ -1,5 +1,7 @@
-commit 337a8edddf86dbb7152de3265a24d50c7434bc27
-Author: gmkv <georgi.minkov@sap.com>
-Date:   Tue Mar 7 13:12:42 2023 +0200
+commit 953a1d0fe103c6a510325188832154adcd04502b
+Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
+Date:   Tue Mar 7 14:07:54 2023 +0200
 
-    chore(ui5-title, ui5-radio-button): add samples to Storybook (#6624)
+    feat(ui5-switch): make change event preventable (#6603)
+    
+    fixes: #5953
