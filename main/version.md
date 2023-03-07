@@ -1,7 +1,7 @@
-commit 953a1d0fe103c6a510325188832154adcd04502b
+commit d58da29f07ba46e476c1d54153521fabe6691ec5
 Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
-Date:   Tue Mar 7 14:07:54 2023 +0200
+Date:   Tue Mar 7 18:35:39 2023 +0200
 
-    feat(ui5-switch): make change event preventable (#6603)
+    fix(ui5-datetime-picker): align styles in footer (#6665)
     
-    fixes: #5953
+    fixes: #4852
