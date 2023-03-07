@@ -1,9 +1,5 @@
-commit dbb71edd345adaf6958ad0427901dfbe8fac395b
-Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Tue Mar 7 11:07:10 2023 +0200
+commit 4ea09a19dd34899f55e3fd49e35e418665936147
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Tue Mar 7 11:11:48 2023 +0200
 
-    chore: mark enums in api.json (#6658)
-    
-    * chore: mark enums in api.json
-    
-    * chore: remove enums
+    chore(ui5-card): add samples to Storybook (#6628)
