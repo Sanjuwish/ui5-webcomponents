@@ -1,5 +1,5 @@
-commit 4ea09a19dd34899f55e3fd49e35e418665936147
+commit f82cf0e413d51cae63e1fa1418836c338c046489
 Author: gmkv <georgi.minkov@sap.com>
-Date:   Tue Mar 7 11:11:48 2023 +0200
+Date:   Tue Mar 7 11:14:01 2023 +0200
 
-    chore(ui5-card): add samples to Storybook (#6628)
+    chore(ui5-badge, ui5-side-navigation, ui5-carousel): add samples to Storybook (#6604)

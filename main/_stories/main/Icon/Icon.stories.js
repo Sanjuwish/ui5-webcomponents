@@ -14,15 +14,15 @@ export default {
     },
     argTypes,
 };
-const Template = (args) => html ` <ui5-icon
-        design="${ifDefined(args.design)}"
-        ?interactive="${ifDefined(args.interactive)}"
-        name="${ifDefined(args.name)}"
-        accessible-name="${ifDefined(args.accessibleName)}"
-        accessible-role="${ifDefined(args.accessibleRole)}"
-        ?show-tooltip="${ifDefined(args.showTooltip)}"
-        style="${ifDefined(args.style)}"
-    ></ui5-icon>`;
+const Template = (args) => html `<ui5-icon
+	design="${ifDefined(args.design)}"
+	?interactive="${ifDefined(args.interactive)}"
+	name="${ifDefined(args.name)}"
+	accessible-name="${ifDefined(args.accessibleName)}"
+	accessible-role="${ifDefined(args.accessibleRole)}"
+	?show-tooltip="${ifDefined(args.showTooltip)}"
+	style="${ifDefined(args.style)}"
+></ui5-icon>`;
 export const Basic = Template.bind({});
 Basic.args = {
     name: "activities",
