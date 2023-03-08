@@ -1,5 +1,7 @@
-commit 66b171b478668dc77f1dc78769096b2aee359e43
-Author: gmkv <georgi.minkov@sap.com>
-Date:   Wed Mar 8 17:51:19 2023 +0200
+commit 33517d683aa8b4ac6a801a93682a9f2430233f57
+Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
+Date:   Wed Mar 8 17:56:16 2023 +0200
 
-    docs: fix tag for MDX compilation (#6674)
+    chore: add missing type description in fiori (#6676)
+    
+    * chore: add missing types description in the fiori package - types folder.
