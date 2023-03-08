@@ -1,5 +1,5 @@
-commit f7eb6afac637638630ab3d62fa1d7d6c9975d9a7
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Wed Mar 8 10:01:13 2023 +0200
+commit 66b171b478668dc77f1dc78769096b2aee359e43
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Wed Mar 8 17:51:19 2023 +0200
 
-    chore: fix the lintfix command (#6669)
+    docs: fix tag for MDX compilation (#6674)

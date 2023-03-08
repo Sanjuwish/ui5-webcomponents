@@ -6287,9 +6287,6 @@
 <span class="k">import</span> <span class="nx">property</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/property.js</span><span class="dl">"</span><span class="p">;</span>
 <span class="k">import</span> <span class="nx">slot</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/slot.js</span><span class="dl">"</span><span class="p">;</span>
 <span class="k">import</span> <span class="nx">event</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/event.js</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">languageAware</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/languageAware.js</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">themeAware</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/themeAware.js</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">fastNavigation</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/fastNavigation.js</span><span class="dl">"</span><span class="p">;</span>
 </code></pre></div></div>
 
 <h3 id="types-of-decorators">Types of decorators</h3>
@@ -6300,9 +6297,6 @@
 
 <div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">customElement</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/customElement.js</span><span class="dl">"</span><span class="p">;</span>
 <span class="k">import</span> <span class="nx">event</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/event.js</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">languageAware</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/languageAware.js</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">themeAware</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/themeAware.js</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">fastNavigation</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@ui5/webcomponents-base/dist/decorators/fastNavigation.js</span><span class="dl">"</span><span class="p">;</span>
 </code></pre></div></div>
 
 <p>Example:</p>
@@ -6340,18 +6334,40 @@ Such decorators are used for properties and slots:</p>
 <span class="p">}</span>
 </code></pre></div></div>
 
-<h3 id="defining-the-tag-and-other-settings">Defining the tag and other settings</h3>
+<h3 id="defining-the-tag-static-getters-and-other-settings">Defining the tag, static getters and other settings</h3>
 
-<p>Use <code class="language-plaintext highlighter-rouge">@customElement</code> as a replacement for the metadata <code class="language-plaintext highlighter-rouge">tag</code> setting.</p>
+<p>Use <code class="language-plaintext highlighter-rouge">@customElement</code> as a replacement for the metadata <code class="language-plaintext highlighter-rouge">tag</code> setting and all the <code class="language-plaintext highlighter-rouge">static get</code> methods.</p>
 
-<p>Use <code class="language-plaintext highlighter-rouge">@themeAware</code>, <code class="language-plaintext highlighter-rouge">@languageAware</code> and <code class="language-plaintext highlighter-rouge">@fastNavigation</code> where needed. Note that these do not accept parameters.</p>
+<p>Use <code class="language-plaintext highlighter-rouge">themeAware</code>, <code class="language-plaintext highlighter-rouge">languageAware</code> and <code class="language-plaintext highlighter-rouge">fastNavigation</code> where needed.</p>
 
-<p>Example:</p>
-<div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">@</span><span class="nd">customElement</span><span class="p">(</span><span class="dl">"</span><span class="s2">my-element-name</span><span class="dl">"</span><span class="p">)</span>
-<span class="p">@</span><span class="nd">languageAware</span>
-<span class="p">@</span><span class="nd">themeAware</span>
-<span class="p">@</span><span class="nd">fastNavigation</span>
+<p><strong>Example</strong></p>
+
+<div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">@</span><span class="nd">customElement</span><span class="p">({</span>
+	<span class="na">tag</span><span class="p">:</span> <span class="dl">"</span><span class="s2">my-element-name</span><span class="dl">"</span><span class="p">,</span>
+	<span class="na">languageAware</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">themeAware</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">fastNavigation</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">renderer</span><span class="p">:</span> <span class="nx">Renderer</span><span class="p">,</span>
+	<span class="na">styles</span><span class="p">:</span> <span class="nx">MyElementStyles</span><span class="p">,</span>
+	<span class="na">template</span><span class="p">:</span> <span class="nx">MyElementTemplate</span><span class="p">,</span>
+<span class="p">})</span>
+<span class="kd">class</span> <span class="nx">MyElement</span> <span class="kd">extends</span> <span class="nx">UI5Element</span> <span class="p">{</span>
+	<span class="p">...</span>
+<span class="p">}</span>
 </code></pre></div></div>
+<p>And the pattern goes on for all the <code class="language-plaintext highlighter-rouge">static get</code> methods as well, such as :</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">static get render()</code>;
+    <ul>
+      <li><strong>Note!</strong>: We now use it as <strong><code class="language-plaintext highlighter-rouge">renderer</code></strong> instead of <code class="language-plaintext highlighter-rouge">render</code> in the <code class="language-plaintext highlighter-rouge">@customElement</code> decorator as we can see from the example;</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">static get dependencies()</code>;</li>
+  <li><code class="language-plaintext highlighter-rouge">static get staticAreaStyles()</code>;</li>
+  <li><code class="language-plaintext highlighter-rouge">static get staticAreaTemplate()</code>;</li>
+</ul>
+
+<p><br /></p>
 
 <h3 id="defining-properties-property">Defining properties (<code class="language-plaintext highlighter-rouge">@property</code>)</h3>
 
