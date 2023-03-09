@@ -1,7 +1,7 @@
-commit 33517d683aa8b4ac6a801a93682a9f2430233f57
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Wed Mar 8 17:56:16 2023 +0200
+commit 63933d217fd20ab9b6047f98b7e4a4f522e90b31
+Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
+Date:   Thu Mar 9 09:24:37 2023 +0200
 
-    chore: add missing type description in fiori (#6676)
+    docs(ui5-time-picker): improve event documentation (#6664)
     
-    * chore: add missing types description in the fiori package - types folder.
+    fixes: #6345
