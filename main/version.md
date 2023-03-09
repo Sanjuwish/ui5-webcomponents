@@ -1,9 +1,5 @@
-commit 932f451c701a0ecebac7d17023d7b6c68af855ac
-Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
-Date:   Thu Mar 9 14:58:25 2023 +0200
+commit 182ebb26b9939d436e28a07c5069b9fa9a4ab976
+Author: Dimitar Dimitrov <dimitar.nenov.dimitrov@abv.bg>
+Date:   Thu Mar 9 16:13:01 2023 +0200
 
-    fix(ui5-icon): aria-label change (#6584)
-    
-    * fix(ui5-icon): aria-label change fixed
-    
-    * fix(ui5-icon): aria-label change fixed
+    feat(ui5-datepicker): show only needed pickers based on date format (#6490)
