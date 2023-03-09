@@ -1,5 +1,5 @@
-commit e27617276c5f54f36415289003d5e1b41dcdf25e
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Thu Mar 9 09:40:23 2023 +0200
+commit ac7067685c72288ddc8d55363f5b589a9d279b0d
+Author: Peter Skelin <petar.skelin@sap.com>
+Date:   Thu Mar 9 11:46:32 2023 +0200
 
-    chore: fix bad icon name (#6680)
+    fix(icons): use strings instead of template literal for imports (#6681)
