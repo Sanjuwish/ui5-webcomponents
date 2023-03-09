@@ -1,5 +1,9 @@
-commit ac7067685c72288ddc8d55363f5b589a9d279b0d
-Author: Peter Skelin <petar.skelin@sap.com>
-Date:   Thu Mar 9 11:46:32 2023 +0200
+commit 932f451c701a0ecebac7d17023d7b6c68af855ac
+Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
+Date:   Thu Mar 9 14:58:25 2023 +0200
 
-    fix(icons): use strings instead of template literal for imports (#6681)
+    fix(ui5-icon): aria-label change (#6584)
+    
+    * fix(ui5-icon): aria-label change fixed
+    
+    * fix(ui5-icon): aria-label change fixed
