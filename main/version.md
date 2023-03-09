@@ -1,7 +1,5 @@
-commit 63933d217fd20ab9b6047f98b7e4a4f522e90b31
-Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
-Date:   Thu Mar 9 09:24:37 2023 +0200
+commit e27617276c5f54f36415289003d5e1b41dcdf25e
+Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
+Date:   Thu Mar 9 09:40:23 2023 +0200
 
-    docs(ui5-time-picker): improve event documentation (#6664)
-    
-    fixes: #6345
+    chore: fix bad icon name (#6680)
