@@ -1,9 +1,7 @@
-commit 3d70b4472521a8775062dad5f1246060c1a36754
-Author: niyap <38278268+niyap@users.noreply.github.com>
-Date:   Fri Mar 10 09:33:01 2023 +0200
+commit 3a000ce0c4d1e15537209068226bced3381b0bba
+Author: ilhan orhan <ilhan.myumyun@sap.com>
+Date:   Fri Mar 10 10:14:39 2023 +0200
 
-    fix(ui5-combobox): fire selection-change correctly (#6652)
+    fix(ui5-breadcrumbs): import used arrow-down icon (#6685)
     
-    * fix(ui5-combobox): fire selection-change correctly
-    
-    * fix(ui5-combobox): remove redundant flag
+    The icon is used in the template but not imported - this means that won't be displayed in productive app, when not all the icons are available (as in the playground or our test pages).
