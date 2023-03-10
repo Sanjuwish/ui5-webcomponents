@@ -1,5 +1,9 @@
-commit 182ebb26b9939d436e28a07c5069b9fa9a4ab976
-Author: Dimitar Dimitrov <dimitar.nenov.dimitrov@abv.bg>
-Date:   Thu Mar 9 16:13:01 2023 +0200
+commit 3d70b4472521a8775062dad5f1246060c1a36754
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Fri Mar 10 09:33:01 2023 +0200
 
-    feat(ui5-datepicker): show only needed pickers based on date format (#6490)
+    fix(ui5-combobox): fire selection-change correctly (#6652)
+    
+    * fix(ui5-combobox): fire selection-change correctly
+    
+    * fix(ui5-combobox): remove redundant flag
