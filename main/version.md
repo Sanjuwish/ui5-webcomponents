@@ -1,7 +1,5 @@
-commit 3a000ce0c4d1e15537209068226bced3381b0bba
-Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Fri Mar 10 10:14:39 2023 +0200
+commit 97cba4b0b63d3c8be5be1972188ebc780c255c2a
+Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
+Date:   Fri Mar 10 17:07:49 2023 +0200
 
-    fix(ui5-breadcrumbs): import used arrow-down icon (#6685)
-    
-    The icon is used in the template but not imported - this means that won't be displayed in productive app, when not all the icons are available (as in the playground or our test pages).
+    feat(ui5-product-switch): enable alignment of items (#6683)
