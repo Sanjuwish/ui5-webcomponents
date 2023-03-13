@@ -1,5 +1,5 @@
-commit 97cba4b0b63d3c8be5be1972188ebc780c255c2a
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Fri Mar 10 17:07:49 2023 +0200
+commit a13aeaa743d08096e3bb6ebf890f00eea573dbf1
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Mon Mar 13 13:56:38 2023 +0200
 
-    feat(ui5-product-switch): enable alignment of items (#6683)
+    chore: fix link position in playground (#6694)
