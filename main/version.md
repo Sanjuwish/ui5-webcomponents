@@ -1,5 +1,5 @@
-commit 1525cd12ec6d9c9cf4ee8e7923822f208409f3dd
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Mon Mar 13 17:06:21 2023 +0200
+commit 597017f7adda2985cf64bd040d32eabca55e5770
+Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
+Date:   Mon Mar 13 17:09:03 2023 +0200
 
-    chore: fix table docs (#6700)
+    fix(ui5-date-picker): change and restore value if change event is prevented (#6693)
