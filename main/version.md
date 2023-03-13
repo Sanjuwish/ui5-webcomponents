@@ -1,5 +1,5 @@
-commit a13aeaa743d08096e3bb6ebf890f00eea573dbf1
-Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Mon Mar 13 13:56:38 2023 +0200
+commit 1525cd12ec6d9c9cf4ee8e7923822f208409f3dd
+Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
+Date:   Mon Mar 13 17:06:21 2023 +0200
 
-    chore: fix link position in playground (#6694)
+    chore: fix table docs (#6700)
