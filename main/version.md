@@ -1,5 +1,5 @@
-commit bcbe2871acb93d728ac9c872e4e0f77c30815e36
+commit e54bb9f0f7f93a79a255dc12ca6b5c14c27c2138
 Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Tue Mar 14 11:54:22 2023 +0200
+Date:   Tue Mar 14 14:15:26 2023 +0200
 
-    chore: create a test page showing OpenUI5-second approach (#6706)
+    chore: strip CLDRs of unused fields (#6703)
