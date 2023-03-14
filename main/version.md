@@ -1,8 +1,9 @@
-commit d37b319eb6f9b6ca27bd08a8a389595424f69f6e
-Author: Marcus Notheis <marcus.notheis@sap.com>
-Date:   Mon Mar 13 18:47:25 2023 +0100
+commit 043a263a3ffb3ea34f90970e39235dd42fd588fa
+Author: Petar Dimov <32839090+dimovpetar@users.noreply.github.com>
+Date:   Tue Mar 14 09:58:49 2023 +0200
 
-    chore(InputsElementFormSupport): add file extension to import (#6690)
+    fix(ui5-popover): flip horizontalAlign Right with Left and vice versa in RTL (#6645)
     
-    Without the .js file extension, projects building in ESM mode will fail due do an import error:
-    `node_modules/@ui5/webcomponents/dist/features/InputElementsFormSupport.d.ts:1:29 - error TS2307: Cannot find module '@ui5/webcomponents-base/dist/UI5Element' or its corresponding type declarations.`
+    * fix(ui5-popover): flip horizontalAlign Right with Left and vice versa in RTL
+    
+    Fixes: https://github.com/SAP/ui5-webcomponents/issues/6605
