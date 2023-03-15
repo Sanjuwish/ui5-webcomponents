@@ -1,7 +1,9 @@
-commit 85b4f8e52528f70c5829e7d3c4d4caecdaf32da0
-Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
-Date:   Wed Mar 15 09:55:30 2023 +0200
+commit 7680e2913d47b78ea848ccacd27ea963cc68fad1
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Wed Mar 15 10:37:15 2023 +0200
 
-    fix(ui5-step-input): align style to specification (#6699)
+    chore: remove redudant binding (#6644)
     
-    fixes: #6687
+    * chore: remove redudant binding
+    
+    * chore: bind to bound
