@@ -1,9 +1,9 @@
-commit 7680e2913d47b78ea848ccacd27ea963cc68fad1
+commit 9698ade8de9fdf876a84184ff9710d82b7a84a70
 Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Wed Mar 15 10:37:15 2023 +0200
+Date:   Wed Mar 15 13:03:15 2023 +0200
 
-    chore: remove redudant binding (#6644)
+    chore: upgrade chromedriver to 1.110.0 (#6710)
     
-    * chore: remove redudant binding
+    * chore: upgrade chromedriver to 1.110.0
     
-    * chore: bind to bound
+    * chore: lint
