@@ -1,7 +1,8 @@
-commit aeca9aca0d3ca02d8cff80beffedba9e21e05af4
-Author: Martin <martin.r.hristov@gmail.com>
-Date:   Tue Mar 14 15:16:27 2023 +0200
+commit dbdf625a49b391028a7ff92d0a9c68a4f4bdd3da
+Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
+Date:   Wed Mar 15 09:54:35 2023 +0200
 
-    fix(ui5-input): remove field value when cleared in change event handler (#6417)
+    fix(ui5-split-button): align styles in icon only mode (#6697)
     
-    FIXES: #6249
+    Solution: We don't create slot for text if we don't have text.
+    fixes: #6688
