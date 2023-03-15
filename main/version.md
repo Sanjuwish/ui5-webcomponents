@@ -1,9 +1,5 @@
-commit 9698ade8de9fdf876a84184ff9710d82b7a84a70
-Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Wed Mar 15 13:03:15 2023 +0200
+commit 1cc5f5e54db02b41691be9c7909d246c1788c223
+Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
+Date:   Wed Mar 15 13:06:04 2023 +0200
 
-    chore: upgrade chromedriver to 1.110.0 (#6710)
-    
-    * chore: upgrade chromedriver to 1.110.0
-    
-    * chore: lint
+    chore: remove DurationPicker from this project (#6708)
