@@ -1,7 +1,9 @@
-commit 20c746d0cc571725ffc484bf81684ef00484ffe7
-Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Wed Mar 15 13:50:17 2023 +0200
+commit 0865f1841e5794d96293dd23d8064fc6c320d55c
+Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
+Date:   Wed Mar 15 23:50:13 2023 -0700
 
-    chore: fix demo spec (#6689)
+    Translation Delivery (#6714)
     
-    chore: fix demo spect
+    chore: translation delivery
+    
+    Change-Id: I1366b3f57b4a34513773e2cfaacfbfe3176f9ee0
