@@ -1,9 +1,5 @@
-commit 0865f1841e5794d96293dd23d8064fc6c320d55c
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Wed Mar 15 23:50:13 2023 -0700
+commit dfb6db7f79f831fd2bf12a81cfb1d8b053f90933
+Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
+Date:   Thu Mar 16 11:05:51 2023 +0200
 
-    Translation Delivery (#6714)
-    
-    chore: translation delivery
-    
-    Change-Id: I1366b3f57b4a34513773e2cfaacfbfe3176f9ee0
+    chore: update yarn.lock (#6715)
