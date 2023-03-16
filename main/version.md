@@ -1,9 +1,7 @@
-commit 859d85832fd7424d91a48e8103d817af774f1b04
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Thu Mar 16 03:20:56 2023 -0700
+commit 9ea5c93a5016143a50240d9d178422434a069365
+Author: Siyana Todorova <72251110+s-todorova@users.noreply.github.com>
+Date:   Thu Mar 16 17:27:54 2023 +0200
 
-    Translation Delivery (#6716)
+    feat(ui5-upload-collection): add IllustratedMessage for empty state (#6657)
     
-    chore: translation delivery
-    
-    Change-Id: I6871efd187965d740ac960f898111c2cc9451ab9
+    Fixes #6271
