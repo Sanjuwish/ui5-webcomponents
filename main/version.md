@@ -1,5 +1,5 @@
-commit ae9aca19e337a39740d318b9c0a83e7bf12cce0b
-Author: Lukas Harbarth <lukas.harbarth@sap.com>
-Date:   Fri Mar 17 13:02:17 2023 +0100
+commit d1e86b8c4b91803b922685c73e9e788a52db111f
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Fri Mar 17 14:44:12 2023 +0200
 
-    docs(TreeItemCustom): correct `@since` jsdoc annotation (#6723)
+    chore(ui5-popover, ui5-responsive-popover): add samples to Storybook (#6696)
