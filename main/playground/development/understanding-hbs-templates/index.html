@@ -7015,7 +7015,7 @@ written at the partial’s insertion point.</p>
 <h3 id="rendering-slots-">Rendering slots <a name="slots_rendering"></a></h3>
 
 <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot">slot</a> element allows you to render children, nested in your web component, in a desired place in the shadow DOM.
-You should render each slot, defined in your component’s metadata (see <a href="./03-understanding-components-metadata.md">Understanding UI5 Web Components Metadata</a>), somewhere in the <code class="language-plaintext highlighter-rouge">.hbs</code> template.</p>
+You should render each slot, defined in your component’s metadata (see <a href="../understanding-components-metadata">Understanding UI5 Web Components Metadata</a>), somewhere in the <code class="language-plaintext highlighter-rouge">.hbs</code> template.</p>
 
 <p>To render the default slot simply render a <code class="language-plaintext highlighter-rouge">slot</code> tag:</p>
 
@@ -7073,7 +7073,7 @@ and all children with attributes <code class="language-plaintext highlighter-rou
 <p>All children, assigned to a certain <code class="language-plaintext highlighter-rouge">slot</code>, are rendered by the browser next to each other in the exact order in which they were passed to the component.
 Sometimes, however, each child must be placed separately in the shadow root, potentially wrapped in other HTML elements, to satisfy the UX design of the component.</p>
 
-<p>The <code class="language-plaintext highlighter-rouge">individualSlots</code> slot metadata configuration setting (see <a href="./03-understanding-components-metadata.md">Understanding UI5 Web Components Metadata</a>) allows you to have a separate physical slot for each child belonging to a certain slot.</p>
+<p>The <code class="language-plaintext highlighter-rouge">individualSlots</code> slot metadata configuration setting (see <a href="../understanding-components-metadata">Understanding UI5 Web Components Metadata</a>) allows you to have a separate physical slot for each child belonging to a certain slot.</p>
 
 <p>However, setting <code class="language-plaintext highlighter-rouge">individualSlots: true</code> in the metadata configuration only creates an <code class="language-plaintext highlighter-rouge">_individualSlot</code> property on each element belonging to the slot, but does not create any slots automatically.
 The individual slots must be explicitly rendered by the developer in the <code class="language-plaintext highlighter-rouge">.hbs</code> template.</p>
@@ -7116,7 +7116,7 @@ and since <code class="language-plaintext highlighter-rouge">individualSlots</co
 
 <p>This allows you to have arbitrary DOM around each child and implement complex UX design, otherwise impossible if all children were just normally rendered next to each other in a single slot.</p>
 
-<p>Next: <a href="./05-testing-UI5-Web-Components.md">Testing UI5 Web Components</a></p>
+<p>Next: <a href="../testing-ui5-web-components">Testing UI5 Web Components</a></p>
 
 
 <footer class="footer-wrapper">

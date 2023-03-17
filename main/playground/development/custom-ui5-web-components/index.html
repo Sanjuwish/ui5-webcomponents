@@ -6548,7 +6548,7 @@ Vars for each theme in the respective theme directory in <code class="language-p
 
 <p>You must import all other web components, used inside the <code class="language-plaintext highlighter-rouge">.hbs</code> template file. Otherwise, the internally used web components won’t be defined.</p>
 
-<p>Furthermore, in order to make use of the <a href="../advanced/scoping">Scoping</a> feature, you must list all the internally used web components in the <code class="language-plaintext highlighter-rouge">dependencies</code> static getter,
+<p>Furthermore, in order to make use of the <a href="../../advanced/scoping">Scoping</a> feature, you must list all the internally used web components in the <code class="language-plaintext highlighter-rouge">dependencies</code> static getter,
 as the framework reads the dependencies and scopes the tag names of the listed web components.</p>
 
 <p><b>For Example:</b> If the <code class="language-plaintext highlighter-rouge">ui5-icon</code> tag (or any other standard or custom UI5 Web component) is used inside the template, you must import the <code class="language-plaintext highlighter-rouge">Icon</code> web component and add it to the <code class="language-plaintext highlighter-rouge">dependencies</code> static getter as shown below.</p>
@@ -6743,7 +6743,7 @@ Here, we see the <code class="language-plaintext highlighter-rouge">pleaseWaitTe
 <p>As explained above, the <code class="language-plaintext highlighter-rouge">.hbs</code> file is transformed by the build script to a <code class="language-plaintext highlighter-rouge">.js</code> file in the <code class="language-plaintext highlighter-rouge">lit-html</code> syntax. More specifically, this file
 is provided to the Web Component class.</p>
 
-<p>For a full description of the <code class="language-plaintext highlighter-rouge">.hbs</code> template features and syntax, see <a href="./04-understanding-hbs-templates.md">Understanding the Handlebars (<code class="language-plaintext highlighter-rouge">.hbs</code>) templates</a>.</p>
+<p>For a full description of the <code class="language-plaintext highlighter-rouge">.hbs</code> template features and syntax, see <a href="../understanding-hbs-templates">Understanding the Handlebars (<code class="language-plaintext highlighter-rouge">.hbs</code>) templates</a>.</p>
 
 <h2 id="the-css">The CSS</h2>
 <p><a name="css"></a></p>
@@ -6803,7 +6803,7 @@ All the rest are custom for the specific Web Component.</p>
 <p>What’s important to understand here is that you author all the <code class="language-plaintext highlighter-rouge">.css</code> files listed in the table above, but the build script
 generates from them a single <code class="language-plaintext highlighter-rouge">.js</code> file for you, and this is namely the file you pass to the Web Component class: <code class="language-plaintext highlighter-rouge">generated/themes/Demo.css.js</code>.</p>
 
-<p>Next: <a href="./03-understanding-components-metadata.md">Understanding UI5 Web Components Metadata</a></p>
+<p>Next: <a href="../understanding-components-metadata">Understanding UI5 Web Components Metadata</a></p>
 
 
 <footer class="footer-wrapper">
