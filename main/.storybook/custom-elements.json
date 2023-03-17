@@ -10098,7 +10098,7 @@
                                 "text": "sap.ui.webc.main.types.WrappingType"
                             },
                             "default": "\"None\"",
-                            "description": "Defines if the <code>titleText</code> and <code>description</code> should wrap, they truncate by default.\n\n<br><br> <b>Note:</b> by default the <code>titleText</code> and <code>decription</code>, and a <code>ShowMore/Less</code> button would be displayed."
+                            "description": "Defines if the <code>titleText</code> and <code>description</code> should wrap, they truncate by default.\n\n<br><br> <b>Note:</b> by default the <code>titleText</code> and <code>description</code>, and a <code>ShowMore/Less</code> button would be displayed."
                         }
                     ],
                     "superclass": {
