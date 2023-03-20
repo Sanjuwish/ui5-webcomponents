@@ -15,6 +15,7 @@ export default {
             "FilterTable",
             "GroupTable",
             "NoActivities",
+            "NoColumnsSet",
             "NoData",
             "NoDimensionsSet",
             "NoEntries",
