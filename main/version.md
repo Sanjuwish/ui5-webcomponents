@@ -1,5 +1,5 @@
-commit 16771a64d7b13f418af9afa1a03b224fe3762775
-Author: Peter Skelin <petar.skelin@sap.com>
-Date:   Tue Mar 21 08:18:47 2023 +0200
+commit 43301a961da009500bdfba96d4abcdf86a2a0039
+Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
+Date:   Tue Mar 21 17:01:12 2023 +0200
 
-    fix: inline sources in the .map file so the src folder is not mandatory (#6732)
+    feat(ui5-illustrated-message): added new illustration type "Survey" (#6747)

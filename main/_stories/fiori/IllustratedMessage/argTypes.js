@@ -53,6 +53,7 @@ export default {
             "SuccessCheckMark",
             "SuccessHighFive",
             "SuccessScreen",
+            "Survey",
             "Tent",
             "TntChartArea",
             "TntChartArea2",
