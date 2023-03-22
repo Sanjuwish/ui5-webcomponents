@@ -1,2 +1,0 @@
-import{R as n}from"./index.8693836f.js";const u=n.createContext({});function i(t){return e;function e(o){const r=a(o.components);return n.createElement(t,{...o,allComponents:r})}}function a(t){const e=n.useContext(u);return n.useMemo(()=>typeof t=="function"?t(e):{...e,...t},[e,t])}const s={};function f({components:t,children:e,disableParentContext:o}){let r=a(t);return o&&(r=t||s),n.createElement(u.Provider,{value:r},e)}export{u as M,f as a,a as u,i as w};
-//# sourceMappingURL=index.d45eee75.js.map

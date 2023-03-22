@@ -1,5 +1,5 @@
-commit 41e7cfdafee72e0e80775788da192a3498a75b05
+commit cad512aa3c3eaae81dfec340bfa3a51b3395eeee
 Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Wed Mar 22 11:38:55 2023 +0200
+Date:   Wed Mar 22 11:39:13 2023 +0200
 
-    feat(icons-tnt): add/update icons (#6756)
+    feat(icons): add/update icons (#6754)
