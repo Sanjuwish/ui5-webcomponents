@@ -1,9 +1,9 @@
-commit cb2f77c86bda9cb4351b8d955d47d12acb8149a6
-Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Thu Mar 23 10:54:22 2023 +0200
+commit d2b45620cd50fd217e8015ca702552ce59b241ca
+Author: Andreas Kunz <andreas.kunz@sap.com>
+Date:   Thu Mar 23 11:41:49 2023 +0100
 
-    chore: add `getIconAccessibleName` base method (#6769)
+    chore: improve DatePicker/TimePickerBase types (brought over from OpenUI5) (#6753)
     
-    The Button component needs to set the icon's accessible name as its "tooltip". And for that we introduce the `getIconAccessibleName` method to return the accessible name for the given icon name.
-    
-    Related to: https://github.com/SAP/ui5-webcomponents/pull/6719
+    Тhose types were in the meantime improved in the copy in the OpenUI5 repo, but reverted by the latest copy.
+    I redid the improvements in I9663c71d80280bb0841fb8a2e36c44a174378955, but they would be overridden again. Am I right assuming that the DateTimePicker etc. get the types from these two base classes?
+    The commit message mimics the one of e50e00c

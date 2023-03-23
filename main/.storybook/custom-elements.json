@@ -2279,7 +2279,7 @@
                                     "deprecated": false,
                                     "name": "date",
                                     "type": {
-                                        "text": "object"
+                                        "text": "Date"
                                     },
                                     "description": "A Java Script date object to be formatted as string"
                                 }
