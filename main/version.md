@@ -1,7 +1,7 @@
-commit 6a6f87f64db0b61c41369e7c7414e800435a848d
-Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
-Date:   Fri Mar 24 10:01:43 2023 +0200
+commit d23b8d7ca2dcf0319fd87abd109b9ead6b0b76a3
+Author: Martin <martin.r.hristov@gmail.com>
+Date:   Fri Mar 24 10:31:55 2023 +0200
 
-    fix(ui5-select): selected option is announced on dropdown open (#6733)
+    fix(ui5-multi-combobox): prevent focus lost after token deletion (#6734)
     
-    fix(ui5-select): selected option is announced
+    FIXES: #6671
