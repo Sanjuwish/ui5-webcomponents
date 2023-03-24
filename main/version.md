@@ -1,7 +1,9 @@
-commit d23b8d7ca2dcf0319fd87abd109b9ead6b0b76a3
-Author: Martin <martin.r.hristov@gmail.com>
-Date:   Fri Mar 24 10:31:55 2023 +0200
+commit 7fe6395d572f28c1ffacff1427fde48dc00f1e97
+Author: ilhan orhan <ilhan.myumyun@sap.com>
+Date:   Fri Mar 24 13:12:45 2023 +0200
 
-    fix(ui5-multi-combobox): prevent focus lost after token deletion (#6734)
+    docs: add Typescript support information (#6682)
     
-    FIXES: #6671
+    - added disclaimer in the root Readme regarding the experimental status of the TS definitions.
+    - added section for Typescript support, targeting application developers
+    - update the TS component development section, targeting component developers
