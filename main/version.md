@@ -1,7 +1,7 @@
-commit 2c3d1d5296e2cf33d94ae7ec9d246d964f1688db
+commit 3659ca08351f8dccfd7a7505e958f1b8b53c9795
 Author: Georgieva <lidiya.georgieva@sap.com>
-Date:   Tue Mar 28 15:55:36 2023 +0300
+Date:   Tue Mar 28 16:10:22 2023 +0300
 
-    docs(ui5-dialog): edit footer layout in dialogs samples (#6800)
+    fix(ui5-busy-indicator): height of the root element inherits the height of the Busy Indicator (#6805)
     
-    Fixes #6786
+    Fixes #6668
