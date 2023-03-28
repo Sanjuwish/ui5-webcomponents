@@ -1,7 +1,5 @@
-commit 3659ca08351f8dccfd7a7505e958f1b8b53c9795
-Author: Georgieva <lidiya.georgieva@sap.com>
-Date:   Tue Mar 28 16:10:22 2023 +0300
+commit 38b14c509cc8d650f34250d21422ea57f7ce5cdd
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Tue Mar 28 17:28:22 2023 +0300
 
-    fix(ui5-busy-indicator): height of the root element inherits the height of the Busy Indicator (#6805)
-    
-    Fixes #6668
+    fix(ui5-side-navigation): correct-style description (#6814)
