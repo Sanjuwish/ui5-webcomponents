@@ -1,5 +1,5 @@
-commit 3ac819c6e56953a133cd3ecf5cc703b45c561cea
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Wed Mar 29 10:30:16 2023 +0300
+commit 25445a608aeb2a8312af262f8fd5d1a03cba1d5c
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Wed Mar 29 14:30:34 2023 +0300
 
-    fix(ui5-list): forward focus behaviour (#6790)
+    fix(icons-tnt): correct icons for v2 (#6819)
