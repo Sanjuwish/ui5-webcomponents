@@ -19,8 +19,9 @@ export default {
         }
     },
     "show": {
+        "description": "Shows the component.",
         "table": {
-            "category": "Methods"
+            "category": "methods"
         }
     }
 };

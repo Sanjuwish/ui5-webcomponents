@@ -14,28 +14,92 @@ declare const _default: {
         };
     };
     closePicker: {
+        description: string;
         table: {
             category: string;
         };
     };
     formatValue: {
+        description: string;
         table: {
             category: string;
+        };
+        UI5CustomData: {
+            parameters: {
+                name: string;
+                type: string;
+                optional: boolean;
+                description: string;
+            }[];
+            returnValue: {
+                type: string;
+            };
         };
     };
     isOpen: {
+        description: string;
         table: {
             category: string;
+        };
+        UI5CustomData: {
+            returnValue: {
+                type: string;
+            };
         };
     };
     isValid: {
+        description: string;
         table: {
             category: string;
         };
+        UI5CustomData: {
+            parameters: {
+                name: string;
+                type: string;
+                optional: boolean;
+                description: string;
+            }[];
+            returnValue: {
+                type: string;
+            };
+        };
     };
     openPicker: {
+        description: string;
         table: {
             category: string;
+        };
+        UI5CustomData: {
+            returnValue: {
+                type: string;
+                description: string;
+            };
+        };
+    };
+    change: {
+        description: string;
+        table: {
+            category: string;
+        };
+        UI5CustomData: {
+            parameters: {
+                name: string;
+                type: string;
+                description: string;
+            }[];
+        };
+    };
+    input: {
+        description: string;
+        table: {
+            category: string;
+        };
+        UI5CustomData: {
+            parameters: {
+                name: string;
+                type: string;
+                description: string;
+            }[];
         };
     };
 };

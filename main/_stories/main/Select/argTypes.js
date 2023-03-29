@@ -23,6 +23,21 @@ export default {
         "control": {
             "type": "text"
         }
+    },
+    "change": {
+        "description": "Fired when the selected option changes.",
+        "table": {
+            "category": "events"
+        },
+        "UI5CustomData": {
+            "parameters": [
+                {
+                    "name": "selectedOption",
+                    "type": "HTMLElement",
+                    "description": "the selected option."
+                }
+            ]
+        }
     }
 };
 export const componentInfo = {

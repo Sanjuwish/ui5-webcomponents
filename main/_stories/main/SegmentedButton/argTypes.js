@@ -8,6 +8,21 @@ export default {
         "control": {
             "type": "text"
         }
+    },
+    "selection-change": {
+        "description": "Fired when the selected item changes.",
+        "table": {
+            "category": "events"
+        },
+        "UI5CustomData": {
+            "parameters": [
+                {
+                    "name": "selectedItem",
+                    "type": "HTMLElement",
+                    "description": "the pressed item."
+                }
+            ]
+        }
     }
 };
 export const componentInfo = {

@@ -9,6 +9,7 @@ declare const _default: {
         };
     };
     show: {
+        description: string;
         table: {
             category: string;
         };

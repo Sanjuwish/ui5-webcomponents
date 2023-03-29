@@ -1,17 +1,44 @@
 declare const _default: {
     close: {
+        description: string;
         table: {
             category: string;
         };
     };
     isOpen: {
+        description: string;
         table: {
             category: string;
         };
+        UI5CustomData: {
+            returnValue: {
+                type: string;
+            };
+        };
     };
     showAt: {
+        description: string;
         table: {
             category: string;
+        };
+        UI5CustomData: {
+            parameters: ({
+                name: string;
+                type: string;
+                optional: boolean;
+                description: string;
+                defaultValue?: undefined;
+            } | {
+                name: string;
+                type: string;
+                optional: boolean;
+                defaultValue: boolean;
+                description: string;
+            })[];
+            returnValue: {
+                type: string;
+                description: string;
+            };
         };
     };
     horizontalAlign: {
@@ -46,8 +73,28 @@ declare const _default: {
         };
     };
     applyFocus: {
+        description: string;
         table: {
             category: string;
+        };
+        UI5CustomData: {
+            returnValue: {
+                type: string;
+                description: string;
+            };
+        };
+    };
+    "before-close": {
+        description: string;
+        table: {
+            category: string;
+        };
+        UI5CustomData: {
+            parameters: {
+                name: string;
+                type: string;
+                description: string;
+            }[];
         };
     };
 };

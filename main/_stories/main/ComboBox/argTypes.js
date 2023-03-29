@@ -23,6 +23,21 @@ export default {
         "control": {
             "type": "text"
         }
+    },
+    "selection-change": {
+        "description": "Fired when selection is changed by user interaction",
+        "table": {
+            "category": "events"
+        },
+        "UI5CustomData": {
+            "parameters": [
+                {
+                    "name": "item",
+                    "type": "sap.ui.webc.main.IComboBoxItem",
+                    "description": "item to be selected."
+                }
+            ]
+        }
     }
 };
 export const componentInfo = {

@@ -28,8 +28,35 @@ declare const _default: {
         };
     };
     openPicker: {
+        description: string;
         table: {
             category: string;
+        };
+    };
+    "suggestion-item-preview": {
+        description: string;
+        table: {
+            category: string;
+        };
+        UI5CustomData: {
+            parameters: {
+                name: string;
+                type: string;
+                description: string;
+            }[];
+        };
+    };
+    "suggestion-item-select": {
+        description: string;
+        table: {
+            category: string;
+        };
+        UI5CustomData: {
+            parameters: {
+                name: string;
+                type: string;
+                description: string;
+            }[];
         };
     };
 };

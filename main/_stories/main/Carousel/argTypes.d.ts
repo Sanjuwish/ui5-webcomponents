@@ -13,8 +13,30 @@ declare const _default: {
         };
     };
     navigateTo: {
+        description: string;
         table: {
             category: string;
+        };
+        UI5CustomData: {
+            parameters: {
+                name: string;
+                type: string;
+                optional: boolean;
+                description: string;
+            }[];
+        };
+    };
+    navigate: {
+        description: string;
+        table: {
+            category: string;
+        };
+        UI5CustomData: {
+            parameters: {
+                name: string;
+                type: string;
+                description: string;
+            }[];
         };
     };
 };
