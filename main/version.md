@@ -1,9 +1,5 @@
-commit d0b2a1cb5372ef2b044733412dc77efde9781fae
+commit 3ac819c6e56953a133cd3ecf5cc703b45c561cea
 Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Wed Mar 29 09:02:09 2023 +0300
+Date:   Wed Mar 29 10:30:16 2023 +0300
 
-    feat(playground): disaply parameters and return values (#6581)
-    
-    * feat(playground): disaply parameters and return values
-    
-    * chore: refactor
+    fix(ui5-list): forward focus behaviour (#6790)
