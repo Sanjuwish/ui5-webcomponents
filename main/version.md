@@ -1,5 +1,5 @@
-commit 1174b486d2df234b3e295af4e3d95158751bf58b
-Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
-Date:   Thu Mar 30 13:25:34 2023 +0300
+commit df1ddfc955ef3bb46d3b1e4694e7b931655a3079
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Thu Mar 30 14:29:26 2023 +0300
 
-    fix(ui5-progress-indicator): disabled opacity fix (#6808)
+    fix(framework): relative paths for external themes (#6799)
