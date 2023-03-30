@@ -1,5 +1,7 @@
-commit 052ddcdd27669d6b6277a977f8c9959b88ecaace
-Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Wed Mar 29 14:30:48 2023 +0300
+commit e67a44273146fdb32ce8f4538ec26ba1e6135dc2
+Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
+Date:   Thu Mar 30 09:55:24 2023 +0300
 
-    feat(icons-business-suite): update icons (#6755)
+    feat(ui5-calendar): focus the nearest day when today is out of range (#6801)
+    
+    fixes: #6750
