@@ -1,5 +1,5 @@
-commit df1ddfc955ef3bb46d3b1e4694e7b931655a3079
-Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Thu Mar 30 14:29:26 2023 +0300
+commit c7c186d048ed3a38941610e319a2568b9e92073a
+Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
+Date:   Thu Mar 30 15:20:05 2023 +0300
 
-    fix(framework): relative paths for external themes (#6799)
+    fix(ui5-checkbox): apply correct styles to down state (#6824)
