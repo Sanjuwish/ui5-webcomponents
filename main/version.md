@@ -1,5 +1,9 @@
-commit c7c186d048ed3a38941610e319a2568b9e92073a
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Thu Mar 30 15:20:05 2023 +0300
+commit 24ecb30acfae233d4405e793d3ae04091a30182f
+Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
+Date:   Thu Mar 30 21:58:41 2023 -0700
 
-    fix(ui5-checkbox): apply correct styles to down state (#6824)
+    Translation Delivery (#6832)
+    
+    chore: translation delivery
+    
+    Change-Id: I8d45a6824135ec45bd2e82902cb43c2ff28c90f6
