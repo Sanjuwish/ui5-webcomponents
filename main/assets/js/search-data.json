@@ -870,7 +870,7 @@
   "125": {
     "id": "125",
     "title": "Icon",
-    "content": "&lt;!DOCTYPE html&gt; Icon Fiori 3/Next Icon semantic &#39;design&#39; variants Icon with aria-hidden=&quot;true&quot; Icon with tooltip Interactive Icon Some icons can display default tooltip Auto, SAP-icons, horizon SAP Icons SAP Fiori Next Icons SAP Fiori Tools Icons SAP business-suite Icons All icons Icons in ltr Icons in RTL, but not mirrored Icons in LTR Icons in RTL and mirrored",
+    "content": "&lt;!DOCTYPE html&gt; Icon Fiori 3/Next Icon semantic &#39;design&#39; variants Icon with aria-hidden=&quot;true&quot; Icon with tooltip Interactive Icon Tests &quot;click&quot; and &quot;ui5-click&quot; events &quot;click&quot; &quot;ui5-click&quot; &quot;click&quot; &quot;ui5-click&quot; Some icons can display default tooltip Auto, SAP-icons, horizon SAP Icons SAP Fiori Next Icons SAP Fiori Tools Icons SAP business-suite Icons All icons Icons in ltr Icons in RTL, but not mirrored Icons in LTR Icons in RTL and mirrored",
     "url": "https://sap.github.io/ui5-webcomponents/main/playground/main/pages/Icon/",
     "relUrl": "/playground/main/pages/Icon/"
   },
