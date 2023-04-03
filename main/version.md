@@ -1,5 +1,7 @@
-commit a08d4645aeaae6e6f5eb8c55d8cb8bfaf4aa58b6
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Mon Apr 3 15:44:25 2023 +0300
+commit 90f690396327aa1432e670731ef157f6afebc674
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Mon Apr 3 17:00:03 2023 +0300
 
-    feat(framework): re-export all public imports from index.js (#6823)
+    chore: correct dir path when generate css vars usage report (#6850)
+    
+    Co-authored-by: Nayden Naydenov <nnaydenow.work@sap.com>
