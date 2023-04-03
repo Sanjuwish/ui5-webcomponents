@@ -1,13 +1,5 @@
-commit 979ecf773392fdc4333fcb385473de3bc0ae02f7
-Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Mon Apr 3 11:47:57 2023 +0300
+commit a08d4645aeaae6e6f5eb8c55d8cb8bfaf4aa58b6
+Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
+Date:   Mon Apr 3 15:44:25 2023 +0300
 
-    chore(framework): fix build (#6847)
-    
-    * chore(framework): fix build
-    
-    * chore: remove unused file
-    
-    ---------
-    
-    Co-authored-by: Nayden Naydenov <nnaydenow.work@sap.com>
+    feat(framework): re-export all public imports from index.js (#6823)
