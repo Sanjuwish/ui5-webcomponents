@@ -36,8 +36,39 @@ export default {
         }
     },
     "toggleContents": {
+        "description": "Toggles visibility of main and side contents on S screen size (mobile device).",
         "table": {
-            "category": "Methods"
+            "category": "methods"
+        }
+    },
+    "layout-change": {
+        "description": "Fires when the current breakpoint has been changed.",
+        "table": {
+            "category": "events"
+        },
+        "UI5CustomData": {
+            "parameters": [
+                {
+                    "name": "currentBreakpoint",
+                    "type": "string",
+                    "description": "the current breakpoint."
+                },
+                {
+                    "name": "previousBreakpoint",
+                    "type": "string",
+                    "description": "the breakpoint that was active before change to current breakpoint."
+                },
+                {
+                    "name": "mainContentVisible",
+                    "type": "boolean",
+                    "description": "visibility of the main content."
+                },
+                {
+                    "name": "sideContentVisible",
+                    "type": "boolean",
+                    "description": "visibility of the side content."
+                }
+            ]
         }
     }
 };

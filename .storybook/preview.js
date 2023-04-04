@@ -3,6 +3,7 @@ import getEffectiveContentDensity from "@ui5/webcomponents-base/dist/util/getEff
 import customElements from "./custom-elements.json";
 import { setCustomElementsManifest } from "@storybook/web-components";
 import { useOptions, themes } from "./useOptions";
+import { enhanceArgTypes } from "./args/enhanceArgTypes";
 if (customElements?.modules) {
     setCustomElementsManifest(customElements);
 }
@@ -72,4 +73,5 @@ export const globalTypes = {
     },
 };
 export const decorators = [useOptions];
+export const argTypesEnhancers = [enhanceArgTypes];
 //# sourceMappingURL=preview.js.map

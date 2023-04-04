@@ -816,8 +816,8 @@
                   
                     <li class="navigation-list-item ">
                       
-                      <a href="https://sap.github.io/ui5-webcomponents/playground/getting-started/wrapping-up/" class="navigation-list-link">
-                        <div class="component-name">Wrapping up</div>
+                      <a href="https://sap.github.io/ui5-webcomponents/playground/getting-started/typescript-support/" class="navigation-list-link">
+                        <div class="component-name">Typescript support</div>
                         
                       </a>
                       
@@ -830,6 +830,17 @@
                 
                   
                 
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="https://sap.github.io/ui5-webcomponents/playground/getting-started/wrapping-up/" class="navigation-list-link">
+                        <div class="component-name">Wrapping up</div>
+                        
+                      </a>
+                      
+                    </li>
                   
                 
                   
@@ -1488,6 +1499,8 @@
                   
                 
                   
+                
+                  
                     <li class="navigation-list-item ">
                       
                       <a href="https://sap.github.io/ui5-webcomponents/playground/advanced/scrollbars-customization/" class="navigation-list-link">
@@ -2007,6 +2020,8 @@
                       </a>
                       
                     </li>
+                  
+                
                   
                 
                   
@@ -2831,6 +2846,8 @@
                 
                   
                 
+                  
+                
               </ul>
             
           </li>
@@ -3295,12 +3312,14 @@
                   
                     <li class="navigation-list-item ">
                       
-                      <a href="https://sap.github.io/ui5-webcomponents/playground/development/ts/" class="navigation-list-link">
-                        <div class="component-name">Ts</div>
+                      <a href="https://sap.github.io/ui5-webcomponents/playground/development/typescript-in-ui5-web-components/" class="navigation-list-link">
+                        <div class="component-name">Typescript in UI5 Web Components</div>
                         
                       </a>
                       
                     </li>
+                  
+                
                   
                 
                   
@@ -4064,6 +4083,8 @@
                 
                   
                 
+                  
+                
               </ul>
             
           </li>
@@ -4097,6 +4118,10 @@
             <a href="https://sap.github.io/ui5-webcomponents/playground/faq" class="navigation-list-link">FAQ</a>
             
           </li>
+        
+      
+    
+      
         
       
     
@@ -4660,6 +4685,8 @@
                       </a>
                       
                     </li>
+                  
+                
                   
                 
                   
@@ -5393,6 +5420,8 @@
                       </a>
                       
                     </li>
+                  
+                
                   
                 
                   
@@ -6370,7 +6399,16 @@ or in your configuration script:</p>
 <span class="nx">setTheme</span><span class="p">(</span><span class="dl">"</span><span class="s2">sap_fiori_3_dark</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div>
 
-<p>For more on configuring themes, see <a href="../../advanced/configuration/">Configuration</a>.</p>
+<p>For more on configuring themes, see <a href="../../advanced/configuration">Configuration</a>.</p>
+
+<h2 id="load-external-theme">Load external theme</h2>
+<p>To load an external theme, you have to specify where the theme resources are located in the theme URL parameter. For example:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>index.html?sap-ui-theme=mytheme@https://my-example-host.com/
+</code></pre></div></div>
+
+<p>In this example, “mytheme” theme will be applied and its resources (CSS variables specific to the theme) will be loaded from https://my-example-host.com/UI5/Base/baseLib/mytheme/css_variables.css.</p>
+
+<p><strong>Note:</strong> When an external theme is loaded some security restrictions will apply. Absolute URLs to a different origin than the current page will return the current page as an origin. To allow certain origins, you have to use <code class="language-plaintext highlighter-rouge">&lt;meta name="sap-allowedThemeOrigins" content="https://my-example-host.com/"&gt;</code> tag inside the head of the page.</p>
 
 <p>Next: <a href="../fonts">Custom Fonts</a></p>
 
