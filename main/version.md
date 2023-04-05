@@ -1,13 +1,9 @@
-commit 1e358fe1eb1481b13308ddcd4a21f76b5b887e69
-Author: Diana <diana.petcheva@sap.com>
-Date:   Wed Apr 5 16:33:30 2023 +0300
+commit b9c8f29037b502cf866a327151c312e697d9715f
+Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
+Date:   Wed Apr 5 17:52:41 2023 +0300
 
-    feat(ui5-button, ui5-segmented-button, ...): add samples to storybook (#6862)
+    fix(playground): correct ChangelogSorter.ts file name (#6871)
     
-    * feat(ui5-button, ui5-segmented-button, ui5-toggle-button): add stories to storybook
+    * fix(playground): correct ChangelogSorter.ts file name
     
-    * feat(ui5-split-button, ui5-step-input, ui5-switch): add stories to storybook
-    
-    * chore: improve stories and refactor code
-    
-    * chore: refactor code (remove blank lines)
+    * chore: rename file
