@@ -1,5 +1,5 @@
-commit 218968188ab799ad7371d7ec4dd6b28c4ccf85bd
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Fri Apr 7 13:23:58 2023 +0300
+commit 80d9dc871d09f9ff17196e9793f8ec33967275ca
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Fri Apr 7 15:48:54 2023 +0300
 
-    fix(ui5-select): close picker on selection (#6883)
+     fix(framework): return correct element when getLastFocusableElement is used (#6881)
