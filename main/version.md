@@ -1,11 +1,7 @@
-commit 98c554f94e5d1ccd5987d9b799e7ead3f6a1745b
-Author: gmkv <georgi.minkov@sap.com>
-Date:   Fri Apr 7 10:38:16 2023 +0300
+commit 69ad2a999a83429041e190033d9733c6bd0e1526
+Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
+Date:   Fri Apr 7 13:15:29 2023 +0300
 
-    fix(ui5-side-navigation): avoid firing selection-change when the selected item is clicked (#6842)
+    fix(ui5-timeline*): fix chronological line not displaying in vertical or default layout (#6872)
     
-    When clicking the already selected item, the actual selection isn't changed,
-    but the event `selection-change` is still being fired.
-    This commit avoids firing the event unnecessarily.
-    
-    Fixes #6825
+    fix(ui5-timeline*): fix chronological line not displaying in vertical layout
