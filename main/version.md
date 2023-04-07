@@ -1,15 +1,11 @@
-commit 7fcdbbcfb1986fccc7380142b3d3f72f5b53e05f
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Thu Apr 6 14:56:58 2023 +0300
+commit 98c554f94e5d1ccd5987d9b799e7ead3f6a1745b
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Fri Apr 7 10:38:16 2023 +0300
 
-    fix(ui5-avatar-group, ui5-breadcrumbs): expand width to fill container (#6873)
+    fix(ui5-side-navigation): avoid firing selection-change when the selected item is clicked (#6842)
     
-    * fix(playground): correct ChangelogSorter.ts file name
+    When clicking the already selected item, the actual selection isn't changed,
+    but the event `selection-change` is still being fired.
+    This commit avoids firing the event unnecessarily.
     
-    * chore: rename file
-    
-    * fix(ui5-avatar-group, ui5-breadcrumbs): expand width to fill container
-    
-    * Update ChangelogSorter.ts
-    
-    * Rename ChangelogSorter.ts to ChangeLogSorter.ts
+    Fixes #6825
