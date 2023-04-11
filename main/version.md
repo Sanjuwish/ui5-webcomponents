@@ -1,7 +1,5 @@
-commit 5e22b7040c0cc310b9f8b42139fbff5bace42765
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Tue Apr 11 15:24:37 2023 +0300
+commit 4d950c5ea3bee0e3b629e5797693ecf41a2cdfd3
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Tue Apr 11 18:18:23 2023 +0300
 
-    fix(ui5-color-picker): fix incorrect input state after invalid values (#6870)
-    
-    With this change we now have correct state behavior of the Hex input field of the <ui5-color-picker>
+    fix(framework): correct fileName in component CSS import (#6900)
