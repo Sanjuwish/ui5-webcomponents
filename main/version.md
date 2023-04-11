@@ -1,22 +1,13 @@
-commit ae11e1d7389711e78808819057bf9fa741e5b8af
-Author: Nikolay Deshev <nikolay.deshev@sap.com>
-Date:   Mon Apr 10 19:22:29 2023 +0300
+commit b830fdc9913575293c199c32bb772da0d011be23
+Author: Georgieva <lidiya.georgieva@sap.com>
+Date:   Tue Apr 11 08:19:56 2023 +0300
 
-    fix(ui5-table): prevent Safari from crashing (#6888)
+    docs(ui5-dialog): add samples of ui5-dialog with ui5-bar (#6821)
     
-    * fix(ui5-table): prevent Safari from crashing
+    * docs(ui5-dialog): usage of ui5-bar
     
-    The combination of display: table-cell and overflow: hidden styles
-     was causing the browser to crash upon component re-rendering
+    Custom styles for removing double side paddings when
+    ui5-bar is used in the header and/or in the footer of the ui5-dialog
+    added in the documentation of the ui5-dialog.
     
-    Fixes: #6570
-    
-    * fix(ui5-table): prevent Safari from crashing
-    
-    * fix(ui5-table): prevent Safari from crashing
-    
-    Remove overflow: hidden style from the ui5-table-cell for all browsers
-    
-    ---------
-    
-    Co-authored-by: Deshev <I521896@Deshevs-MacBook-Pro.local>
+    Fixes #6638
