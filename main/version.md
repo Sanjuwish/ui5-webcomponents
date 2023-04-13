@@ -1,14 +1,11 @@
-commit aa91fd136f8bff757d476b83444f963d4299d562
-Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Wed Apr 12 13:25:53 2023 +0300
+commit e1e8cf5e283903a3a10fc9711b3e96e6e465aa7e
+Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
+Date:   Thu Apr 13 09:00:21 2023 +0300
 
-    feat(localization): add `timezone` support [experimental] (#6857)
+    fix(ui5-menu): fix children closing unexpectedly when opener is right aligned (#6894)
     
-    The PR is part of a bigger story to Add support for Timezones in the localization package
-    - updates to latest `"@openui5/sap.ui.core": "1.112.0"` and `"@types/openui5": "^1.112.0"`
-    - includes a new module `sap/ui/core/date/UI5Date.js` from "@openui5/sap.ui.core" in the `localization` package.
-    - uses the `sap/ui/core/date/UI5Date.js` module in localization package instead of `new Date()`
-    - adds a private `timezone` config setting that is now used when configured, otherwise the local browser timezone is used as before
-    - updates the `OpenUI5Support` module to reuse the `timezone` from the OpenUI5 configuration , if present.
+    We have an issue which occurs when using the ui5-menu component, where the opener of the menu is aligned to the right side of the screen. When attempting to hover over the sub-menu items, they unexpectedly close or disappear. This problem occurs more frequently when the cursor is moved slowly.
+    The cause of this issue seems to be a small gap between the menu and the sub-menu items, which is only noticeable when the opener is aligned to the right side of the screen. This issue can be frustrating for users who are trying to navigate the menu and its sub-menus.
+    - With this change, the sub-menus are aligned properly ( including in RTL, LTR mode ).
     
-    Fixes: https://github.com/SAP/ui5-webcomponents/issues/6851
+    Fixes: #5802
