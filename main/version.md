@@ -1,11 +1,9 @@
-commit e1e8cf5e283903a3a10fc9711b3e96e6e465aa7e
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Thu Apr 13 09:00:21 2023 +0300
+commit f4fb81530b4c1a271cca52cd393b824dccb891cd
+Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
+Date:   Thu Apr 13 14:26:38 2023 +0300
 
-    fix(ui5-menu): fix children closing unexpectedly when opener is right aligned (#6894)
+    fix(framework): export StaticArea class (#6917)
     
-    We have an issue which occurs when using the ui5-menu component, where the opener of the menu is aligned to the right side of the screen. When attempting to hover over the sub-menu items, they unexpectedly close or disappear. This problem occurs more frequently when the cursor is moved slowly.
-    The cause of this issue seems to be a small gap between the menu and the sub-menu items, which is only noticeable when the opener is aligned to the right side of the screen. This issue can be frustrating for users who are trying to navigate the menu and its sub-menus.
-    - With this change, the sub-menus are aligned properly ( including in RTL, LTR mode ).
+    Since this modules has no import, nor export statements, some build tools may get confused about its module type. To avoid this, the otherwise anonymous class is now named, and exported. This will not change existing functionality.
     
-    Fixes: #5802
+    closes: #6916
