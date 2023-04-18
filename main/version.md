@@ -1,9 +1,9 @@
-commit f4fb81530b4c1a271cca52cd393b824dccb891cd
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Thu Apr 13 14:26:38 2023 +0300
+commit 8ab20d9ec20e9d64ded0d1a63766711210e9f7b0
+Author: Nikolay Deshev <nikolay.deshev@sap.com>
+Date:   Tue Apr 18 09:29:13 2023 +0300
 
-    fix(framework): export StaticArea class (#6917)
+    fix(ui5-table): correct row height in Safari (#6903)
     
-    Since this modules has no import, nor export statements, some build tools may get confused about its module type. To avoid this, the otherwise anonymous class is now named, and exported. This will not change existing functionality.
+    Fixes: 6843
     
-    closes: #6916
+    Co-authored-by: Deshev <I521896@Deshevs-MacBook-Pro.local>
