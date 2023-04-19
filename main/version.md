@@ -1,5 +1,13 @@
-commit e970fb99e6f44e85b4370000ccd94620f0d86b3b
-Author: Elena Stoyanova <elena.stoyanova@sap.com>
-Date:   Tue Apr 18 17:03:34 2023 +0300
+commit bfa9d06b1905593adcf7a168b9e1b2d38208f329
+Author: Evdokia Yordanova <evdokia.kotova@sap.com>
+Date:   Wed Apr 19 11:26:07 2023 +0300
 
-    docs(ui5-toast): add samples to Storybook (#6905)
+    fix(ui5-panel): adjust panel content padding (#6869)
+    
+    * fix(ui5-panel): adjust panel content size
+    
+    * fix(ui5-panel): apply comments
+    
+    * fix(ui5-panel): apply comments
+    
+    * fix(ui5-panel): add variable in base theme
