@@ -1,5 +1,5 @@
-commit b15e41c9fe29bc0f8eb9911407e3efa53ce4cc11
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Thu Apr 20 15:50:09 2023 +0300
+commit 84cb3dbed73bb14a99f9de61ac0843a38367d47d
+Author: Elena Stoyanova <elena.stoyanova@sap.com>
+Date:   Thu Apr 20 16:28:40 2023 +0300
 
-    chore: update the theming-base-content version (#6942)
+    docs(ui5-wizard): add samples to Storybook (#6928)
