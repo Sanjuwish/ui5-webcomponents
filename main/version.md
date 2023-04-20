@@ -1,13 +1,5 @@
-commit bfa9d06b1905593adcf7a168b9e1b2d38208f329
-Author: Evdokia Yordanova <evdokia.kotova@sap.com>
-Date:   Wed Apr 19 11:26:07 2023 +0300
+commit 2355afc7aeec94f290858cc33fb3222dbf008ae2
+Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
+Date:   Thu Apr 20 14:27:53 2023 +0300
 
-    fix(ui5-panel): adjust panel content padding (#6869)
-    
-    * fix(ui5-panel): adjust panel content size
-    
-    * fix(ui5-panel): apply comments
-    
-    * fix(ui5-panel): apply comments
-    
-    * fix(ui5-panel): add variable in base theme
+    chore: fix globby usage in Windows (#6940)
