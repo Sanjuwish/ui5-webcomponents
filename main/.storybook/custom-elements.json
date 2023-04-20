@@ -3924,6 +3924,30 @@
                         {
                             "deprecated": false,
                             "kind": "field",
+                            "name": "busy",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "boolean"
+                            },
+                            "default": "false",
+                            "description": "Defines if a loading indicator would be displayed inside the corresponding ui5-menu popover."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
+                            "name": "busyDelay",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "sap.ui.webc.base.types.Integer"
+                            },
+                            "default": "1000",
+                            "description": "Defines the delay in milliseconds, after which the busy indicator will be displayed inside the corresponding ui5-menu popover.."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
                             "name": "headerText",
                             "privacy": "public",
                             "static": false,
@@ -4052,6 +4076,30 @@
                                 "text": "string"
                             },
                             "description": "Defines the <code>additionalText</code>, displayed in the end of the menu item. <b>Note:</b> The additional text would not be displayed if the item has a submenu."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
+                            "name": "busy",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "boolean"
+                            },
+                            "default": "false",
+                            "description": "Defines the delay in milliseconds, after which the busy indicator will be displayed inside the corresponding ui5-menu popover.\n\nNote: If set to <code>true</code> a <code>ui5-busy-indicator</code> component will be displayed into the related one to the current <code>ui5-menu-item</code> sub-menu popover."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
+                            "name": "busyDelay",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "sap.ui.webc.base.types.Integer"
+                            },
+                            "default": "1000",
+                            "description": "Defines the delay in milliseconds, after which the busy indicator will be displayed inside the corresponding ui5-menu popover."
                         },
                         {
                             "deprecated": false,
