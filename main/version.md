@@ -1,5 +1,9 @@
-commit 2cd8e0c7d37b84e1a248e30645039e3880472d42
-Author: Diana <diana.petcheva@sap.com>
-Date:   Fri Apr 21 15:42:13 2023 +0300
+commit 062e6855bd1414f9e92f9a811b0f9e80ed7c16bf
+Author: Evdokia Yordanova <evdokia.kotova@sap.com>
+Date:   Fri Apr 21 19:18:35 2023 +0300
 
-    docs(ui5-menu, ui5-link, ui5-file-uploader): add samples to storybook (#6926)
+    docs(ui5-range-slider): add storybook sample (#6935)
+    
+    * docs(ui5-range-slider): add storybook sample
+    
+    * docs(ui5-range-slider): fix comments
