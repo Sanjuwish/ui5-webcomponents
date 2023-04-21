@@ -1,12 +1,5 @@
-commit 14e02514ab6d5b9d97584796d1dd37fe1337d903
+commit 2cd8e0c7d37b84e1a248e30645039e3880472d42
 Author: Diana <diana.petcheva@sap.com>
-Date:   Fri Apr 21 10:02:52 2023 +0300
+Date:   Fri Apr 21 15:42:13 2023 +0300
 
-    docs(ui5-bar, ui5-timeline, ui5-view-settings-dialog, ...): add samples to storybook (#6867)
-    
-    Updated controls:
-    
-    * ui5-bar
-    * ui5-timeline
-    * ui5-view-settings-dialog
-    * ui5-dynamic-side-content
+    docs(ui5-menu, ui5-link, ui5-file-uploader): add samples to storybook (#6926)
