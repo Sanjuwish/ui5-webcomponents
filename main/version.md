@@ -1,15 +1,15 @@
-commit f886bc48bc139688ac668cbc39c73aaab0a5e8d9
+commit 0446210ead58e24db686678f4ff3a98fbb069561
 Author: Evdokia Yordanova <evdokia.kotova@sap.com>
-Date:   Fri Apr 21 19:17:45 2023 +0300
+Date:   Fri Apr 21 19:19:02 2023 +0300
 
-    docs(ui5-panel, ui5-rating-indicator, ui5-slider, ui5-text-area): add storybook samples (#6930)
+    docs(ui5-multi-input): add storybook sample (#6936)
     
-    * feat(ui5-panel, ui5-rating-indicator, ui5-slider, ui5-text-area): add storybook samples
+    * docs(ui5-range-slider): add storybook sample
     
-    * feat(ui5-panel, ui5-rating-indicator, ui5-slider, ui5-text-area): add decorators- panel and textArea
+    * docs(ui5-multi-input): add storybook sample
     
-    * feat(ui5-panel, ui5-rating-indicator, ui5-slider, ui5-text-area): remove mistaken css
+    * docs(ui5-multi-input): restore mistaken file
     
-    * feat(ui5-panel, ui5-rating-indicator, ui5-slider, ui5-text-area): fix indentation
+    * docs(ui5-multi-input): add storybook sample
     
-    * docs(ui5-panel, ui5-rating-indicator, ui5-slider, ui5-text-area): comments fix
+    * docs(ui5-multi-input): add storybook sample
