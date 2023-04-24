@@ -1,15 +1,7 @@
-commit 0446210ead58e24db686678f4ff3a98fbb069561
-Author: Evdokia Yordanova <evdokia.kotova@sap.com>
-Date:   Fri Apr 21 19:19:02 2023 +0300
+commit 1d3c9117b24464bd0be0f83511cc9380e79a16c2
+Author: Martin <martin.r.hristov@gmail.com>
+Date:   Mon Apr 24 10:48:37 2023 +0300
 
-    docs(ui5-multi-input): add storybook sample (#6936)
+    fix(ui5-input): remove double border of input in dialog on phone (#6946)
     
-    * docs(ui5-range-slider): add storybook sample
-    
-    * docs(ui5-multi-input): add storybook sample
-    
-    * docs(ui5-multi-input): restore mistaken file
-    
-    * docs(ui5-multi-input): add storybook sample
-    
-    * docs(ui5-multi-input): add storybook sample
+    FIXES: #6943
