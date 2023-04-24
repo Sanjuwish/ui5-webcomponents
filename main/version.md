@@ -1,7 +1,7 @@
-commit 1d3c9117b24464bd0be0f83511cc9380e79a16c2
-Author: Martin <martin.r.hristov@gmail.com>
-Date:   Mon Apr 24 10:48:37 2023 +0300
+commit 863a0574fa0f712da34e1c25b660d197c28757b8
+Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
+Date:   Mon Apr 24 11:03:07 2023 +0300
 
-    fix(ui5-input): remove double border of input in dialog on phone (#6946)
+    fix(ui5-flexible-column-layout): add new border parameter for horizon theme (#6915)
     
-    FIXES: #6943
+    Updates the FlexibleColumnLayout to use the new border parameter as described in the visual design specification.
