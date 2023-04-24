@@ -6842,7 +6842,17 @@ The <code>ui5-tabcontainer</code> can hold two types of entities: <ul> <li><code
                         <div class="cell api-table-content-cell">undefined</div>
                         <div class="cell api-table-content-cell"></div>
                         <div class="cell api-table-content-cell api-table-content-cell-description">
-                            Returns all slotted tabs and their subTabs in a flattened array. The order of tabs is depth-first. For example, given the following slotted elements: <code> <ui5-tabcontainer> <ui5-tab id="First" text="First"> ... <ui5-tab slot="subTabs" id="Nested" text="Nested">...</ui5-tab> </ui5-tab> <ui5-tab id="Second" text="Second">...</ui5-tab> <ui5-tab-separator id="sep"></ui5-tab-separator> <ui5-tab id="Third" text="Third">...</ui5-tab> </ui5-tabcontainer> </code> Calling <code>allItems</code> on this TabContainer will return the instances in the following order: <code>[ ui5-tab#First, ui5-tab#Nested, ui5-tab#Second, ui5-tab-separator#sep, ui5-tab#Third ]</code>
+                            Returns all slotted tabs and their subTabs in a flattened array. The order of tabs is depth-first. For example, given the following slotted elements: <pre><code>
+            	&lt;ui5-tabcontainer&gt;
+            		&lt;ui5-tab id="First" text="First"&gt;
+            			...
+            			&lt;ui5-tab slot="subTabs" id="Nested" text="Nested"&gt;...&lt;/ui5-tab&gt;
+            		&lt;/ui5-tab&gt;
+            		&lt;ui5-tab id="Second" text="Second"&gt;...&lt;/ui5-tab&gt;
+            		&lt;ui5-tab-separator id="sep"&gt;&lt;/ui5-tab-separator&gt;
+            		&lt;ui5-tab id="Third" text="Third"&gt;...&lt;/ui5-tab&gt;
+            	&lt;/ui5-tabcontainer&gt;
+            </code></pre> Calling <code>allItems</code> on this TabContainer will return the instances in the following order: <code>[ ui5-tab#First, ui5-tab#Nested, ui5-tab#Second, ui5-tab-separator#sep, ui5-tab#Third ]</code>
                         </div>
                       </div>
                       <div class="row api-table-roll-odd">

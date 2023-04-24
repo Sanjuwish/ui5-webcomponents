@@ -1,7 +1,10 @@
-commit 863a0574fa0f712da34e1c25b660d197c28757b8
-Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
-Date:   Mon Apr 24 11:03:07 2023 +0300
+commit f5809f155925e45bcc44b0bbf3085dabcf8d6d5b
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Mon Apr 24 17:04:24 2023 +0300
 
-    fix(ui5-flexible-column-layout): add new border parameter for horizon theme (#6915)
+    docs(ui5-tabcontainer): rewrite JSDoc (#6947)
     
-    Updates the FlexibleColumnLayout to use the new border parameter as described in the visual design specification.
+    Rewrote the comment to display the actual HTML code for the example.
+    
+    Additionally, marked the Carousel's getter `visibleItemsIndices`
+    as `@public` so it shows in the playground.
