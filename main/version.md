@@ -1,10 +1,12 @@
-commit f5809f155925e45bcc44b0bbf3085dabcf8d6d5b
-Author: gmkv <georgi.minkov@sap.com>
-Date:   Mon Apr 24 17:04:24 2023 +0300
+commit 64b47e4161c043374e65237149ed3a5f57d92630
+Author: kskondov <konstantin.kondov@sap.com>
+Date:   Tue Apr 25 11:14:07 2023 +0300
 
-    docs(ui5-tabcontainer): rewrite JSDoc (#6947)
+    docs(ui5-tabcontainer): add samples and documentation (#6923)
     
-    Rewrote the comment to display the actual HTML code for the example.
+    * docs(ui5-tabcontainer): add samples and documentation
     
-    Additionally, marked the Carousel's getter `visibleItemsIndices`
-    as `@public` so it shows in the playground.
+    Added a sample containing tabs with Icons and tabs without icons
+    Fixed sample where count should be inline
+    
+    Fixes: #6765
