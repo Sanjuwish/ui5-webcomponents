@@ -1,12 +1,9 @@
-commit 64b47e4161c043374e65237149ed3a5f57d92630
+commit c68133eaae691865e47d5e06e636e4eba7b9a605
 Author: kskondov <konstantin.kondov@sap.com>
-Date:   Tue Apr 25 11:14:07 2023 +0300
+Date:   Tue Apr 25 11:27:08 2023 +0300
 
-    docs(ui5-tabcontainer): add samples and documentation (#6923)
+    fix(ui5-tabcontainer): correct focus outline (#6922)
     
-    * docs(ui5-tabcontainer): add samples and documentation
+    * fix(ui5-tabcontainer): correct focus
     
-    Added a sample containing tabs with Icons and tabs without icons
-    Fixed sample where count should be inline
-    
-    Fixes: #6765
+    The focus outline of the overflow buttons now has correct border radius
