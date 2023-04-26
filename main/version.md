@@ -1,11 +1,12 @@
-commit f10c25147bf919c5c732640e36971c6b027a7fc1
+commit e1b65efe05f8621afaa9b9890ec4d8490114a855
 Author: gmkv <georgi.minkov@sap.com>
-Date:   Wed Apr 26 10:30:01 2023 +0300
+Date:   Wed Apr 26 16:59:54 2023 +0300
 
-    fix(ui5-dialog): always wait for applying of initial focus to complete (#6912)
+    feat(ui5-title): add custom overstyles when used with Link (#6932)
     
-    Sometimes on Safari, after the dialog is opened, a focusin event will be fired on the root. This event will race with the applyInitialFocus call which results in the wrong element being focused.
+    There are cases when a Link will be used inside a Title.
+    Elements nested inside, mainly the Link, will inherit the Title's font styles.
     
-    This PR attempts to solve the issue.
+    Refactored Link to allow for overstyling. Updated text-underline when hovering a Subtle link to match the latest VD spec.
     
-    Part of #6768
+    Fixes #6785
