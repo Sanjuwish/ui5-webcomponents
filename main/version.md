@@ -1,7 +1,7 @@
-commit dc4ace1e6e92f66d518ce97865a735a55cf97874
-Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
-Date:   Thu Apr 27 10:23:20 2023 +0300
+commit 5ade8f977f8a2647ba5378a969f658f5c894c1f8
+Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
+Date:   Thu Apr 27 13:46:54 2023 +0300
 
-    feat(ui5-checkbox, ui5-icon): added new part attribute to the root element (#6949)
+    docs(playground): update storybook to version 7 (#6868)
     
-    Fixes: #6461, #6474
+    chore: update storybook to version 7
