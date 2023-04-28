@@ -1,7 +1,7 @@
-commit 4babbe4e481963e8e22cf9ee5c5fd1fc71d26814
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Fri Apr 28 09:56:26 2023 +0300
+commit 16e630735fc607061f34b6fec6a5befe0727982f
+Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
+Date:   Fri Apr 28 17:36:41 2023 +0300
 
-    docs(playground): prevent build failure on windows (#6893)
+    fix(ui5-avatar): avatar initials correct display (#6731)
     
-    fix(playground): prevent build failure on windows
+    fix(ui5-shellbar): avatar initials display #6642
