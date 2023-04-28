@@ -1,7 +1,7 @@
-commit 5ade8f977f8a2647ba5378a969f658f5c894c1f8
+commit 4babbe4e481963e8e22cf9ee5c5fd1fc71d26814
 Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Thu Apr 27 13:46:54 2023 +0300
+Date:   Fri Apr 28 09:56:26 2023 +0300
 
-    docs(playground): update storybook to version 7 (#6868)
+    docs(playground): prevent build failure on windows (#6893)
     
-    chore: update storybook to version 7
+    fix(playground): prevent build failure on windows
