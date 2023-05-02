@@ -1,5 +1,10 @@
-commit ce3707cfd9d2dfc18f749efb61577ecab9582aaa
-Author: niyap <38278268+niyap@users.noreply.github.com>
-Date:   Tue May 2 14:34:57 2023 +0300
+commit 05f48cd7fa1cb95cc8214ee3b0b96d30134dc271
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Tue May 2 14:43:35 2023 +0300
 
-    fix(ui5-input): adjust Horizon themes according to the latest specifications (#6965)
+    docs(ui5-card): remove outdated CSS Shadow Parts text (#6973)
+    
+    This is a leftover from a refactoring. The relevant text with the
+    information about CSS Shadow Parts remains in the CardHeader component.
+    
+    Part of #6381
