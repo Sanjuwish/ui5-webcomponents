@@ -1,7 +1,9 @@
-commit 16e630735fc607061f34b6fec6a5befe0727982f
-Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
-Date:   Fri Apr 28 17:36:41 2023 +0300
+commit 188df63062a383f62d57bd83a03f436e2040db27
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Tue May 2 11:16:03 2023 +0300
 
-    fix(ui5-avatar): avatar initials correct display (#6731)
+    chore(ui5-card): update interaction states based on interactive property (#6962)
     
-    fix(ui5-shellbar): avatar initials display #6642
+    In SAP Horizon theme family, the card will have interactive states (hover/active) when the header has the property `interactive` set to `true`
+    
+    Part of #6381
