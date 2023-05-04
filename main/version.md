@@ -1,5 +1,5 @@
-commit 1f42d0c658a437d64000c0f9b7562edff85b8421
-Author: Marcus Notheis <marcus.notheis@sap.com>
-Date:   Wed May 3 20:49:01 2023 +0200
+commit 02611b2e24b2c2a06129b8e60a8bc680d9501e39
+Author: Peter Skelin <petar.skelin@sap.com>
+Date:   Thu May 4 10:33:00 2023 +0300
 
-    fix: add missing file-extensions for ESM support (#6971)
+    feat: generate TS from HBS templates (#6558)
