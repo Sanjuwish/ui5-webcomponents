@@ -17,6 +17,12 @@
 
   <!--  -->
 
+  <script data-ui5-config type="application/json">
+    {
+      "theme": "sap_horizon"
+    }
+  </script>
+
   <script type="text/javascript" src="https://sap.github.io/ui5-webcomponents/assets/js/vendor/lunr.min.js"></script>
   <script type="text/javascript" src="https://sap.github.io/ui5-webcomponents/assets/js/playground.js"></script>
 
@@ -345,6 +351,10 @@
       
     
       
+    
+      
+    
+      
         
       
     
@@ -384,6 +394,10 @@
             
               
               <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
                 
                   
                 
@@ -1037,6 +1051,10 @@
             
               
               <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
                 
                   
                 
@@ -1987,6 +2005,10 @@
                   
                 
                   
+                
+                  
+                
+                  
                     <li class="navigation-list-item ">
                       
                       <a href="https://sap.github.io/ui5-webcomponents/playground/customizing/theme/" class="navigation-list-link">
@@ -2286,6 +2308,10 @@
             
               
               <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
                 
                   
                 
@@ -3168,6 +3194,10 @@
                   
                 
                   
+                
+                  
+                
+                  
                     <li class="navigation-list-item ">
                       
                       <a href="https://sap.github.io/ui5-webcomponents/playground/development/custom-ui5-web-components-packages/" class="navigation-list-link">
@@ -3514,6 +3544,10 @@
             
               
               <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
                 
                   
                 
@@ -4539,6 +4573,10 @@
                   
                 
                   
+                
+                  
+                
+                  
                     <li class="navigation-list-item ">
                       
                       <a href="https://sap.github.io/ui5-webcomponents/playground/changelog/1.10.0.md/" class="navigation-list-link">
@@ -4978,6 +5016,10 @@
             
               
               <ul class="navigation-list-child-list  visible">
+                
+                  
+                
+                  
                 
                   
                 
@@ -6406,7 +6448,11 @@ For the "business-suite" (SAP Business Suite) icon collection, import an icon fr
 
 <code>&lt;ui5-icon name="employee">&lt;/ui5-icon></code><br> <code>&lt;ui5-icon name="tnt/antenna">&lt;/ui5-icon></code><br> <code>&lt;ui5-icon name="business-suite/ab-testing">&lt;/ui5-icon></code>
 
-<h3>Keyboard Handling</h3>
+<br><br> <h3>CSS Shadow Parts</h3>
+
+<ui5-link target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/::part">CSS Shadow Parts</ui5-link> allow developers to style elements inside the Shadow DOM. <br> The <code>ui5-icon</code> exposes the following CSS Shadow Parts: <ul> <li>root - Used to style the outermost wrapper of the <code>ui5-icon</code></li> </ul>
+
+<br><br> <h3>Keyboard Handling</h3>
 
 <ul> <li>[SPACE, ENTER, RETURN] - Fires the <code>click</code> event if the <code>interactive</code> property is set to true.</li> <li>[SHIFT] - If [SPACE] or [ENTER],[RETURN] is pressed, pressing [SHIFT] releases the ui5-icon without triggering the click event.</li> </ul>
 
