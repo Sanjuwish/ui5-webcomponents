@@ -1,7 +1,7 @@
-commit 88a63eefa161b0576dc635cf2b16ecb1e27afacb
-Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
-Date:   Thu May 11 14:50:58 2023 +0300
+commit 9fc84e288452616ee72f3a2b6fc31d9752f05f6f
+Author: ilhan orhan <ilhan.myumyun@sap.com>
+Date:   Thu May 11 17:20:58 2023 +0300
 
-    fix(ui5-tree): rtl styling fixes (#7019)
+    fix(create-package): revert  `moduleResolution` setting to `node` (#7020)
     
-    fixes: #6892
+    chore: revert  moduleResolution setting
