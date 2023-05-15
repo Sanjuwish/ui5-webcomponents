@@ -1,5 +1,5 @@
-commit 275817d51dfd6eac484ad785c19deacc3d77b003
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Fri May 12 11:42:32 2023 +0300
+commit e82744bd715bae744a7e41849f1fafc5ccc389ee
+Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
+Date:   Mon May 15 07:30:51 2023 +0300
 
-    chore: restore some more CLDR fields (#7023)
+    fix(ui5-shellbar): containers shrink factor reduced (#6982)
