@@ -1,7 +1,5 @@
-commit 45a176da6dd5413617a25a92c1f7ba2e194790b6
-Author: yanaminkova <32466553+yanaminkova@users.noreply.github.com>
-Date:   Mon May 15 14:48:13 2023 +0300
+commit 0af8d2376e25e5abe6d940c72286ab7c682eea56
+Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
+Date:   Mon May 15 15:29:13 2023 +0300
 
-    fix(ui5-shellbar): badge visual alignment (#7004)
-    
-    Related to: https://github.com/SAP/ui5-webcomponents/issues/5860
+    feat: users can provide a JSDoc namespeace when creating a package (#7034)
