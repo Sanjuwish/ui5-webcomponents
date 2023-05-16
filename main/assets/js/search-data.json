@@ -1570,7 +1570,7 @@
   "225": {
     "id": "225",
     "title": "Table",
-    "content": "&lt;!DOCTYPE html&gt; Web components Table Lower table size to 650px Lower table size to 500px Products table - resize your browser to make some columns pop-in Toggle Sticky Column Header Product Supplier Dimensions Weight Price Number of poppedColumns: Product Supplier Dimensions Weight Price Product Supplier City Dublin click Sofia click London Test row click City Supplier Country Dublin J.M. Brothers USA Sofia J.M. Brothers USA London J.M. Brothers USA",
+    "content": "&lt;!DOCTYPE html&gt; Web components Table Lower table size to 650px Lower table size to 500px Products table - resize your browser to make some columns pop-in Toggle Sticky Column Header Product Supplier Dimensions Weight Price Number of poppedColumns: Product Supplier Dimensions Weight Price Product Supplier City Dublin click Sofia click London Test row click City Supplier Country Dublin J.M. Brothers USA J.M. Brothers USA London J.M. Brothers USA",
     "url": "https://sap.github.io/ui5-webcomponents/main/playground/main/pages/Table/",
     "relUrl": "/playground/main/pages/Table/"
   },

@@ -1,5 +1,25 @@
-commit 2b9bf7f419ae7cccf0e9a086a6e5047b41597c23
-Author: niyap <38278268+niyap@users.noreply.github.com>
-Date:   Tue May 16 09:57:50 2023 +0300
+commit a884c87c7d5ce1838fc580442f314d34a3631c2e
+Author: Nikolay Deshev <nikolay.deshev@sap.com>
+Date:   Tue May 16 10:28:24 2023 +0300
 
-    fix(ui5-multi-combobox): delete duplicated tests (#7036)
+    feat(ui5-table): announce empty cells (#7013)
+    
+    * feat(ui5-table): announce empty cells
+    
+    related to: #3594
+    
+    * feat(ui5-table): announce empty cells
+    
+    announce empty cells
+    
+    * feat(ui5-table): announce empty cells
+    
+    announce empty cells
+    
+    * feat(ui5-table): announce empty cells
+    
+    announce empty cells
+    
+    * feat(ui5-table): announce empty cells
+    
+    announce empty cells
