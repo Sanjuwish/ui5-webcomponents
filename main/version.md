@@ -1,25 +1,8 @@
-commit a884c87c7d5ce1838fc580442f314d34a3631c2e
-Author: Nikolay Deshev <nikolay.deshev@sap.com>
-Date:   Tue May 16 10:28:24 2023 +0300
+commit fde8b69b99175b91cf1a6c3b5018c044c07c8bd7
+Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
+Date:   Tue May 16 11:55:14 2023 +0300
 
-    feat(ui5-table): announce empty cells (#7013)
+    fix(ui5-shellbar): remove double box-shadow effect on hover (#7033)
     
-    * feat(ui5-table): announce empty cells
-    
-    related to: #3594
-    
-    * feat(ui5-table): announce empty cells
-    
-    announce empty cells
-    
-    * feat(ui5-table): announce empty cells
-    
-    announce empty cells
-    
-    * feat(ui5-table): announce empty cells
-    
-    announce empty cells
-    
-    * feat(ui5-table): announce empty cells
-    
-    announce empty cells
+    This change removes the double box-shadow effect on hover of the ShellBar
+    Logo and Menu Button. The issue was appearing only on small size.
