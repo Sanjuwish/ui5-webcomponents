@@ -1,5 +1,5 @@
-commit 0af8d2376e25e5abe6d940c72286ab7c682eea56
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Mon May 15 15:29:13 2023 +0300
+commit 2b9bf7f419ae7cccf0e9a086a6e5047b41597c23
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Tue May 16 09:57:50 2023 +0300
 
-    feat: users can provide a JSDoc namespeace when creating a package (#7034)
+    fix(ui5-multi-combobox): delete duplicated tests (#7036)
