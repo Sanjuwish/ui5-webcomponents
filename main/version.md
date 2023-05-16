@@ -1,5 +1,15 @@
-commit a066527306ce33e518a0d52dc94c87c3acafab37
-Author: niyap <38278268+niyap@users.noreply.github.com>
-Date:   Tue May 16 14:45:27 2023 +0300
+commit 8626d4a7c0adf1ecb927aab98acb61d89830b38a
+Author: Evdokia Yordanova <evdokia.kotova@sap.com>
+Date:   Tue May 16 16:18:24 2023 +0300
 
-    fix(ui5-textarea): adjust Horizon themes according to the latest specifications (#7012)
+    docs(ui5-multi-combobox): add storybook sample (#6945)
+    
+    * feat(ui5-multi-combobox): add storybook sample
+    
+    * docs(ui5-multi-combobox): add storybook sample
+    
+    * docs(ui5-multi-combobox): simple refactor
+    
+    * docs(ui5-multi-combobox): fix comments
+    
+    * docs(ui5-multi-combobox): update filter to enum
