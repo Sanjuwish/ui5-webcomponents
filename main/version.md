@@ -1,20 +1,17 @@
-commit 0de21e8ba37c6a75fd3d2a29a16cc82661619cb1
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Wed May 17 14:33:02 2023 +0300
+commit d6c06bb7136ccdbe434c132b7dec7f1dfa3ed9eb
+Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
+Date:   Wed May 17 04:38:53 2023 -0700
 
-    feat(framework): use `template literal notation` for enum types (#6856)
+    Translation Delivery (#7043)
     
-    То improve the development experience, we opted for using **template literal types**, but also keeping the Enums, like this:
-    ```js
-    layout: `${ MediaGalleryLayout }`;
-    ```This will result in union type of all the values from the Enum (“Auto” | “Vertical” | “Horizontal”). This way, the user will not have to import the Enum and set the required string, without any TS compiler errors and still having the static type checking.
-    - In general, for Public APIs, that we expect input from consumers (public properties, public functions' parameters)
-    ```js
-     myPublicProp: `${ MyEnumType }`;
-    ```
-    - For public API's params:
-    ```ts
-     const myPublicFn => (arg: `${MyEnumType}`) => {};
-    ```
+    * chore: translation delivery
     
-    Fixes: #6636
+    Change-Id: I50aa629f100787fb9f4fee4fed7045d20406da47
+    
+    * chore: translation delivery
+    
+    Change-Id: I7842656e4ef869f55c77756291e733855dd0f816
+    
+    * chore: translation delivery
+    
+    Change-Id: I2911fc19dff5aca0a36c052a74a10ee5cee97f7d
