@@ -1,15 +1,5 @@
-commit 8626d4a7c0adf1ecb927aab98acb61d89830b38a
-Author: Evdokia Yordanova <evdokia.kotova@sap.com>
-Date:   Tue May 16 16:18:24 2023 +0300
+commit b01e6a4e6b47724a381a3de786c24befc2c602c5
+Author: Martin <martin.r.hristov@gmail.com>
+Date:   Wed May 17 09:37:56 2023 +0300
 
-    docs(ui5-multi-combobox): add storybook sample (#6945)
-    
-    * feat(ui5-multi-combobox): add storybook sample
-    
-    * docs(ui5-multi-combobox): add storybook sample
-    
-    * docs(ui5-multi-combobox): simple refactor
-    
-    * docs(ui5-multi-combobox): fix comments
-    
-    * docs(ui5-multi-combobox): update filter to enum
+    docs(ui5-combobox): add storybook samples (#6919)
