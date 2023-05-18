@@ -1,25 +1,17 @@
-commit b91b74ea8169d39504ba3d20be49a2cb88277c69
+commit 001f54f0a60c0b4e769435c2c5f025ae91a062d7
 Author: Evdokia Yordanova <evdokia.kotova@sap.com>
-Date:   Thu May 18 08:39:16 2023 +0300
+Date:   Thu May 18 09:46:16 2023 +0300
 
-    docs(ui5-table): add storybook sample (#6979)
+    docs(ui5-input): add storybook samples (#6933)
     
-    * docs(ui5-table): add storybook sample
+    * feat(ui5-input): add storybook samples
     
-    * docs(ui5-table): refactor
+    * docs(ui5-input): comments update
     
-    * docs(ui5-table): combine samples. Heigh adjustment
+    * docs(ui5-input): Update comments
     
-    * docs(ui5-table): fix sticky header and scroll sample
+    * docs(ui5-input): fix comments
     
-    * docs(ui5-table): remove unneeded height
+    * docs(ui5-input): refactor
     
-    * docs(ui5-table): fix comments
-    
-    * docs(ui5-table): update comments
-    
-    * docs(ui5-table): remove vars
-    
-    * docs(ui5-table): update to es6
-    
-    * docs(ui5-table): refactor
+    * docs(ui5-input): refactor
