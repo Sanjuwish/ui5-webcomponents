@@ -1,5 +1,5 @@
-commit 54f7b71b8380f09a29085283d3a5bdb453ab9a7c
-Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Fri May 19 11:17:39 2023 +0300
+commit 8d301a1ffaa787b3a31d43c02db6ccf108f8ab17
+Author: ilhan007 <ilhan.myumyun@sap.com>
+Date:   Fri May 19 12:04:03 2023 +0300
 
-    chore: update feature_request.yml
+    chore: update Feature Request template
