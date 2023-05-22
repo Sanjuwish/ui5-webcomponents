@@ -870,7 +870,7 @@
   "125": {
     "id": "125",
     "title": "Form Components",
-    "content": "&lt;!DOCTYPE html&gt; Form Components test page ui5-button Default ui5-toggle-button ToggleButton ui5-segmented-button Map Satellite Terrain ui5-split-button Default Native button Text ui5-input ui5-multi-input ui5-select Phone Tablet Desktop ui5-combobox ui5-multi-combobox ui5-textarea ui5-time-picker ui5-date-picker ui5-daterange-picker ui5-step-input Native input",
+    "content": "&lt;!DOCTYPE html&gt; Form Components test page ui5-button Default ui5-toggle-button ToggleButton ui5-segmented-button Map Satellite Terrain ui5-split-button Default Native button Text ui5-input ui5-multi-input ui5-select Phone Tablet Desktop ui5-combobox ui5-multi-combobox ui5-textarea ui5-time-picker ui5-date-picker ui5-daterange-picker ui5-step-input Native input ui5-file-uploader Upload Images",
     "url": "https://sap.github.io/ui5-webcomponents/main/playground/main/pages/FormComponents/",
     "relUrl": "/playground/main/pages/FormComponents/"
   },
