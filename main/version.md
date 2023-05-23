@@ -1,5 +1,7 @@
-commit 94f04a23e657cf9fe780cdbd8c9a350b2e0a27b8
-Author: Nikolay Hristov <n.hristov@sap.com>
-Date:   Tue May 23 09:10:20 2023 +0300
+commit a35724fec0c0cb0cb22d502643b57821c034a056
+Author: Petar Dimov <32839090+dimovpetar@users.noreply.github.com>
+Date:   Tue May 23 13:26:53 2023 +0300
 
-    fix(ui5-switch): fix truncation when text spacing is applied (#7071)
+    fix(ui5-tab): stable dom ref is now the same as the dom ref (#7074)
+    
+    Fixes: https://github.com/SAP/ui5-webcomponents/issues/6796
