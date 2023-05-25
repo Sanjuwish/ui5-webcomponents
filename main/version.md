@@ -1,7 +1,7 @@
-commit 99280ec15feb912e8b96b5a4837f302a2b8bbb1e
-Author: Petar Dimov <32839090+dimovpetar@users.noreply.github.com>
-Date:   Thu May 25 10:45:07 2023 +0300
+commit 3cce24166c333f1d8bfbde92bb1226d228ebd709
+Author: Diana <diana.petcheva@sap.com>
+Date:   Thu May 25 15:40:15 2023 +0300
 
-    fix(ui5-dialog): center dragged or resized dialog on window resize (#7069)
+    feat(ui5-link): update visual design according to the latest Horizon spec (#6988)
     
-    Fixes https://github.com/SAP/ui5-webcomponents/issues/6956
+    related to: #6999
