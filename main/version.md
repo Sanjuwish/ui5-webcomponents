@@ -1,7 +1,7 @@
-commit 821735f1314b7fb92736b87ee3cdf09f426a45df
-Author: gmkv <georgi.minkov@sap.com>
-Date:   Thu May 25 09:44:07 2023 +0300
+commit 99280ec15feb912e8b96b5a4837f302a2b8bbb1e
+Author: Petar Dimov <32839090+dimovpetar@users.noreply.github.com>
+Date:   Thu May 25 10:45:07 2023 +0300
 
-    fix(ui5-dialog): fix focus bug in safari (#7041)
+    fix(ui5-dialog): center dragged or resized dialog on window resize (#7069)
     
-    Fixes #6768
+    Fixes https://github.com/SAP/ui5-webcomponents/issues/6956
