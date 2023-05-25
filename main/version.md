@@ -1,9 +1,5 @@
-commit d980b23ec1bb4eaf6139e19fdd53da2c44a6ee17
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Thu May 25 16:19:59 2023 +0300
+commit 6f8fc43cdbcd61f92e49770b58624a2ae7587b6c
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Thu May 25 16:47:39 2023 +0300
 
-    docs(ui5-product-switch): add storybook sample (#7061)
-    
-    * docs(ui5-product-switch): add storybook sample
-    
-    * chore: use arrow functions
+     feat(framework): scope component CSS variables (#7044)
