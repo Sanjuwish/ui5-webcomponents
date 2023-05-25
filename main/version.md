@@ -1,5 +1,7 @@
-commit 0af81c431db48673c8cbb93a476b8a85b1afa226
-Author: ilhan007 <ilhan.myumyun@sap.com>
-Date:   Tue May 23 18:56:28 2023 +0300
+commit 821735f1314b7fb92736b87ee3cdf09f426a45df
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Thu May 25 09:44:07 2023 +0300
 
-    chore: update wokflow
+    fix(ui5-dialog): fix focus bug in safari (#7041)
+    
+    Fixes #6768
