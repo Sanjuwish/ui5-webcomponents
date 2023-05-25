@@ -1,7 +1,9 @@
-commit 3cce24166c333f1d8bfbde92bb1226d228ebd709
-Author: Diana <diana.petcheva@sap.com>
-Date:   Thu May 25 15:40:15 2023 +0300
+commit d980b23ec1bb4eaf6139e19fdd53da2c44a6ee17
+Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
+Date:   Thu May 25 16:19:59 2023 +0300
 
-    feat(ui5-link): update visual design according to the latest Horizon spec (#6988)
+    docs(ui5-product-switch): add storybook sample (#7061)
     
-    related to: #6999
+    * docs(ui5-product-switch): add storybook sample
+    
+    * chore: use arrow functions
