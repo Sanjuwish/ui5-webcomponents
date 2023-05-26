@@ -1,5 +1,8 @@
-commit 6f8fc43cdbcd61f92e49770b58624a2ae7587b6c
-Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Thu May 25 16:47:39 2023 +0300
+commit 9c0328229e56a100e8f7282ef84f37dc8f93aace
+Author: Petar Dimov <32839090+dimovpetar@users.noreply.github.com>
+Date:   Fri May 26 09:29:07 2023 +0300
 
-     feat(framework): scope component CSS variables (#7044)
+    fix(ui5-popup): cancel focus application if the popup is removed from the DOM in the meantime (#7084)
+    
+    Fixes: https://github.com/SAP/ui5-webcomponents/issues/7068
+    Fixes: https://github.com/SAP/ui5-webcomponents/issues/7070
