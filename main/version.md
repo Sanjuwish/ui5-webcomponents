@@ -1,11 +1,5 @@
-commit b56393cf84543d1bd91a5cca05ca164c14dbf645
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Fri May 26 10:09:30 2023 +0300
+commit c89c5d30615308708c1d219264d3c4773fe5a825
+Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
+Date:   Fri May 26 10:41:58 2023 +0300
 
-    docs(ui5-media-gallery): add storybook sample (#7063)
-    
-    * docs(ui5-media-gallery): add storybook sample
-    
-    * chore: use arrow functions
-    
-    * fix: remove unnecessary code
+    fix(ui5-avatar): aria-label added to initials (#6967)
