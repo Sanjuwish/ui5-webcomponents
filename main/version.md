@@ -1,5 +1,29 @@
-commit c89c5d30615308708c1d219264d3c4773fe5a825
-Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
-Date:   Fri May 26 10:41:58 2023 +0300
+commit f11032a0a7f9448fb78275983ea04f4bf0b3e5b2
+Author: Todor Stoyanov <t.stoyanov@sap.com>
+Date:   Fri May 26 14:56:34 2023 +0300
 
-    fix(ui5-avatar): aria-label added to initials (#6967)
+    feat(ui5-calendar): update visual design to latest SAP Horizon spec (#6953)
+    
+    * feat(ui5-calendar): update visual design
+    
+    * feat(ui5-calendar): update visual design
+    
+    * feat(ui5-calendar): update visual design
+    
+    * feat(ui5-calendar): update visual design
+    
+    * feat(ui5-calendar): update visual design
+    
+    * feat(ui5-calendar): update visual design
+    
+    * feat(ui5-calendar): update visual design
+    
+    * feat(ui5-calendar): update visual design to latest SAP Horizon spec
+    
+    * feat(ui5-calendar): update visual design
+    
+    * feat(ui5-calendar): update visual design
+    
+    * feat(ui5-calendar): update visual design
+    
+    * feat(ui5-calendar): update visual design
