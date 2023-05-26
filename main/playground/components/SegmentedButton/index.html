@@ -6524,6 +6524,23 @@
 	</code></pre></figure></pre>
 </section>
 
+<section>
+	<h3>SegmentedButton with multiple selection enabled</h3>
+	<div class="snippet">
+		<ui5-segmented-button mode="MultiSelect">
+			<ui5-segmented-button-item icon="bold-text" pressed></ui5-segmented-button-item>
+			<ui5-segmented-button-item icon="italic-text" pressed></ui5-segmented-button-item>
+			<ui5-segmented-button-item icon="underline-text"></ui5-segmented-button-item>
+		</ui5-segmented-button>
+	</div>
+	<pre class="highlight"><figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ui5-segmented-button</span> <span class="na">mode=</span><span class="s">"MultiSelect"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;ui5-segmented-button-item</span> <span class="na">icon=</span><span class="s">"bold-text"</span> <span class="na">pressed</span><span class="nt">&gt;&lt;/ui5-segmented-button-item&gt;</span>
+    <span class="nt">&lt;ui5-segmented-button-item</span> <span class="na">icon=</span><span class="s">"italic-text"</span> <span class="na">pressed</span><span class="nt">&gt;&lt;/ui5-segmented-button-item&gt;</span>
+    <span class="nt">&lt;ui5-segmented-button-item</span> <span class="na">icon=</span><span class="s">"underline-text"</span><span class="nt">&gt;&lt;/ui5-segmented-button-item&gt;</span>
+<span class="nt">&lt;/ui5-segmented-button&gt;</span>
+	</code></pre></figure></pre>
+</section>
+
 
     <div class="page-container">
       <div class="api-container">
@@ -6563,6 +6580,22 @@ The <code>ui5-segmented-button</code> shows a group of items. When the user clic
                       </div>
                       <div class="row api-table-roll-odd">
                         <div class="cell api-table-content-cell api-table-content-cell-bold">
+                          mode
+                            <br>
+                        </div>
+                        <div class="cell api-table-content-cell">SegmentedButtonMode</div>
+                        <div class="cell api-table-content-cell">&quot;SingleSelect&quot;</div>
+                        <div class="cell api-table-content-cell api-table-content-cell-description">
+                            Defines the component selection mode.
+            
+            <br><br> <b>The available values are:</b>
+            
+            <ul> <li><code>SingleSelect</code></li> <li><code>MultiSelect</code></li> </ul>
+                                <div class="api-table-content-cell-bold api-table-content-cell-since">since v1.14.0</div>
+                        </div>
+                      </div>
+                      <div class="row api-table-roll-even">
+                        <div class="cell api-table-content-cell api-table-content-cell-bold">
                           selectedItem
                             (readonly)
                             <br>
@@ -6572,6 +6605,20 @@ The <code>ui5-segmented-button</code> shows a group of items. When the user clic
                         <div class="cell api-table-content-cell"></div>
                         <div class="cell api-table-content-cell api-table-content-cell-description">
                             Currently selected item.
+                        </div>
+                      </div>
+                      <div class="row api-table-roll-odd">
+                        <div class="cell api-table-content-cell api-table-content-cell-bold">
+                          selectedItems
+                            (readonly)
+                            <br>
+                                 <code>selected-items</code>
+                        </div>
+                        <div class="cell api-table-content-cell">ISegmentedButtonItem [0..n]</div>
+                        <div class="cell api-table-content-cell"></div>
+                        <div class="cell api-table-content-cell api-table-content-cell-description">
+                            Returns an array of the currently selected items.
+                                <div class="api-table-content-cell-bold api-table-content-cell-since">since v1.14.0</div>
                         </div>
                       </div>
             
@@ -6618,7 +6665,13 @@ The <code>ui5-segmented-button</code> shows a group of items. When the user clic
                         <tr class="api-table-event-param">
                           <div class="api-table-content-event-params-wrapper">
                             <div class="cell api-table-param-name api-table-content-cell api-table-content-cell-bold">selectedItem</div>
-                            <div class="cell api-table-event-param-cell api-table-content-cell api-table-content-cell-description"><strong class="bold" >type:</strong> HTMLElement <br/> <strong class="api-table-event-description bold">description:</strong> the pressed item.</div>
+                            <div class="cell api-table-event-param-cell api-table-content-cell api-table-content-cell-description"><strong class="bold" >type:</strong> HTMLElement <br/> <strong class="api-table-event-description bold">description:</strong> the pressed item. Note: deprecated since 1.14.0 and will be removed in the next major release, use the <code>selectedItems</code> parameter instead.</div>
+                          </div>
+                        </tr>
+                        <tr class="api-table-event-param">
+                          <div class="api-table-content-event-params-wrapper">
+                            <div class="cell api-table-param-name api-table-content-cell api-table-content-cell-bold">selectedItems</div>
+                            <div class="cell api-table-event-param-cell api-table-content-cell api-table-content-cell-description"><strong class="bold" >type:</strong> string <br/> <strong class="api-table-event-description bold">description:</strong> an array of selected items. Note: available since 1.14.0.</div>
                           </div>
                         </tr>
                   </div>

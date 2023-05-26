@@ -1,29 +1,17 @@
-commit f11032a0a7f9448fb78275983ea04f4bf0b3e5b2
-Author: Todor Stoyanov <t.stoyanov@sap.com>
-Date:   Fri May 26 14:56:34 2023 +0300
+commit f8f44e41ac55c0d3c4b1a72648043a1cc9652437
+Author: Boyan Rakilovski <boyan.rakilovski@sap.com>
+Date:   Fri May 26 18:46:36 2023 +0300
 
-    feat(ui5-calendar): update visual design to latest SAP Horizon spec (#6953)
+    feat(ui5-segmented-button): enable multiple selection (#6959)
     
-    * feat(ui5-calendar): update visual design
+    New enumeration "SegmentedButtonMode" and a new property
+    "mode" are introduced with allowed values:
     
-    * feat(ui5-calendar): update visual design
+    - SegmentedButtonMode.SingleSelect
+    - SegmentedButtonMode.MultiSelect
     
-    * feat(ui5-calendar): update visual design
+    Multiple ui5-segmented-button-items could be selected/deselected
+    when the "mode" property is to "SegmentedButtonMode.MultiSelect".
+    The default value for the "mode" is "SegmentedButtonMode.SingleSelect".
     
-    * feat(ui5-calendar): update visual design
-    
-    * feat(ui5-calendar): update visual design
-    
-    * feat(ui5-calendar): update visual design
-    
-    * feat(ui5-calendar): update visual design
-    
-    * feat(ui5-calendar): update visual design to latest SAP Horizon spec
-    
-    * feat(ui5-calendar): update visual design
-    
-    * feat(ui5-calendar): update visual design
-    
-    * feat(ui5-calendar): update visual design
-    
-    * feat(ui5-calendar): update visual design
+    The "ZeroOrSingle" selection could be added in the future if a valid use case is indicated.
