@@ -1101,6 +1101,18 @@
                         {
                             "deprecated": false,
                             "kind": "field",
+                            "name": "backgroundDesign",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "sap.ui.webc.main.types.BackgroundDesign"
+                            },
+                            "default": "\"Translucent\"",
+                            "description": "Defines the carousel's background design."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
                             "name": "cyclic",
                             "privacy": "public",
                             "static": false,
@@ -1169,6 +1181,30 @@
                             },
                             "default": "1",
                             "description": "Defines the number of items per page on small size (up to 640px). One item per page shown by default."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
+                            "name": "pageIndicatorBackgroundDesign",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "sap.ui.webc.main.types.BackgroundDesign"
+                            },
+                            "default": "\"Solid\"",
+                            "description": "Defines the page indicator background design."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
+                            "name": "pageIndicatorBorderDesign",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "sap.ui.webc.main.types.BorderDesign"
+                            },
+                            "default": "\"Solid\"",
+                            "description": "Defines the page indicator border design."
                         },
                         {
                             "deprecated": false,
