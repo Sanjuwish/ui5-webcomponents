@@ -41,6 +41,21 @@ export default {
             ]
         }
     },
+    "before-open": {
+        "description": "Fired before the menu is opened. This event can be cancelled, which will prevent the menu from opening. <b>This event does not bubble.</b>",
+        "table": {
+            "category": "events"
+        },
+        "UI5CustomData": {
+            "parameters": [
+                {
+                    "name": "item",
+                    "type": "object",
+                    "description": "The <code>ui5-menu-item</code> that triggers opening of the sub-menu. Note: available since 1.14.0."
+                }
+            ]
+        }
+    },
     "item-click": {
         "description": "Fired when an item is being clicked.",
         "table": {
