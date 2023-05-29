@@ -1,5 +1,19 @@
-commit cf066d36ad33370432593997838dc4d8745f3d45
-Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Mon May 29 13:19:05 2023 +0300
+commit 66e9c3d83a945ae80e32d8614084b732cabd2bea
+Author: Ivaylo Plashkov <ivaylo.plashkov@sap.com>
+Date:   Mon May 29 14:47:45 2023 +0300
 
-    chore: remove lint warnings (#7114)
+    feat(ui5-wizard): introduce contentLayout property (#7006)
+    
+    * feat(ui5-wizard): introduce renderMode property
+    
+    * feat(ui5-wizard): apply comments
+    
+    * feat(ui5-wizard): apply comments
+    
+    * feat(ui5-wizard): apply comments
+    
+    * feat(ui5-wizard): apply feedback
+    
+    * apply comments
+    
+    * feat(ui5-wizard): apply correct since tag
