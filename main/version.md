@@ -1,9 +1,13 @@
-commit 40cbf2473ba0c2ff9d0ca40579a30eea123efb88
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Mon May 29 23:43:15 2023 -0700
+commit cfed3c2ea62d470875271df35dadbc2fbf7fd5ad
+Author: Georgieva <lidiya.georgieva@sap.com>
+Date:   Tue May 30 10:28:13 2023 +0300
 
-    Translation Delivery (#7117)
+    docs(ui5-label): enhance the documentation and the samples (#7108)
     
-    chore: translation delivery
+    * docs(ui5-label): enhance the documentation and the samples
     
-    Change-Id: Ifccc6310ab80d2db4a7026b6f156d7a35c325a65
+    The correct usage of ui5-label is to be connected to some input element (using for attribute).
+    This is documented in all the test pages.
+    Also in the Playgrounds pages for ui5-label are added corresponding inputs.
+    
+    RelatesTo: #6488
