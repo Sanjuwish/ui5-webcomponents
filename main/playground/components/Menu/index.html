@@ -6977,7 +6977,7 @@ The <code>ui5-menu</code> provides advanced keyboard handling. The user can use 
                       <div class="row api-table-roll-odd">
                         <div class="cell api-table-content-cell api-table-content-cell-bold">before-open</div>
                         <div class="cell api-table-content-cell api-table-content-cell-description">
-                        Fired before the menu is opened. This event can be cancelled, which will prevent the menu from opening. <b>This event does not bubble.</b>
+                        Fired before the menu is opened. This event can be cancelled, which will prevent the menu from opening. <b>This event does not bubble.</b> <b>Note:</b> Since 1.14.0 the event is also fired before a sub-menu opens.
                             <div class="api-table-content-cell-bold api-table-content-cell-since">since v1.10.0</div>
                         </div>
                       </div>
@@ -6985,7 +6985,7 @@ The <code>ui5-menu</code> provides advanced keyboard handling. The user can use 
                         <tr class="api-table-event-param">
                           <div class="api-table-content-event-params-wrapper">
                             <div class="cell api-table-param-name api-table-content-cell api-table-content-cell-bold">item</div>
-                            <div class="cell api-table-event-param-cell api-table-content-cell api-table-content-cell-description"><strong class="bold" >type:</strong> object <br/> <strong class="api-table-event-description bold">description:</strong> The <code>ui5-menu-item</code> that triggers opening of the sub-menu. Note: available since 1.14.0.</div>
+                            <div class="cell api-table-event-param-cell api-table-content-cell api-table-content-cell-description"><strong class="bold" >type:</strong> HTMLElement <br/> <strong class="api-table-event-description bold">description:</strong> The <code>ui5-menu-item</code> that triggers opening of the sub-menu or undefined when fired upon root menu opening. <b>Note:</b> available since 1.14.0.</div>
                           </div>
                         </tr>
                       <div class="row api-table-roll-even">
@@ -6998,7 +6998,7 @@ The <code>ui5-menu</code> provides advanced keyboard handling. The user can use 
                         <tr class="api-table-event-param">
                           <div class="api-table-content-event-params-wrapper">
                             <div class="cell api-table-param-name api-table-content-cell api-table-content-cell-bold">item</div>
-                            <div class="cell api-table-event-param-cell api-table-content-cell api-table-content-cell-description"><strong class="bold" >type:</strong> object <br/> <strong class="api-table-event-description bold">description:</strong> The currently clicked menu item.</div>
+                            <div class="cell api-table-event-param-cell api-table-content-cell api-table-content-cell-description"><strong class="bold" >type:</strong> HTMLElement <br/> <strong class="api-table-event-description bold">description:</strong> The currently clicked menu item.</div>
                           </div>
                         </tr>
                         <tr class="api-table-event-param">

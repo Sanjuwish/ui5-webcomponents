@@ -3946,7 +3946,7 @@
                             "deprecated": false,
                             "name": "before-open",
                             "type": "CustomEvent",
-                            "description": "Fired before the menu is opened. This event can be cancelled, which will prevent the menu from opening. <b>This event does not bubble.</b>"
+                            "description": "Fired before the menu is opened. This event can be cancelled, which will prevent the menu from opening. <b>This event does not bubble.</b> <b>Note:</b> Since 1.14.0 the event is also fired before a sub-menu opens."
                         },
                         {
                             "deprecated": false,
