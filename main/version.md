@@ -1,13 +1,7 @@
-commit cfed3c2ea62d470875271df35dadbc2fbf7fd5ad
-Author: Georgieva <lidiya.georgieva@sap.com>
-Date:   Tue May 30 10:28:13 2023 +0300
+commit 1bf009a6bd9bca9b3d4b0ed914cc6d98efc3fac7
+Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
+Date:   Tue May 30 12:34:07 2023 +0300
 
-    docs(ui5-label): enhance the documentation and the samples (#7108)
+    fix(ui5-file-uploader): align vertically input and the button (#7058)
     
-    * docs(ui5-label): enhance the documentation and the samples
-    
-    The correct usage of ui5-label is to be connected to some input element (using for attribute).
-    This is documented in all the test pages.
-    Also in the Playgrounds pages for ui5-label are added corresponding inputs.
-    
-    RelatesTo: #6488
+    With this change the input and a button ( if such is present ) are now vertically aligned.
