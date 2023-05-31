@@ -1,5 +1,5 @@
-commit 8d93f5e50518051a53c3c70785fd99de527b3aca
-Author: gmkv <georgi.minkov@sap.com>
-Date:   Wed May 31 14:51:50 2023 +0300
+commit ab01627b07a96ccc54d7d0f09a011e9317243adf
+Author: Marcus Notheis <marcus.notheis@sap.com>
+Date:   Wed May 31 13:51:37 2023 +0200
 
-    chore: bump theming-base-content to v11.4.2 (#7126)
+    docs(ViewSettingsDialog): fix jsdoc comment for event details (#7127)
