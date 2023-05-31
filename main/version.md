@@ -1,13 +1,9 @@
-commit 9c851c5a65094926360530eb3e6cc6050e1f8ce6
-Author: Plamen Ivanov <plamen.ivanov01@sap.com>
-Date:   Wed May 31 11:01:59 2023 +0300
+commit c6d1db0d42e5034384447bb588be1c7f093bc615
+Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
+Date:   Wed May 31 11:20:21 2023 +0300
 
-    feat(ui5-select): change event is now preventable (#7113)
+    docs(ui5-file-uploader): improve accessibility showcase for samples (#7122)
     
-    * feat(ui5-select): change event is now preventable
+    As there are ongoing discussions regarding the inclusion of the new property accessibleNameRef in our ui5-file-uploader component, we have decided to enhance the accessibility aspects of the component's samples. This improvement involves providing instructions on utilizing the accessibility features by incorporating them into the examples. However, if the decision is made to include the mentioned property, the samples might need to be updated again.
     
-    When the event is fired we still get the original event detail, but if
-    we decided to prevent it, the selection is reverted to the previously
-    selected item.
-    
-    Implements #6648
+    Part of: #5893
