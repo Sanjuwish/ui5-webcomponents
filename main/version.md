@@ -1,5 +1,5 @@
-commit ab01627b07a96ccc54d7d0f09a011e9317243adf
-Author: Marcus Notheis <marcus.notheis@sap.com>
-Date:   Wed May 31 13:51:37 2023 +0200
+commit 724433a5c1b02a611b549df64eb5c86841be91b4
+Author: Lukas Harbarth <lukas.harbarth@sap.com>
+Date:   Wed May 31 17:00:23 2023 +0200
 
-    docs(ViewSettingsDialog): fix jsdoc comment for event details (#7127)
+    docs(ui5-segmented-button): fix JSDoc type of `selectedItems` param (#7129)

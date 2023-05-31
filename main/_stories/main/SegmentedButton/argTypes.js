@@ -35,7 +35,7 @@ export default {
                 },
                 {
                     "name": "selectedItems",
-                    "type": "string",
+                    "type": "HTMLElement[]",
                     "description": "an array of selected items. Note: available since 1.14.0."
                 }
             ]
