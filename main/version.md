@@ -1,5 +1,7 @@
-commit 724433a5c1b02a611b549df64eb5c86841be91b4
-Author: Lukas Harbarth <lukas.harbarth@sap.com>
-Date:   Wed May 31 17:00:23 2023 +0200
+commit 7732ce245cd5a981ccb0940d943d304865a8c972
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Wed May 31 18:55:36 2023 +0300
 
-    docs(ui5-segmented-button): fix JSDoc type of `selectedItems` param (#7129)
+    chore: correct css variables structure (#7130)
+    
+    Variables were declared with empty values which was the reason to result of wrong visual appearance.
