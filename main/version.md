@@ -1,13 +1,13 @@
-commit 647f88c94c6b101579778359bbad525adf8d3029
-Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Wed May 31 10:40:44 2023 +0300
+commit 9c851c5a65094926360530eb3e6cc6050e1f8ce6
+Author: Plamen Ivanov <plamen.ivanov01@sap.com>
+Date:   Wed May 31 11:01:59 2023 +0300
 
-    chore: add event detail types (#7119)
+    feat(ui5-select): change event is now preventable (#7113)
     
-    The PR addresses inconsistencies with event detail types: missing types, wrong naming or missing exports of types:
-    add missing event detail types
-    rename existing types to follow the convention: type {ComponentName}{EventName}EventDetail = {}
-    export all event detail types
-    re-export event detail types of base classes from child classes (see DateTimePicker, DateRangePicker)
+    * feat(ui5-select): change event is now preventable
     
-    Fixes: #7118
+    When the event is fired we still get the original event detail, but if
+    we decided to prevent it, the selection is reverted to the previously
+    selected item.
+    
+    Implements #6648
