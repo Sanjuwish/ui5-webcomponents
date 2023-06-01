@@ -1,9 +1,9 @@
-commit 039ce737f7ae0835f3227e92021f97f0ae396fb9
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Thu Jun 1 01:30:02 2023 -0700
+commit 74c877b2fd674711a331ab4716c89df3cd50c3fa
+Author: Georgieva <lidiya.georgieva@sap.com>
+Date:   Thu Jun 1 13:21:31 2023 +0300
 
-    Translation Delivery (#7133)
+    fix(ui5-dialog): add text with instructions for resizing or dragging of dialog fo… (#6989)
     
-    chore: translation delivery
+    fix(ui5-dialog): add text with instructions for resizing or dragging of dialog for Screen Reader users
     
-    Change-Id: Iaa78f118f5980ad89cc892a947692b1192bd76c9
+    Fixes #6659
