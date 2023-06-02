@@ -1,5 +1,9 @@
-commit 1717bd9a4141c4055a910c247b2be4717d49250c
+commit 2fed454836427db177260760f37b83848b345fa0
 Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Fri Jun 2 16:14:33 2023 +0300
+Date:   Fri Jun 2 16:14:41 2023 +0300
 
-    docs(playground): remove hardcoded iframe min-height (#7136)
+    docs(playground): use copy of attributes array for API filter (#7139)
+    
+    * docs(playground): use copy of attributes array for API filter
+    
+    * fix: add missing semicolon
