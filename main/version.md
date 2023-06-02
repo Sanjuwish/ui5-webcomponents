@@ -1,12 +1,7 @@
-commit 9373abfd0114650069855419f1caeb2fc5462114
-Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
-Date:   Fri Jun 2 17:28:41 2023 +0300
+commit b12bccb72bdcc63a966bbb54b0d044436e01cb50
+Author: Petar Dimov <32839090+dimovpetar@users.noreply.github.com>
+Date:   Fri Jun 2 17:57:36 2023 +0300
 
-    fix(ui5-shellbar): improve RTL styling of searchField (#7089)
+    fix(ui5-upload-collection): item-delete event and delete mode docs are now updated (#7106)
     
-    fix(ui5-shellbar): improve RTL styling
-    
-    By removing the `float` property, the searchField slot can now expand
-    to its parent full width container in RTL mode.
-    
-    Fixes: #7065
+    Fixes: https://github.com/SAP/ui5-webcomponents/issues/7085

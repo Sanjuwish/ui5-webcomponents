@@ -11458,7 +11458,7 @@
                             "deprecated": false,
                             "name": "item-delete",
                             "type": "CustomEvent",
-                            "description": "Fired when the Delete button of any item is pressed. <br><br> <b>Note:</b> A Delete button is displayed on each item, when the <code>ui5-upload-collection</code> <code>mode</code> property is set to <code>Delete</code>."
+                            "description": "Fired when the delete button of any item is pressed."
                         },
                         {
                             "deprecated": false,
@@ -11503,7 +11503,7 @@
                                 "text": "sap.ui.webc.main.types.ListMode"
                             },
                             "default": "\"None\"",
-                            "description": "Defines the mode of the <code>ui5-upload-collection</code>.\n\n<br><br> <b>Note:</b> <ul> <li><code>None</code></li> <li><code>SingleSelect</code></li> <li><code>MultiSelect</code></li> <li><code>Delete</code></li> </ul>"
+                            "description": "Defines the mode of the <code>ui5-upload-collection</code>.\n\n<br><br> <b>Note:</b> <ul> <li><code>None</code></li> <li><code>SingleSelect</code></li> <li><code>SingleSelectBegin</code></li> <li><code>SingleSelectEnd</code></li> <li><code>MultiSelect</code></li> <li><code>Delete</code> - this mode has no effect. The delete button is controlled by the <code>hideDeleteButton</code> property of UploadCollectionItem</li> </ul>"
                         },
                         {
                             "deprecated": false,
@@ -11656,6 +11656,18 @@
                             },
                             "default": "false",
                             "description": "If set to <code>true</code> the file name will be clickable and it will fire <code>file-name-click</code> event upon click."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
+                            "name": "hideDeleteButton",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "boolean"
+                            },
+                            "default": "false",
+                            "description": "By default, the delete button will always be shown, regardless of the <code>ui5-upload-collection</code>'s property <code>mode</code>. Setting this property to <code>true</code> will hide the delete button."
                         },
                         {
                             "deprecated": false,
