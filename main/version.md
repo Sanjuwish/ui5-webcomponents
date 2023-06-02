@@ -1,9 +1,12 @@
-commit 2fed454836427db177260760f37b83848b345fa0
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Fri Jun 2 16:14:41 2023 +0300
+commit 9373abfd0114650069855419f1caeb2fc5462114
+Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
+Date:   Fri Jun 2 17:28:41 2023 +0300
 
-    docs(playground): use copy of attributes array for API filter (#7139)
+    fix(ui5-shellbar): improve RTL styling of searchField (#7089)
     
-    * docs(playground): use copy of attributes array for API filter
+    fix(ui5-shellbar): improve RTL styling
     
-    * fix: add missing semicolon
+    By removing the `float` property, the searchField slot can now expand
+    to its parent full width container in RTL mode.
+    
+    Fixes: #7065
