@@ -1,5 +1,5 @@
-commit 58a1ead1d1c545c2ee0fa664e18be84cc75c50a0
-Author: ilhan orhan <ilhan.myumyun@sap.com>
-Date:   Fri Jun 2 14:28:00 2023 +0300
+commit 1717bd9a4141c4055a910c247b2be4717d49250c
+Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
+Date:   Fri Jun 2 16:14:33 2023 +0300
 
-    chore: update test-issue-comments.yaml
+    docs(playground): remove hardcoded iframe min-height (#7136)
