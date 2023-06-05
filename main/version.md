@@ -1,7 +1,5 @@
-commit b12bccb72bdcc63a966bbb54b0d044436e01cb50
-Author: Petar Dimov <32839090+dimovpetar@users.noreply.github.com>
-Date:   Fri Jun 2 17:57:36 2023 +0300
+commit a4299ce1249a547c89a2335325422944974455cd
+Author: yanaminkova <32466553+yanaminkova@users.noreply.github.com>
+Date:   Mon Jun 5 14:48:24 2023 +0300
 
-    fix(ui5-upload-collection): item-delete event and delete mode docs are now updated (#7106)
-    
-    Fixes: https://github.com/SAP/ui5-webcomponents/issues/7085
+    fix(ui5-illustrated-message): text update in Survey (#7146)
