@@ -1,9 +1,5 @@
-commit 6066d46521e654dc77abcecaa01cd95efe8675ae
-Author: Ivaylo Plashkov <ivaylo.plashkov@sap.com>
-Date:   Fri Jun 9 11:21:15 2023 +0300
+commit 7101f2790e79945a4801de9678a74e8d08c051b6
+Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
+Date:   Fri Jun 9 12:19:04 2023 +0300
 
-    fix(ui5-textarea, ui5-select): collision of 'popover' property with Google Chrome  (#7162)
-    
-    * fix(ui5-textarea): avoid unnecessary assigning to variable
-    
-    * chore: rename class member
+    fix(ui5-progress-indicator): align icon value with VD (#7167)
