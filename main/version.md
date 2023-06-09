@@ -1,5 +1,9 @@
-commit 4a6aa1f93be0c1a7ff8b21afb92e13afba549c9b
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Thu Jun 8 01:43:00 2023 -0700
+commit 6066d46521e654dc77abcecaa01cd95efe8675ae
+Author: Ivaylo Plashkov <ivaylo.plashkov@sap.com>
+Date:   Fri Jun 9 11:21:15 2023 +0300
 
-    Translation Delivery (#7138)
+    fix(ui5-textarea, ui5-select): collision of 'popover' property with Google Chrome  (#7162)
+    
+    * fix(ui5-textarea): avoid unnecessary assigning to variable
+    
+    * chore: rename class member
