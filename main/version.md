@@ -1,7 +1,5 @@
-commit f5838a8d8fb9e6f00237244c18c036de0e9244e9
-Author: Ivaylo Plashkov <ivaylo.plashkov@sap.com>
-Date:   Mon Jun 12 13:29:22 2023 +0300
+commit d3849323f9821f6cc8509fd8c28fcb48c0053d64
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Mon Jun 12 16:42:39 2023 +0300
 
-    fix(ui5-table): correct width in case of no-data (#7163)
-    
-    fix(ui5-table): correct cell width in case of no data
+    fix(ui5-table): adjust samples (#7181)
