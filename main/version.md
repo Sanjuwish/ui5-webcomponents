@@ -1,5 +1,7 @@
-commit e361bdaaa00203cafec041099613c1d80734935a
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Fri Jun 9 16:48:37 2023 +0300
+commit f5838a8d8fb9e6f00237244c18c036de0e9244e9
+Author: Ivaylo Plashkov <ivaylo.plashkov@sap.com>
+Date:   Mon Jun 12 13:29:22 2023 +0300
 
-    chore: use the new theming API (#7174)
+    fix(ui5-table): correct width in case of no-data (#7163)
+    
+    fix(ui5-table): correct cell width in case of no data
