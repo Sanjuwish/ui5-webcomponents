@@ -22,22 +22,8 @@ declare const _default: {
         };
     };
     toggleContents: {
-        description: string;
         table: {
             category: string;
-        };
-    };
-    "layout-change": {
-        description: string;
-        table: {
-            category: string;
-        };
-        UI5CustomData: {
-            parameters: {
-                name: string;
-                type: string;
-                description: string;
-            }[];
         };
     };
 };
