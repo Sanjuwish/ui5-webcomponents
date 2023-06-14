@@ -1,9 +1,13 @@
-commit 4139ae441c65952263b360e4c5a721bb1b87ba1c
+commit 97a5417f0ad25550979348ee132510298b7b74c6
 Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Tue Jun 13 09:42:12 2023 -0700
+Date:   Tue Jun 13 23:50:26 2023 -0700
 
-    Translation Delivery (#7176)
+    Translation Delivery (#7192)
     
-    chore: translation delivery
+    * chore: translation delivery
     
-    Change-Id: Ic8e9691f0e03693c02ea5d7ffba4ee924ac087a3
+    Change-Id: I9446dea0505b8f26230b8c5fc486d609acf0ec22
+    
+    * chore: translation delivery
+    
+    Change-Id: I83055b5221129feb90cd2d43ed64478a08a5aee9
