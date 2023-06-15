@@ -1,5 +1,5 @@
-commit 8ab1c2d9159223f47bf2d463b8ce7b80f8539a33
-Author: yanaminkova <32466553+yanaminkova@users.noreply.github.com>
-Date:   Wed Jun 14 18:35:20 2023 +0300
+commit c684135fd64b453a639b0ce29593f03ae02ceac6
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Thu Jun 15 12:16:45 2023 +0300
 
-    feat(ui5-li): provide option to set custom aria-setsize (#7187)
+    fix(ui5-wizard): prevent throwing exception in the console (#7204)
