@@ -18,6 +18,21 @@ export default {
         "control": {
             "type": "text"
         }
+    },
+    "close": {
+        "description": "Fired when the <code>Close</code> button is pressed.",
+        "table": {
+            "category": "events"
+        },
+        "UI5CustomData": {
+            "parameters": [
+                {
+                    "name": "item",
+                    "type": "HTMLElement",
+                    "description": "the closed item."
+                }
+            ]
+        }
     }
 };
 export const componentInfo = {
