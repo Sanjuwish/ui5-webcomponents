@@ -1,8 +1,5 @@
-commit 7768cecba2b09ccf85e5519d72f5b7fa186e3da0
-Author: kskondov <konstantin.kondov@sap.com>
-Date:   Fri Jun 16 16:15:01 2023 +0300
+commit 2cc9d18852bd44037a7f22df9311ab34b3b8e9bd
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Fri Jun 16 16:27:15 2023 +0300
 
-    feat(ui5-radio-button): update visual design to latest Horizon spec (#7148)
-    
-    New styles parameters are applied as per the latest SAP Horizon spec
-    PartOf: #7001
+    fix(ui5-combobox): remove position announcement for group header items (#7214)
