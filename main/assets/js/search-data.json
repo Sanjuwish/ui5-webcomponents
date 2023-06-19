@@ -597,7 +597,7 @@
   "86": {
     "id": "86",
     "title": "Combo Box",
-    "content": "&lt;!DOCTYPE html&gt; ComboBox test page Select country: Focus ComboBox Set value Custom error value state message with a Link. Additionl custom error value state message with a Link. Extra long text used as an error message. Extra long text used as an error message - 2. Extra long text used as an error message - 3. Items with grouping and value state: Items with grouping: Items with additional text: Lazy Loading - example does not work on IE11 Lazy Loading with filter=&#39;None&#39; Change event testing Changed value: Change call count: 0 Input event testing Input value: Input call count: 0 Contains filter StartsWith filter ComboBox in Compact Readonly ComboBox with value state",
+    "content": "&lt;!DOCTYPE html&gt; ComboBox test page Select country: Focus ComboBox Set value Custom error value state message with a Link. Additionl custom error value state message with a Link. Extra long text used as an error message. Extra long text used as an error message - 2. Extra long text used as an error message - 3. Items with grouping and value state: Items with grouping: Items with additional text: Lazy Loading - example does not work on IE11 Lazy Loading with filter=&#39;None&#39; Change event testing Changed value: Change call count: 0 Input event testing Input value: Input call count: 0 Contains filter StartsWith filter ComboBox in Compact Readonly ComboBox with value state ComboBox - suggestions with same names",
     "url": "https://sap.github.io/ui5-webcomponents/main/playground/main/pages/ComboBox/",
     "relUrl": "/playground/main/pages/ComboBox/"
   },

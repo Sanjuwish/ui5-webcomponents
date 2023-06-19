@@ -1,5 +1,5 @@
-commit 1fd6656f1538cbd3e6b72d6a8fffae6a26de41b1
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Mon Jun 19 13:14:08 2023 +0300
+commit bb41f78e838b6c1f601b9c06bd057c1629fc0540
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Mon Jun 19 14:57:24 2023 +0300
 
-    chore: improve the create package component (#7226)
+    fix(ui5-combobox): prevent selection of multiple items (#7223)
