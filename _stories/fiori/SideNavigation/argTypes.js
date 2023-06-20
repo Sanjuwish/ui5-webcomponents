@@ -13,21 +13,6 @@ export default {
         "control": {
             "type": "text"
         }
-    },
-    "selection-change": {
-        "description": "Fired when the selection has changed via user interaction",
-        "table": {
-            "category": "events"
-        },
-        "UI5CustomData": {
-            "parameters": [
-                {
-                    "name": "item",
-                    "type": "sap.ui.webc.fiori.ISideNavigationItem|sap.ui.webc.fiori.ISideNavigationSubItem",
-                    "description": "the clicked item."
-                }
-            ]
-        }
     }
 };
 export const componentInfo = {
