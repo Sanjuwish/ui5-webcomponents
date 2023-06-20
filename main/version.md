@@ -1,7 +1,7 @@
-commit 9292c6e51fc49b6bc0abe6e525074173ae80e253
-Author: Georgieva <lidiya.georgieva@sap.com>
-Date:   Tue Jun 20 10:53:25 2023 +0300
+commit 819d153ba5d82c0e48a642d2ee21ccc0fb61e253
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Tue Jun 20 11:34:59 2023 +0300
 
-    fix(ui5-side-navigation): cursor is pointer for selected items (#7229)
+    feat(ui5-side-navigation): update Horizon theme design (#7186)
     
-    Fixes #7156
+    Fixes #7160
