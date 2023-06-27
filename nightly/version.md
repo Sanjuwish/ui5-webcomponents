@@ -1,5 +1,9 @@
-commit 999f499b4a138028bb19a204bc3441199f8f9ddc
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Tue Jun 27 15:55:24 2023 +0300
+commit 7e0b816d593741df92eec71711bef9f1ccdd009f
+Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
+Date:   Tue Jun 27 07:15:39 2023 -0700
 
-    chore: support modular core (#7235)
+    Translation Delivery (#7244)
+    
+    chore: translation delivery
+    
+    Change-Id: I706e194c706fe9f3dd0e3c84ff750b66ecdbcd90
