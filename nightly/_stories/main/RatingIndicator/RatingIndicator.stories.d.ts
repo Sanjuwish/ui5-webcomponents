@@ -8,3 +8,4 @@ export declare const BasicRatingIndicator: UI5StoryArgs<RatingIndicator, StoryAr
 export declare const RatingIndicatorMax: UI5StoryArgs<RatingIndicator, StoryArgsSlots>;
 export declare const DisabledRatingIndicator: StoryFn;
 export declare const ReadonlyRatingIndicator: StoryFn;
+export declare const RequiredRatingIndicatorWithLabel: StoryFn;
