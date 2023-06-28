@@ -1,7 +1,17 @@
-commit e9a75802205f52437380611487f456486f75705b
-Author: Martin <martin.r.hristov@gmail.com>
-Date:   Tue Jun 27 22:53:19 2023 +0300
+commit 9ed6f23c66df15a50aa004b4c89b2d8acf20b0ef
+Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
+Date:   Tue Jun 27 22:53:33 2023 -0700
 
-    feat(ui5-tokenizer): truncate when having 1 token with long text
+    Translation Delivery (#7261)
     
-    FIXES: #5229
+    * chore: translation delivery
+    
+    Change-Id: Ic31d66db3d766ad23e889037fe59cedb6a968db9
+    
+    * chore: translation delivery
+    
+    Change-Id: Iab60b52badd9602ecde6875d4536f78d887203ba
+    
+    * chore: translation delivery
+    
+    Change-Id: I4428f43f5abddde548a358fe892ee810e84fb6b0
