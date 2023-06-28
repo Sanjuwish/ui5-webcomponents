@@ -1,17 +1,13 @@
-commit 9ed6f23c66df15a50aa004b4c89b2d8acf20b0ef
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Tue Jun 27 22:53:33 2023 -0700
+commit 109b6eecb3b56f07c085ed59442c2a73f31644a8
+Author: ilhan orhan <ilhan.orhan007@gmail.com>
+Date:   Wed Jun 28 15:37:29 2023 +0300
 
-    Translation Delivery (#7261)
+    fix(framework): fix OpenUI5Support feature usage (#7265)
     
-    * chore: translation delivery
+    Background
+    There are use-cases with multiple versions of the framework with some of them with OpenUI5Support enabled and others not. One of the consequences is that the z-indexes of popovers/dialogs on the page are not synchronised as the next z-index is calculated differently when OpenUI5Support is enabled and when isn't.
+    Solution
+    To always enable the OpenUI5Support feature.
+    However, we had to ensure it's completely safe and won't have a side effect when the feature is imported, but OpenUI5 is not loaded on the page. And, this is what the PR addresses by refactoring a single usage in applyTheme and using OpenUI5Support.isOpenUI5Detected to check if OpenUI5 is available in the runtime.
     
-    Change-Id: Ic31d66db3d766ad23e889037fe59cedb6a968db9
-    
-    * chore: translation delivery
-    
-    Change-Id: Iab60b52badd9602ecde6875d4536f78d887203ba
-    
-    * chore: translation delivery
-    
-    Change-Id: I4428f43f5abddde548a358fe892ee810e84fb6b0
+    Fixes: #7175
