@@ -2,7 +2,6 @@
 <html>
 
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
 
@@ -12,10 +11,12 @@
 	</script>
 
 
-	<script src="https://sap.github.io/ui5-webcomponents/assets/js/ui5-webcomponents/bundle.esm.js" type="module"></script>
+	
 
 
-<link rel="stylesheet" type="text/css" href="https://sap.github.io/ui5-webcomponents/assets/js/ui5-webcomponents/main/styles/RatingIndicator.css">
+
+  <script type="module" crossorigin src="../../../../assets/bundle.common.c1878619.js"></script>
+  <link rel="stylesheet" href="../../../../assets/RatingIndicator.d544882e.css">
 </head>
 
 <body class="ratingindicator1auto">
@@ -65,6 +66,26 @@
 
 	<h3>RatingIndicator with title</h3>
 	<ui5-rating-indicator id="rating-indicator-title" title="Test" accessible-name="Hello World"></ui5-rating-indicator>
+	<br>
+	<br>
+	<br>
+
+	<h3>RatingIndicator with required</h3>
+	<ui5-label id="label-required" for="rating-indicator-required" required="true">Required label</ui5-label>
+	<ui5-rating-indicator id="rating-indicator-required" required="true"></ui5-rating-indicator>
+	<br>
+	<br>
+	<br>
+
+	<h3>RatingIndicator with accessibleName</h3>
+	<ui5-rating-indicator id="rating-indicator-acc-name" accessible-name="RatingIndicator with accessible name" stretch></ui5-rating-indicator>
+	<br>
+	<br>
+	<br>
+
+	<h3>RatingIndicator with accessibleNameRef</h3>
+	<ui5-label id="label-acc-name-ref" for="rating-indicator-acc-name-ref">Some ACC label</ui5-label>
+	<ui5-rating-indicator id="rating-indicator-acc-name-ref" accessible-name-ref="label-acc-name-ref" stretch></ui5-rating-indicator>
 	<br>
 	<br>
 	<br>
