@@ -1,9 +1,7 @@
-commit f656747cd810864d7f21f46494275f10ada37078
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Fri Jun 30 07:59:35 2023 +0300
+commit 337a5fa14a6b42af5e20bbb4499ad8ffac04760d
+Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
+Date:   Fri Jun 30 08:38:23 2023 +0300
 
-    docs(ui5-view-settings-dialog): fix docs page horizontally overflowing in storybook (#7230)
+    fix(ui5-button): prevent event throw on mobile when disabled (#7254)
     
-    The previous JSDoc description for the setConfirmedSettings method lacked proper line breaks, leading to a text overflow on the 'Docs' page of Storybook. This resulted in an unintended horizontal overflow throughout the page.
-    
-    With this update, we've reformatted the JSDoc to prevent such issues, ensuring a better reading experience on the Storybook 'Docs' page.
+    fixes: #7249
