@@ -1,7 +1,8 @@
-commit 3be7358c6870e4305527e96f63bcaf1abb139861
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Fri Jun 30 12:24:00 2023 +0300
+commit ae9252f8aa83783f40760910d2fe9807ef2d96ab
+Author: ilhan orhan <ilhan.orhan007@gmail.com>
+Date:   Fri Jun 30 13:09:51 2023 +0300
 
-    fix(ui5-link): change width to max-width (#7233)
+    chore: fix template in create-package script (#7275)
     
-    fix(ui5-link): change width to max-width in css
+    fix placeholder: NIT_PACKAGE_VAR_NAMESPACE -> INIT_PACKAGE_VAR_NAMESPACE
+    change prompt text
