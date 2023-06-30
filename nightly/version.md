@@ -1,7 +1,9 @@
-commit 1fe9a5f9bfcc64fa1e23bf127144e20aed2993cd
-Author: Todor Stoyanov <t.stoyanov@sap.com>
-Date:   Fri Jun 30 07:59:19 2023 +0300
+commit f656747cd810864d7f21f46494275f10ada37078
+Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
+Date:   Fri Jun 30 07:59:35 2023 +0300
 
-    docs(ui5-split-button): provide an example for opening a menu (#7193)
+    docs(ui5-view-settings-dialog): fix docs page horizontally overflowing in storybook (#7230)
     
-    Added are examples in Playground and Storybook where a Split Button opens a Menu and Split Button opens a Menu with associated last action (that would mean that when an action is chosen from the menu, the text of the Split Button changes to that action)
+    The previous JSDoc description for the setConfirmedSettings method lacked proper line breaks, leading to a text overflow on the 'Docs' page of Storybook. This resulted in an unintended horizontal overflow throughout the page.
+    
+    With this update, we've reformatted the JSDoc to prevent such issues, ensuring a better reading experience on the Storybook 'Docs' page.
