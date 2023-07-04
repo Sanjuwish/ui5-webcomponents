@@ -1,5 +1,7 @@
-commit a2c1a632b680faada1f98b0059f72b4234e38453
-Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
-Date:   Fri Jun 30 17:50:33 2023 +0300
+commit 0b6a87af8ca8fc3e708195963cb24a4a8c7db0be
+Author: Nikolay Deshev <nikolay.deshev@sap.com>
+Date:   Tue Jul 4 09:46:17 2023 +0300
 
-    chore(release): force publish unchanged packages for v1.15.1 (#7285)
+    docs(ui5-multi-input): fix tokenizing on paste event sample (#7289)
+    
+    * docs(ui5-multi-input): fix tokenizing on paste event sample
