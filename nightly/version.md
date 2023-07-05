@@ -1,7 +1,7 @@
-commit 1484428eeb7067b341adcff2a506f59e4c72e433
-Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
-Date:   Tue Jul 4 17:07:07 2023 +0300
+commit 63180588e66efee4a18ad488ddff5a964d716c3f
+Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
+Date:   Wed Jul 5 09:45:22 2023 +0300
 
-    docs(ui5-segmented-button): include new property to storybook (#7292)
+    fix(playground): playground link fixed (#7293)
     
-    fixes: #7290
+    Co-authored-by: PetyaMarkovaBogdanova <petya.markova@sap.com>
