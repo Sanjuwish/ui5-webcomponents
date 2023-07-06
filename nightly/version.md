@@ -1,7 +1,13 @@
-commit 9c32e308ed5397ce40fd6ffa7c9b0e23573be75b
-Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
-Date:   Thu Jul 6 12:40:35 2023 +0300
+commit d80dbac326af54e9f70635c35a1593bc1d3b55c7
+Author: Plamen Ivanov <plamen.ivanov01@sap.com>
+Date:   Thu Jul 6 12:42:27 2023 +0300
 
-    fix(ui5-shellbar): primary and secondary titles alignment (#7215)
+    fix(ui5-li): remove additional text width restriction (#7274)
     
-    Fixes: #7153, #7107
+    Additional text was width restricted and couldn't display its whole
+    data, even if there was enough space for it.
+    
+    After its removal the additional text is still Fiori compatible when
+    it collides with the default text (it hyphens).
+    
+    Fixes: #6937
