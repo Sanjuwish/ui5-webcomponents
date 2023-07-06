@@ -1,7 +1,7 @@
-commit ca66fd74dd88f0749f51fc94a52b10ab26e0985d
-Author: yanaminkova <32466553+yanaminkova@users.noreply.github.com>
-Date:   Thu Jul 6 10:26:06 2023 +0300
+commit 9c32e308ed5397ce40fd6ffa7c9b0e23573be75b
+Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
+Date:   Thu Jul 6 12:40:35 2023 +0300
 
-    feat(ui5-progress-indicator): accessibleName property added (#7231)
+    fix(ui5-shellbar): primary and secondary titles alignment (#7215)
     
-    Related: https://github.com/SAP/ui5-webcomponents/issues/6854
+    Fixes: #7153, #7107
