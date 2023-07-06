@@ -5264,6 +5264,18 @@
                         {
                             "deprecated": false,
                             "kind": "field",
+                            "name": "accessibleName",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "string"
+                            },
+                            "default": "\"\"",
+                            "description": "Defines the accessible ARIA name of the component."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
                             "name": "disabled",
                             "privacy": "public",
                             "static": false,

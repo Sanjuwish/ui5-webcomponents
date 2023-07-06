@@ -1,7 +1,7 @@
-commit 63180588e66efee4a18ad488ddff5a964d716c3f
-Author: PetyaMarkovaBogdanova <petya.markova-bogdanova@sap.com>
-Date:   Wed Jul 5 09:45:22 2023 +0300
+commit ca66fd74dd88f0749f51fc94a52b10ab26e0985d
+Author: yanaminkova <32466553+yanaminkova@users.noreply.github.com>
+Date:   Thu Jul 6 10:26:06 2023 +0300
 
-    fix(playground): playground link fixed (#7293)
+    feat(ui5-progress-indicator): accessibleName property added (#7231)
     
-    Co-authored-by: PetyaMarkovaBogdanova <petya.markova@sap.com>
+    Related: https://github.com/SAP/ui5-webcomponents/issues/6854
