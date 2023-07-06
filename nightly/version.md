@@ -1,13 +1,9 @@
-commit d80dbac326af54e9f70635c35a1593bc1d3b55c7
-Author: Plamen Ivanov <plamen.ivanov01@sap.com>
-Date:   Thu Jul 6 12:42:27 2023 +0300
+commit 133ce189cfddd4d548fa21ecf31b65b30e8fdee1
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Thu Jul 6 14:52:17 2023 +0300
 
-    fix(ui5-li): remove additional text width restriction (#7274)
+    fix(ui5-token): adjust Horizon themes according to the specification (#7266)
     
-    Additional text was width restricted and couldn't display its whole
-    data, even if there was enough space for it.
+    * fix(ui5-token): adjust Horizon themes according to the specification
     
-    After its removal the additional text is still Fiori compatible when
-    it collides with the default text (it hyphens).
-    
-    Fixes: #6937
+    * fix(ui5-token): apply review comments
