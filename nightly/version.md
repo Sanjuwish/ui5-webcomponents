@@ -1,9 +1,5 @@
-commit 0b7617e65783a5788b4754001e5842778b7d8670
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Fri Jul 7 10:02:01 2023 +0300
+commit 9ee9ec4f9e3c45b07e90d28b0f1253b5d1091623
+Author: Petar Dimov <32839090+dimovpetar@users.noreply.github.com>
+Date:   Fri Jul 7 17:05:06 2023 +0300
 
-    fix(ui5-list): avoid close event conflicts (#7272)
-    
-    * fix(ui5-list): avoid close event conflicts
-    
-    * fix: include ui5-li-notification-group
+    feat(ui5-tabcontainer): implement latest SAP Horizon design (#7257)
