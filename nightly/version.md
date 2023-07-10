@@ -1,5 +1,9 @@
-commit 9ee9ec4f9e3c45b07e90d28b0f1253b5d1091623
-Author: Petar Dimov <32839090+dimovpetar@users.noreply.github.com>
-Date:   Fri Jul 7 17:05:06 2023 +0300
+commit 147d963d8c26e687237aaa2390b8fe879334494d
+Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
+Date:   Mon Jul 10 09:07:45 2023 -0700
 
-    feat(ui5-tabcontainer): implement latest SAP Horizon design (#7257)
+    Translation Delivery (#7301)
+    
+    chore: translation delivery
+    
+    Change-Id: I1632fb8d239fe91641e34662dab23b9dab03ca3e
