@@ -1,9 +1,7 @@
-commit 147d963d8c26e687237aaa2390b8fe879334494d
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Mon Jul 10 09:07:45 2023 -0700
+commit a7d8c4b2e81c57371b5b43b49d1847bdc93d5ace
+Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
+Date:   Tue Jul 11 10:50:01 2023 +0300
 
-    Translation Delivery (#7301)
+    docs(ui5-file-uploader): improve accessibility in storybook samples (#7282)
     
-    chore: translation delivery
-    
-    Change-Id: I1632fb8d239fe91641e34662dab23b9dab03ca3e
+    Improve JSDoc of the slot `content` in FileUploader component. Update storybook sample, for better accessibility experience.
