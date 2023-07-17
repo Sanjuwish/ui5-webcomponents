@@ -13,7 +13,7 @@
 	<script>// delete Document.prototype.adoptedStyleSheets;</script>
 
 	
-  <script type="module" crossorigin src="../../../../assets/bundle.common.2f121b36.js"></script>
+  <script type="module" crossorigin src="../../../../assets/bundle.common.3e47a970.js"></script>
   <link rel="stylesheet" href="../../../../assets/MultiInput.715aafd5.css">
 </head>
 
@@ -183,7 +183,7 @@
 		<br>
 	</div>
 
-	<div class="sample-container">
+	<div class="sample-container" id="token-samples">
 		<h1>Tokens</h1>
 
 		<h1 class="sample-container-title">Multi Input without tokens</h1>
@@ -239,6 +239,8 @@
 		</ui5-multi-input>
 
 		<ui5-button id="dummy-btn">dummy button</ui5-button>
+		<br>
+		<ui5-button id="add-single-token">Add MultiInput with single token</ui5-button>
 	</div>
 
 	<div class="sample-container">
@@ -479,6 +481,20 @@
 			.addEventListener("ui5-value-help-trigger", function (event) {
 				event.target.openPicker();
 			});
+
+		document.getElementById("add-single-token").addEventListener("click", event => {
+			const token = document.createElement('ui5-token');
+			const multiInput = document.createElement('ui5-multi-input');
+
+			multiInput.setAttribute("id", "added-mi");
+
+			token.setAttribute('text', "test");
+			token.setAttribute('slot', 'tokens');
+
+			document.getElementById("token-samples").appendChild(multiInput);
+
+			multiInput.appendChild(token);
+		});
 	</script>
 </body>
 

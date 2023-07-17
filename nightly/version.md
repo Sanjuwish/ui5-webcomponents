@@ -1,13 +1,7 @@
-commit 74077d1f16cb01347b01d1d55ef333789f5601f0
-Author: Evdokia Yordanova <evdokia.kotova@sap.com>
-Date:   Thu Jul 13 16:44:12 2023 +0300
+commit 0d1cc28843f0887c78403cf0c074f1d23e7c4076
+Author: Martin <martin.r.hristov@gmail.com>
+Date:   Mon Jul 17 11:29:50 2023 +0300
 
-    feat(ui5-wizard): progress navigator title and optional text truncation (#7263)
+    fix(ui5-multi-input): prevent exception when single token is added (#7305)
     
-    * feat(ui5-wizard): progress navigator title and optional text truncation behavior
-    
-    * feat(ui5-wizard): update comments and add tests
-    
-    * feat(ui5-wizard): update the test
-    
-    * feat(ui5-wizard): update test
+    FIXES: #7304
