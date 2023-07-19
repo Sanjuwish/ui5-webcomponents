@@ -1,5 +1,5 @@
-commit 7a723081f946b8a1068ecf5d7f20ace6145ef5bf
-Author: Elena Stoyanova <elena.stoyanova@sap.com>
-Date:   Wed Jul 19 08:09:06 2023 +0300
+commit a39a3d80b09700200b4658407329ad861e767c03
+Author: Nayden Naydenov <31909318+nnaydenow@users.noreply.github.com>
+Date:   Wed Jul 19 09:55:22 2023 +0300
 
-    fix(ui5-table): fix unstable tests (#7337)
+    chore: update @openui5 to 1.116.0 (#7339)
