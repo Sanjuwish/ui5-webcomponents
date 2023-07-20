@@ -1,7 +1,5 @@
-commit bcc2d55a5ff9f676bbb39fb5b7e57358ba94fc84
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Thu Jul 20 09:15:21 2023 +0300
+commit 066c1422edb4456f0ce27f67b238745e1af14896
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Thu Jul 20 10:37:48 2023 +0300
 
-    docs(ui5-switch): remove outdated statement in the JSDocs (#7348)
-    
-    with this change, we remove outdated statement in the ui5-switch documentation.
+    fix(ui5-page): adjust storybook sample (#7355)
