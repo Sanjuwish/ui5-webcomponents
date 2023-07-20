@@ -1,21 +1,7 @@
-commit 23c683fc12e538c230cc14a46a41781245a7a033
-Author: Ivaylo Plashkov <ivaylo.plashkov@sap.com>
-Date:   Wed Jul 19 21:38:16 2023 +0300
+commit bcc2d55a5ff9f676bbb39fb5b7e57358ba94fc84
+Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
+Date:   Thu Jul 20 09:15:21 2023 +0300
 
-    feat(ui5-multicombobox): selection-change event is now preventable (#7309)
+    docs(ui5-switch): remove outdated statement in the JSDocs (#7348)
     
-    * feat(ui5-multicombobox): selection-change event is now preventable
-    
-    * feat(ui5-multicombobox): selection-change event is now preventable
-    
-    * fix(ui5-multicombobox): fix lines
-    
-    * Delete 1
-    
-    * fix(ui5-multicombobox): remove test
-    
-    * fix(ui5-multicombobox): add tests
-    
-    * fix(ui5-multicombobox): apply comments
-    
-    * fix(ui5-mulitcombobox): fix indentation
+    with this change, we remove outdated statement in the ui5-switch documentation.
