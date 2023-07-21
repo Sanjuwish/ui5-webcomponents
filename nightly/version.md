@@ -1,7 +1,7 @@
-commit ad4a338e36e90a6928695dd9ef40abf3bb13f6e8
-Author: Georgieva <lidiya.georgieva@sap.com>
-Date:   Fri Jul 21 14:34:07 2023 +0300
+commit eeb16d221412fc9a9e579bbf48b08168686c4feb
+Author: Lukas Harbarth <lukas.harbarth@sap.com>
+Date:   Fri Jul 21 15:29:43 2023 +0200
 
-    docs(ui5-dialog): edit footer layout in dialogs samples (#7334)
+    docs(ui5-page): document available shadow parts (#7361)
     
-    Fixes: #7307
+    This PR adds the shadow parts description for content to the Page component.
