@@ -1,5 +1,5 @@
-commit 066c1422edb4456f0ce27f67b238745e1af14896
-Author: niyap <38278268+niyap@users.noreply.github.com>
-Date:   Thu Jul 20 10:37:48 2023 +0300
+commit e557a3ab633acfd957ff87e1e79d0f73d2f764ab
+Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
+Date:   Fri Jul 21 13:38:21 2023 +0300
 
-    fix(ui5-page): adjust storybook sample (#7355)
+    docs(storybook): improve playground documentation (#7362)
