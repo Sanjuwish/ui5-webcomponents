@@ -1,7 +1,5 @@
-commit eeb16d221412fc9a9e579bbf48b08168686c4feb
-Author: Lukas Harbarth <lukas.harbarth@sap.com>
-Date:   Fri Jul 21 15:29:43 2023 +0200
+commit afe7f02c3b4e40e56c9b8effe5b32e90557112e6
+Author: ilhan orhan <ilhan.orhan007@gmail.com>
+Date:   Fri Jul 21 17:24:58 2023 +0300
 
-    docs(ui5-page): document available shadow parts (#7361)
-    
-    This PR adds the shadow parts description for content to the Page component.
+    chore: mark Option as abstract (#7365)
