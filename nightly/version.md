@@ -1,5 +1,11 @@
-commit afe7f02c3b4e40e56c9b8effe5b32e90557112e6
-Author: ilhan orhan <ilhan.orhan007@gmail.com>
-Date:   Fri Jul 21 17:24:58 2023 +0300
+commit 27f690ec159c631c4b58023ed0c1cfd080439fb1
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Sun Jul 23 23:25:19 2023 +0300
 
-    chore: mark Option as abstract (#7365)
+    feat(ui5-tokenizer): change indicator's text when there are no visible tokens (#7327)
+    
+    * feat(ui5-tokenizer): change indicator's text when there are no visible tokens
+    
+    * feat(ui5-tokenizer): apply review comments
+    
+    * fix(ui5-tokenizer): adjust sample title
