@@ -53,6 +53,18 @@
                         {
                             "deprecated": false,
                             "kind": "field",
+                            "name": "disabled",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "boolean"
+                            },
+                            "default": "false",
+                            "description": "Defines whether the component is disabled. A disabled component can't be pressed or focused, and it is not in the tab chain."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
                             "name": "icon",
                             "privacy": "public",
                             "static": false,
@@ -84,7 +96,7 @@
                                 "text": "boolean"
                             },
                             "default": "false",
-                            "description": "Defines if the avatar is interactive (focusable and pressable)."
+                            "description": "Defines if the avatar is interactive (focusable and pressable). <b>Note:</b> This property won't have effect if the <code>disabled</code> property is set to <code>true</code>."
                         },
                         {
                             "deprecated": false,
