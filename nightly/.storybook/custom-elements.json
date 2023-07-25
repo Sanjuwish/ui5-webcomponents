@@ -5036,6 +5036,18 @@
                             },
                             "default": "false",
                             "description": "Indicates whether the transition between the expanded and the collapsed state of the component is animated. By default the animation is enabled."
+                        },
+                        {
+                            "deprecated": false,
+                            "kind": "field",
+                            "name": "stickyHeader",
+                            "privacy": "public",
+                            "static": false,
+                            "type": {
+                                "text": "boolean"
+                            },
+                            "default": "false",
+                            "description": "Indicates whether the Panel header is sticky or not. If stickyHeader is set to true, then whenever you scroll the content or the application, the header of the panel will be always visible and a solid color will be used for its design."
                         }
                     ],
                     "superclass": {

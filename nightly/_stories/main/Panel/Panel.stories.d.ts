@@ -7,4 +7,5 @@ export default _default;
 export declare const BasicPanel: UI5StoryArgs<Panel, StoryArgsSlots>;
 export declare const PanelWithList: UI5StoryArgs<Panel, StoryArgsSlots>;
 export declare const FixedPanel: UI5StoryArgs<Panel, StoryArgsSlots>;
+export declare const StickyHeader: UI5StoryArgs<Panel, StoryArgsSlots>;
 export declare const PanelCustomHeader: UI5StoryArgs<Panel, StoryArgsSlots>;
