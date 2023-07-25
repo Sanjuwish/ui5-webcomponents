@@ -1,11 +1,9 @@
-commit d84fc61c7f41c6099c242dfdaad44cb3ebc9e1fa
-Author: Plamen Ivanov <plamen.ivanov01@sap.com>
-Date:   Mon Jul 24 17:59:49 2023 +0300
+commit e64436c3fb59b029b5f9949a4bffd222e91488bf
+Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
+Date:   Tue Jul 25 03:35:44 2023 -0700
 
-    feat(ui5-avatar): add disabled property (#7335)
+    Translation Delivery (#7371)
     
-    * feat(ui5-avatar): add disabled property
+    chore: translation delivery
     
-    There is a requirement for a new 'disabled' property.
-    The new property makes the Avatar non-interactive regardless of its
-    'interactive' property. It also adds opacity to its visual representation.
+    Change-Id: I2f3e1539e230db34128b4044c3f71f02eaec6777
