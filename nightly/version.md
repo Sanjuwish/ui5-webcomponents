@@ -1,9 +1,10 @@
-commit e64436c3fb59b029b5f9949a4bffd222e91488bf
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Tue Jul 25 03:35:44 2023 -0700
+commit d6aeb0fd6871555a1737b02fa18d996b7148751a
+Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
+Date:   Tue Jul 25 14:08:50 2023 +0300
 
-    Translation Delivery (#7371)
+    fix(ui5-checkbox): prevent text selection on checkbox (#7364)
     
-    chore: translation delivery
+    The fix ensures that the checkbox works as expected without causing
+    unintended text selection in other elements during user interactions.
     
-    Change-Id: I2f3e1539e230db34128b4044c3f71f02eaec6777
+    Fixes: #7236
