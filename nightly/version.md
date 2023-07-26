@@ -1,29 +1,9 @@
-commit 18c0e4fcbf68acb42357f4f3e2941fffb7911a5d
-Author: Evdokia Yordanova <evdokia.kotova@sap.com>
-Date:   Tue Jul 25 17:02:34 2023 +0300
+commit 225e698e905830284d569d4bcf3becd0b9fc013e
+Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
+Date:   Tue Jul 25 22:32:33 2023 -0700
 
-    feat(ui5-panel): panel sticky header implementation (#7313)
+    Translation Delivery (#7378)
     
-    * feat(ui5-panel): panel sticky header implementation
+    chore: translation delivery
     
-    * feat(ui5-panel): update comments
-    
-    * feat(ui5-panel): panel sticky header implementation
-    
-    * feat(ui5-panel): add forgotten comma
-    
-    * feat(ui5-panel): update comments - restore empty lines
-    
-    * feat(ui5-panel): update comments - restore empty lines
-    
-    * feat(ui5-panel): update test and fix wrong theme
-    variables
-    
-    * feat(ui5-panel): update property description
-    
-    * feat(ui5-panel): update parameters - use the one which
-    repeats in the base and add for horizon
-    
-    * feat(ui5-panel):  use max-height + add story
-    
-    * feat(ui5-panel): comment update
+    Change-Id: I6c6cf9fa26895404db90b7329f23f8cd7909239c
