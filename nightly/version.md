@@ -1,5 +1,5 @@
-commit 7e47744806ada5be4e724abd3464f659e26c6193
-Author: niyap <38278268+niyap@users.noreply.github.com>
-Date:   Wed Jul 26 09:50:51 2023 +0300
+commit bac8b19667fbd57989979befd69bdaa8589e0861
+Author: ilhan orhan <ilhan.orhan007@gmail.com>
+Date:   Wed Jul 26 10:51:30 2023 +0300
 
-    fix(ui5-slider): remove tag name from base class (#7373)
+    chore: update chromedriver from 113.0.0 to 115.0.0 (#7380)
