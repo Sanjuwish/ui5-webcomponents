@@ -1,9 +1,5 @@
-commit 4b05f456406216540d7a382811d8695683848752
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Tue Jul 25 22:51:56 2023 -0700
+commit 7e47744806ada5be4e724abd3464f659e26c6193
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Wed Jul 26 09:50:51 2023 +0300
 
-    Translation Delivery (#7379)
-    
-    chore: translation delivery
-    
-    Change-Id: Ic4346eefc6654b0310343b4cc6e2e17324cb12cd
+    fix(ui5-slider): remove tag name from base class (#7373)
