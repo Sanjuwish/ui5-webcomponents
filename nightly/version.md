@@ -1,9 +1,5 @@
-commit 09acd953260c194ef465c3c74afd052be8f5fa97
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Thu Jul 27 04:20:14 2023 -0700
+commit d1315d658e0a5a48e19d9b8236961e02e28df00f
+Author: ilhan orhan <ilhan.orhan007@gmail.com>
+Date:   Thu Jul 27 16:20:54 2023 +0300
 
-    Translation Delivery (#7383)
-    
-    chore: translation delivery
-    
-    Change-Id: I06faa8ae37d0685553194448b65b5b447dbeea3b
+    chore: downgrade chromedriver to 114 (#7385)
