@@ -1,9 +1,9 @@
-commit 22c84c66a1809fe622333f2eaaa9af1239a577ac
-Author: ilhan orhan <ilhan.orhan007@gmail.com>
-Date:   Thu Jul 27 13:39:38 2023 +0300
+commit 09acd953260c194ef465c3c74afd052be8f5fa97
+Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
+Date:   Thu Jul 27 04:20:14 2023 -0700
 
-    refactor(ui5-table-row): remove unused attr (#7376)
+    Translation Delivery (#7383)
     
-    The attribute data-ui5-dir is not used by the Table row (used to be part of the styles selectors, but the code changed and this hasn't been removed). Moreover, the UI5Element's effectiveDir call leads to getComputedStyle call that could have performance impact in case of a Table with many rows.
+    chore: translation delivery
     
-    Related to: #7303
+    Change-Id: I06faa8ae37d0685553194448b65b5b447dbeea3b
