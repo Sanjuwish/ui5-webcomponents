@@ -1,8 +1,8 @@
-commit 0a019187bfeb52c4a2eacb5385d069034c68d34c
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Wed Jul 26 14:55:16 2023 +0300
+commit e9011fc3b21ffb86cf7d43e57b93b1aa1ebc77d4
+Author: Plamen Ivanov <plamen.ivanov01@sap.com>
+Date:   Thu Jul 27 13:11:29 2023 +0300
 
-    feat(ui5-switch): add required property (#7324)
+    fix(ui5-avatar): new interaction behavior (#7374)
     
-    Introducing the `required` property for the Switch control.
-    We now also enable the Form Support feature within the control, which means now the Switch component, could be easily used and integrated within forms as well.
+    Added visual changes on interaction. According to the new VD spec there
+    are styles for hover, active and focus.
