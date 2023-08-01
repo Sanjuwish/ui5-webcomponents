@@ -1,7 +1,5 @@
-commit 130848be056d0434eee6dab7255b7fdfb67ced5c
-Author: Georgieva <lidiya.georgieva@sap.com>
-Date:   Tue Aug 1 15:30:13 2023 +0300
+commit 361b8fe838c239e0276729080371cf2e21fe10fd
+Author: Lukas Harbarth <lukas.harbarth@sap.com>
+Date:   Tue Aug 1 16:46:42 2023 +0200
 
-    fix(ui5-popup): fix header background and border for Belize theme (#7384)
-    
-    partOf: #7353
+    docs(ui5-tab-separator): mark as abstract (#7397)
