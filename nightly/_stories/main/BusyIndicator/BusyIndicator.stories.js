@@ -6,7 +6,7 @@ import { DocsPage } from "../../../.storybook/docs";
 import BusyIndicatorSize from "@ui5/webcomponents/dist/types/BusyIndicatorSize.js";
 const component = "ui5-busy-indicator";
 export default {
-    title: "Main/BusyIndicator",
+    title: "Main/Busy Indicator",
     component,
     parameters: {
         docs: {

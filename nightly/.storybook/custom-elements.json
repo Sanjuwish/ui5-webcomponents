@@ -541,7 +541,7 @@
                                 "text": "sap.ui.webc.main.types.BusyIndicatorSize"
                             },
                             "default": "\"Medium\"",
-                            "description": "Defines the size of the component.\n\n<br><br> <b>Note:</b>\n\n<ul> <li><code>Small</code></li> <li><code>Medium</code></li> <li><code>Large</code></li> </ul>"
+                            "description": "Defines the size of the component."
                         },
                         {
                             "deprecated": false,
@@ -1120,7 +1120,7 @@
                                 "text": "sap.ui.webc.main.types.CarouselArrowsPlacement"
                             },
                             "default": "\"Content\"",
-                            "description": "Defines the position of arrows. <br><br> Available options are: <ul> <li><code>Content</code></li> <li><code>Navigation</code></li> </ul> <br> When set to \"Content\", the arrows are placed on the sides of the current page. <br> When set to \"Navigation\", the arrows are placed on the sides of the page indicator."
+                            "description": "Defines the position of arrows. <br><br> Available options are: <ul> <li><code>Content</code> - the arrows are placed on the sides of the current page.</li> <li><code>Navigation</code> - the arrows are placed on the sides of the page indicator.</li> </ul>"
                         },
                         {
                             "deprecated": false,
@@ -1439,7 +1439,7 @@
                                 "text": "sap.ui.webc.main.types.WrappingType"
                             },
                             "default": "\"None\"",
-                            "description": "Defines whether the component text wraps when there is not enough space. <br><br> Available options are: <ul> <li><code>None</code> - The text will be truncated with an ellipsis.</li> <li><code>Normal</code> - The text will wrap. The words will not be broken based on hyphenation.</li> </ul>"
+                            "description": "Defines whether the component text wraps when there is not enough space. <br><b>Note:</b> for option \"Normal\" the text will wrap and the words will not be broken based on hyphenation."
                         }
                     ],
                     "superclass": {
@@ -3498,7 +3498,7 @@
                                 "text": "sap.ui.webc.main.types.WrappingType"
                             },
                             "default": "\"None\"",
-                            "description": "Defines how the text of a component will be displayed when there is not enough space. Available options are: <ul> <li><code>None</code> - The text will be truncated with an ellipsis.</li> <li><code>Normal</code> - The text will wrap. The words will not be broken based on hyphenation.</li> </ul>"
+                            "description": "Defines how the text of a component will be displayed when there is not enough space. <br><b>Note:</b> for option \"Normal\" the text will wrap and the words will not be broken based on hyphenation."
                         }
                     ],
                     "superclass": {
@@ -3662,7 +3662,7 @@
                                 "text": "sap.ui.webc.main.types.WrappingType"
                             },
                             "default": "\"None\"",
-                            "description": "Defines how the text of a component will be displayed when there is not enough space. Available options are: <ul> <li><code>None</code> - The text will be truncated with an ellipsis.</li> <li><code>Normal</code> - The text will wrap. The words will not be broken based on hyphenation.</li> </ul>"
+                            "description": "Defines how the text of a component will be displayed when there is not enough space. <br><b>Note:</b> for option \"Normal\" the text will wrap and the words will not be broken based on hyphenation."
                         }
                     ],
                     "superclass": {
@@ -5161,7 +5161,7 @@
                                 "text": "sap.ui.webc.main.types.PopoverHorizontalAlign"
                             },
                             "default": "\"Center\"",
-                            "description": "Determines the horizontal alignment of the component. <br><br> Available options are: <ul> <li><code>Center</code></li> <li><code>Left</code></li> <li><code>Right</code></li> <li><code>Stretch</code></li> </ul>"
+                            "description": "Determines the horizontal alignment of the component."
                         },
                         {
                             "deprecated": false,
@@ -5197,7 +5197,7 @@
                                 "text": "sap.ui.webc.main.types.PopoverPlacementType"
                             },
                             "default": "\"Right\"",
-                            "description": "Determines on which side the component is placed at. <br><br> Available options are: <ul> <li><code>Left</code></li> <li><code>Right</code></li> <li><code>Top</code></li> <li><code>Bottom</code></li> </ul>"
+                            "description": "Determines on which side the component is placed at."
                         },
                         {
                             "deprecated": false,
@@ -5209,7 +5209,7 @@
                                 "text": "sap.ui.webc.main.types.PopoverVerticalAlign"
                             },
                             "default": "\"Center\"",
-                            "description": "Determines the vertical alignment of the component. <br><br> Available options are: <ul> <li><code>Center</code></li> <li><code>Top</code></li> <li><code>Bottom</code></li> <li><code>Stretch</code></li> </ul>"
+                            "description": "Determines the vertical alignment of the component."
                         },
                         {
                             "deprecated": false,
@@ -5524,7 +5524,7 @@
                                 "text": "sap.ui.webc.base.types.ValueState"
                             },
                             "default": "\"None\"",
-                            "description": "Defines the value state of the component. <br><br> Available options are: <ul> <li><code>None</code></li> <li><code>Error</code></li> <li><code>Warning</code></li> <li><code>Success</code></li> <li><code>Information</code></li> </ul>"
+                            "description": "Defines the value state of the component."
                         },
                         {
                             "deprecated": false,
@@ -5536,7 +5536,7 @@
                                 "text": "sap.ui.webc.main.types.WrappingType"
                             },
                             "default": "\"None\"",
-                            "description": "Defines whether the component text wraps when there is not enough space. <br><br> Available options are: <ul> <li><code>None</code> - The text will be truncated with an ellipsis.</li> <li><code>Normal</code> - The text will wrap. The words will not be broken based on hyphenation.</li> </ul>"
+                            "description": "Defines whether the component text wraps when there is not enough space. <br><b>Note:</b> for option \"Normal\" the text will wrap and the words will not be broken based on hyphenation."
                         }
                     ],
                     "superclass": {
@@ -7325,7 +7325,7 @@
                                 "text": "sap.ui.webc.main.types.TabLayout"
                             },
                             "default": "\"Standard\"",
-                            "description": "Defines the alignment of the content and the <code>additionalText</code> of a tab.\n\n<br><br> <b>Note:</b> The content and the <code>additionalText</code> would be displayed vertically by default, but when set to <code>Inline</code>, they would be displayed horizontally.\n\n<br><br> Available options are: <ul> <li><code>Standard</code></li> <li><code>Inline</code></li> </ul>"
+                            "description": "Defines the alignment of the content and the <code>additionalText</code> of a tab.\n\n<br> <b>Note:</b> The content and the <code>additionalText</code> would be displayed vertically by default, but when set to <code>Inline</code>, they would be displayed horizontally."
                         },
                         {
                             "deprecated": false,
@@ -7337,7 +7337,7 @@
                                 "text": "sap.ui.webc.main.types.TabsOverflowMode"
                             },
                             "default": "\"End\"",
-                            "description": "Defines the overflow mode of the header (the tab strip). If you have a large number of tabs, only the tabs that can fit on screen will be visible. All other tabs that can 't fit on the screen are available in an overflow tab \"More\".\n\n<br><br> <b>Note:</b> Only one overflow at the end would be displayed by default, but when set to <code>StartAndEnd</code>, there will be two overflows on both ends, and tab order will not change on tab selection.\n\n<br><br> Available options are: <ul> <li><code>End</code></li> <li><code>StartAndEnd</code></li> </ul>"
+                            "description": "Defines the overflow mode of the header (the tab strip). If you have a large number of tabs, only the tabs that can fit on screen will be visible. All other tabs that can 't fit on the screen are available in an overflow tab \"More\".\n\n<br> <b>Note:</b> Only one overflow at the end would be displayed by default, but when set to <code>StartAndEnd</code>, there will be two overflows on both ends, and tab order will not change on tab selection."
                         }
                     ],
                     "superclass": {
@@ -8253,7 +8253,7 @@
                                 "text": "sap.ui.webc.main.types.WrappingType"
                             },
                             "default": "\"None\"",
-                            "description": "Defines how the text of a component will be displayed when there is not enough space. Available options are: <ul> <li><code>None</code> - The text will be truncated with an ellipsis.</li> <li><code>Normal</code> - The text will wrap. The words will not be broken based on hyphenation.</li> </ul>"
+                            "description": "Defines how the text of a component will be displayed when there is not enough space. <br><b>Note:</b> for option \"Normal\" the text will wrap and the words will not be broken based on hyphenation."
                         }
                     ],
                     "superclass": {
@@ -9962,7 +9962,7 @@
                                 "text": "sap.ui.webc.main.types.ButtonDesign"
                             },
                             "default": "\"Transparent\"",
-                            "description": "Defines the action design.\n\n<br><br> <b>Note:</b> <ul> <li><code>Default</code></li> <li><code>Emphasized</code></li> <li><code>Positive</code></li> <li><code>Negative</code></li> <li><code>Transparent</code></li> </ul>"
+                            "description": "Defines the action design."
                         },
                         {
                             "deprecated": false,
@@ -11448,7 +11448,7 @@
                                 "text": "sap.ui.webc.main.types.ListMode"
                             },
                             "default": "\"None\"",
-                            "description": "Defines the mode of the <code>ui5-upload-collection</code>.\n\n<br><br> <b>Note:</b> <ul> <li><code>None</code></li> <li><code>SingleSelect</code></li> <li><code>SingleSelectBegin</code></li> <li><code>SingleSelectEnd</code></li> <li><code>MultiSelect</code></li> <li><code>Delete</code> - this mode has no effect. The delete button is controlled by the <code>hideDeleteButton</code> property of UploadCollectionItem</li> </ul>"
+                            "description": "Defines the mode of the <code>ui5-upload-collection</code>.\n\n<br><b>Note:</b> Mode \"Delete\" has no effect. The delete button is controlled by the <code>hideDeleteButton</code> property of UploadCollectionItem</li>"
                         },
                         {
                             "deprecated": false,

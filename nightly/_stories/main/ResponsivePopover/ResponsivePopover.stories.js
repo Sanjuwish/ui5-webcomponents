@@ -5,7 +5,7 @@ import argTypes, { componentInfo } from "./argTypes.js";
 import { DocsPage } from "../../../.storybook/docs";
 const component = "ui5-responsive-popover";
 export default {
-    title: "Main/ResponsivePopover",
+    title: "Main/Responsive Popover",
     component,
     parameters: {
         docs: {

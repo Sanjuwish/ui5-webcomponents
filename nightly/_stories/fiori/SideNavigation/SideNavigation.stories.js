@@ -5,7 +5,7 @@ import argTypes, { componentInfo } from "./argTypes.js";
 import { DocsPage } from "../../../.storybook/docs";
 const component = "ui5-side-navigation";
 export default {
-    title: "Fiori/SideNavigation",
+    title: "Fiori/Side Navigation",
     component,
     subcomponents: {
         SideNavigationItem: "ui5-side-navigation-item",

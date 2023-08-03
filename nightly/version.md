@@ -1,5 +1,7 @@
-commit 361b8fe838c239e0276729080371cf2e21fe10fd
-Author: Lukas Harbarth <lukas.harbarth@sap.com>
-Date:   Tue Aug 1 16:46:42 2023 +0200
+commit c2f2b25f9705bca655ddaea3e7a27fb98b33d0c8
+Author: Georgieva <lidiya.georgieva@sap.com>
+Date:   Thu Aug 3 16:27:58 2023 +0300
 
-    docs(ui5-tab-separator): mark as abstract (#7397)
+    docs(all): apply documentation feedback for team Rodopi (#7398)
+    
+    partOf: #7284
