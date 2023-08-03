@@ -24,6 +24,7 @@ const Template = (args) => html `<ui5-avatar
     initials="${ifDefined(args.initials)}"
     color-scheme="${ifDefined(args.colorScheme)}"
     ?interactive="${ifDefined(args.interactive)}"
+    ?disabled="${ifDefined(args.disabled)}"
     aria-haspopup="${ifDefined(args.ariaHaspopup)}"
     accessible-name="${ifDefined(args.accessibleName)}"
   >
@@ -34,6 +35,13 @@ Basic.args = {
     initials: "FJ",
     interactive: true,
     accessibleName: "Avatar with accessible name"
+};
+export const Disabled = Template.bind({});
+Disabled.args = {
+    size: AvatarSize.XL,
+    initials: "IP",
+    interactive: true,
+    disabled: true
 };
 export const WithImage = Template.bind({});
 WithImage.args = {
