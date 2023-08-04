@@ -1,9 +1,10 @@
-commit 6cf1eb8720c65a1048b0865fc03a7263deb60660
-Author: SAP LX Lab Service Account <tmsatsls+github.com_service-tip-git@sap.com>
-Date:   Thu Aug 3 23:42:08 2023 -0700
+commit b46eda5a6dccc9b783d40fc33353c6e08b4652e7
+Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
+Date:   Fri Aug 4 12:37:34 2023 +0300
 
-    Translation Delivery (#7409)
+    feat(ui5-menu): add delay between opening and closing submenu and sub menu items (#7246)
     
-    chore: translation delivery
-    
-    Change-Id: I95a5857f099089e8bd61c4c70db10d1105c7261c
+    Previously, the sub-menus would open and close in an instant when hovering over or hovering out of a menu item. This sometimes caused unintentional closing of sub-menus, resulting in a poor user experience.
+    To address this, we made the following changes:
+    - We added a 300ms delay when opening a sub-menu upon hovering over it.
+    - Added 400ms delay when closing a sub-menu upon hovering out.
