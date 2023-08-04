@@ -1,10 +1,16 @@
-commit b46eda5a6dccc9b783d40fc33353c6e08b4652e7
-Author: Stoyan <88034608+hinzzx@users.noreply.github.com>
-Date:   Fri Aug 4 12:37:34 2023 +0300
+commit 3b7c711875303be0bb995c80545a9786b2ec511c
+Author: Konstantin Gogov <68374332+kgogov@users.noreply.github.com>
+Date:   Fri Aug 4 16:22:41 2023 +0300
 
-    feat(ui5-menu): add delay between opening and closing submenu and sub menu items (#7246)
+    fix(ui5-shellbar): button focus outline adjustment (#7389)
     
-    Previously, the sub-menus would open and close in an instant when hovering over or hovering out of a menu item. This sometimes caused unintentional closing of sub-menus, resulting in a poor user experience.
-    To address this, we made the following changes:
-    - We added a 300ms delay when opening a sub-menu upon hovering over it.
-    - Added 400ms delay when closing a sub-menu upon hovering out.
+    * fix(ui5-shellbar): button focus outline adjustment
+    
+    This commit addresses an issue identified after the recent update
+    related to runtime-based CSS variables for components.
+    
+    It adjusts the focus outline of the ShellBar buttons across all themes.
+    
+    Fixes #7220
+    
+    * fix(ui5-shellbar): simplified the outline style
