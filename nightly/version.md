@@ -1,13 +1,5 @@
-commit 6b52dbd157a3c8198e41c84157e3d9ae89e3386e
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Tue Aug 8 10:25:42 2023 +0300
+commit a6f66c099d0e1626ba915fdeab6c93179ae00805
+Author: gmkv <georgi.minkov@sap.com>
+Date:   Tue Aug 8 17:24:44 2023 +0300
 
-    fix(ui5-illustrated-message): support collection based illustration loading (#7318)
-    
-    * fix(ui5-illustrated-message): support map based illustration loading
-    
-    * chore: add assets
-    
-    * fix: provide default collection and fix paths
-    
-    * fix: procide fallback collection when registering assets
+    chore: bump theming-base-content from 11.5.0 to 11.6.4 (#7399)
