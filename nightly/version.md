@@ -1,7 +1,7 @@
-commit 9f37afb084cc682c7be72e54fd115b747332f7b4
+commit 16ca43197ee7e9d522c813933c660b7dfe2a6ea3
 Author: gmkv <georgi.minkov@sap.com>
-Date:   Wed Aug 9 09:59:40 2023 +0300
+Date:   Wed Aug 9 09:59:56 2023 +0300
 
-    chore(ui5-side-navigation): add Tool Layout sample (#7405)
+    fix(ui5-side-navigation): allow overstyling of border-radius (#7400)
     
     Part of #7308
