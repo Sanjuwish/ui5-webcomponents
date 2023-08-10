@@ -8,3 +8,4 @@ export declare const BasicMultiComboBox: UI5StoryArgs<MultiComboBox, StoryArgsSl
 export declare const MultiComboBoxItems: UI5StoryArgs<MultiComboBox, StoryArgsSlots>;
 export declare const MultiComboBoxFreeTextInput: UI5StoryArgs<MultiComboBox, StoryArgsSlots>;
 export declare const MultiComboBoxGroupingItems: UI5StoryArgs<MultiComboBox, StoryArgsSlots>;
+export declare const MultiComboBoxLongText: UI5StoryArgs<MultiComboBox, StoryArgsSlots>;
