@@ -6,7 +6,7 @@ const component = "ui5-textarea";
 let index = 0;
 export default {
     title: "Main/TextArea",
-    component,
+    component: "TextArea",
     parameters: {
         docs: {
             page: DocsPage({ ...componentInfo, component })

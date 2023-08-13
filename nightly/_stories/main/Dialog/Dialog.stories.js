@@ -7,7 +7,7 @@ import ValueState from "@ui5/webcomponents-base/dist/types/ValueState.js";
 const component = "ui5-dialog";
 export default {
     title: "Main/Dialog",
-    component,
+    component: "Dialog",
     argTypes,
     parameters: {
         docs: {

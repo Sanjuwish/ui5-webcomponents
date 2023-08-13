@@ -7,7 +7,7 @@ import MessageStripDesign from "@ui5/webcomponents/dist/types/MessageStripDesign
 const component = "ui5-message-strip";
 export default {
     title: "Main/MessageStrip",
-    component,
+    component: "MessageStrip",
     parameters: {
         docs: {
             page: DocsPage({ ...componentInfo, component })

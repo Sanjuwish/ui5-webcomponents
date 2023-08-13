@@ -7,8 +7,8 @@ import TabLayout from "@ui5/webcomponents/dist/types/TabLayout.js";
 const component = "ui5-tabcontainer";
 export default {
     title: "Main/Tab Container",
-    component,
-    subcomponents: { "Tab": "ui5-tab", "TabSeparator": "ui5-tab-separator" },
+    component: "TabContainer",
+    subcomponents: { "Tab": "Tab", "TabSeparator": "TabSeparator" },
     parameters: {
         docs: {
             page: DocsPage({ ...componentInfo, component })

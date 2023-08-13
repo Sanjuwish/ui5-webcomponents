@@ -7,8 +7,8 @@ import ValueState from "@ui5/webcomponents-base/dist/types/ValueState.js";
 const component = "ui5-multi-combobox";
 export default {
     title: "Main/MultiComboBox",
-    component,
-    subcomponents: { 'MultiComboBoxItem': 'ui5-mcb-item', 'MultiComboBoxGroupItem': 'ui5-mcb-group-item' },
+    component: "MultiComboBox",
+    subcomponents: { 'MultiComboBoxItem': 'MultiComboBoxItem', 'MultiComboBoxGroupItem': 'MultiComboBoxGroupItem' },
     parameters: {
         docs: {
             page: DocsPage({ ...componentInfo, component })

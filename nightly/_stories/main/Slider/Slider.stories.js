@@ -5,7 +5,7 @@ import { ifDefined } from "lit/directives/if-defined.js";
 const component = "ui5-slider";
 export default {
     title: "Main/Slider",
-    component,
+    component: "Slider",
     parameters: {
         docs: {
             page: DocsPage({ ...componentInfo, component })

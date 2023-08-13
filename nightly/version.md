@@ -1,5 +1,5 @@
-commit bafc75c1374ef9b0ae6fca1ff18571ff1ae651f2
-Author: Vladislav Tasev <vladitasev@users.noreply.github.com>
-Date:   Fri Aug 11 10:50:46 2023 +0300
+commit 4e162a006e325267f430e83969046fbeb2f8f4cc
+Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
+Date:   Sun Aug 13 18:49:29 2023 +0300
 
-    chore: do not use adoptedStylesheets for Safari (#7434)
+    docs(storybook): diisplay correct name in ArgsTable (#7436)

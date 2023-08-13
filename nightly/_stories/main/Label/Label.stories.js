@@ -7,7 +7,7 @@ import WrappingType from "@ui5/webcomponents/dist/types/WrappingType.js";
 const component = "ui5-label";
 export default {
     title: "Main/Label",
-    component,
+    component: "Label",
     parameters: {
         docs: {
             page: DocsPage({ ...componentInfo, component })

@@ -7,7 +7,7 @@ import PageBackgroundDesign from "@ui5/webcomponents-fiori/dist/types/PageBackgr
 const component = "ui5-page";
 export default {
     title: "Fiori/Page",
-    component,
+    component: "Page",
     parameters: {
         docs: {
             page: DocsPage({ ...componentInfo, component })

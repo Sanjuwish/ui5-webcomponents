@@ -6,8 +6,8 @@ import { ifDefined } from "lit/directives/if-defined.js";
 const component = "ui5-card";
 export default {
     title: "Main/Card",
-    component,
-    subcomponents: { 'CardHeader': 'ui5-card-header' },
+    component: "Card",
+    subcomponents: { 'CardHeader': 'CardHeader' },
     parameters: {
         docs: {
             page: DocsPage({ ...componentInfo, component }),

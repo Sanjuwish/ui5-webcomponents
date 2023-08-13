@@ -7,7 +7,7 @@ import IllustrationMessageType from "@ui5/webcomponents-fiori/dist/types/Illustr
 const component = "ui5-illustrated-message";
 export default {
     title: "Fiori/IllustratedMessage",
-    component,
+    component: "IllustratedMessage",
     parameters: {
         docs: {
             page: DocsPage({ ...componentInfo, component }),

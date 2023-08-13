@@ -6,7 +6,7 @@ import WrappingType from "@ui5/webcomponents/dist/types/WrappingType.js";
 const component = "ui5-radio-button";
 export default {
     title: "Main/Radio Button",
-    component,
+    component: "RadioButton",
     parameters: {
         docs: {
             page: DocsPage({ ...componentInfo, component })
