@@ -1,13 +1,9 @@
-commit 18b21bfdb90ba2672aeb055d9443f1875cf381c7
-Author: Boyan Rakilovski <boyan.rakilovski@sap.com>
-Date:   Mon Aug 14 11:37:28 2023 +0300
+commit dd658c561bfcf56a4634355d3ac1b0f0113f9b05
+Author: Nikolay Deshev <nikolay.deshev@sap.com>
+Date:   Mon Aug 14 17:16:01 2023 +0300
 
-    feat(ui5-menu): make the item click event cancellable (#7360)
+    fix(ui5-multi-combobox): adjust 'paste' handling (#7440)
     
-    feat(ui5-menu): make the item click event cancellable
+    * fix(ui5-multi-combobox): adjust 'paste' handling
     
-    Requirement:
-    - Currently the menu closes when a menu item gets selected.
-    - Enable users to press multiple menu items.
-    
-    Fixes: #5600
+    fixes #7330
