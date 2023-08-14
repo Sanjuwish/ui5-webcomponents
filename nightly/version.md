@@ -1,7 +1,13 @@
-commit c6e6a7b5674e4934e590e66d391b731c29101e4a
-Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
-Date:   Mon Aug 14 09:51:51 2023 +0300
+commit 18b21bfdb90ba2672aeb055d9443f1875cf381c7
+Author: Boyan Rakilovski <boyan.rakilovski@sap.com>
+Date:   Mon Aug 14 11:37:28 2023 +0300
 
-    fix(ui5-date-picker): align value state to react binding (#7396)
+    feat(ui5-menu): make the item click event cancellable (#7360)
     
-    fixes: #6993
+    feat(ui5-menu): make the item click event cancellable
+    
+    Requirement:
+    - Currently the menu closes when a menu item gets selected.
+    - Enable users to press multiple menu items.
+    
+    Fixes: #5600
