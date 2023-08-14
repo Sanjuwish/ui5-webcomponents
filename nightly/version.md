@@ -1,5 +1,7 @@
-commit 4e162a006e325267f430e83969046fbeb2f8f4cc
-Author: Dobrin Dimchev <dobrin.dimchev@sap.com>
-Date:   Sun Aug 13 18:49:29 2023 +0300
+commit c6e6a7b5674e4934e590e66d391b731c29101e4a
+Author: Tsanislav Gatev <tsanislav.gatev@sap.com>
+Date:   Mon Aug 14 09:51:51 2023 +0300
 
-    docs(storybook): diisplay correct name in ArgsTable (#7436)
+    fix(ui5-date-picker): align value state to react binding (#7396)
+    
+    fixes: #6993
