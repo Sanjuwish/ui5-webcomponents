@@ -17,6 +17,7 @@ export default {
 };
 const Template = (args) => html ` <ui5-illustrated-message
     name="${ifDefined(args.name)}"
+    size="${ifDefined(args.size)}"
     subtitle-text="${ifDefined(args.subtitleText)}"
     title-text="${ifDefined(args.titleText)}"
     accessible-name-ref="${ifDefined(args.accessibleNameRef)}"
