@@ -1,5 +1,5 @@
-commit d3f6c2efba9cfda389ea4d700a375f75b3e2996b
-Author: Peter Skelin <petar.skelin@sap.com>
-Date:   Wed Aug 16 13:53:53 2023 +0300
+commit 712aa8f740fd1dd61b7eae490691580b41abbee5
+Author: ilhan orhan <ilhan.orhan007@gmail.com>
+Date:   Thu Aug 17 09:14:36 2023 +0300
 
-    feat(framework): scope css variables per runtime and version (#7449)
+    docs: update landing-page.html
