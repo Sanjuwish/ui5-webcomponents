@@ -10221,7 +10221,7 @@
                                 "text": "sap.ui.webc.fiori.types.PageBackgroundDesign"
                             },
                             "default": "\"Solid\"",
-                            "description": "Defines the background color of the <code>ui5-page</code>. <br><br> <b>Note:</b> When a ui5-list is placed inside the page, we recommend using “List” to ensure better color contrast. <br><br> Available options are: <ul> <li><code>Solid</code></li> (default) <li><code>Transparent</code></li> <li><code>List</code></li> </ul>"
+                            "description": "Defines the background color of the <code>ui5-page</code>. <br><br> <b>Note:</b> When a ui5-list is placed inside the page, we recommend using “List” to ensure better color contrast. <br><br>"
                         },
                         {
                             "deprecated": false,

@@ -1,5 +1,5 @@
-commit 712aa8f740fd1dd61b7eae490691580b41abbee5
-Author: ilhan orhan <ilhan.orhan007@gmail.com>
-Date:   Thu Aug 17 09:14:36 2023 +0300
+commit d0b8b01c053853915646b077860a247400cff691
+Author: niyap <38278268+niyap@users.noreply.github.com>
+Date:   Fri Aug 18 08:51:40 2023 +0300
 
-    docs: update landing-page.html
+    fix(ui5-page): enhance storybook samples (#7448)
